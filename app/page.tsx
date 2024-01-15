@@ -67,7 +67,7 @@ export default function Page() {
             className="rounded-lg object-cover object-[-16px] sm:object-center"
           />
         </div>
-        <div className="relative h-40 sm:h-80 sm:mb-4">
+        <div className="relative h-40 sm:h-80 mb-4">
           <Image
             alt="Me standing on stage at Reactathon delivering the keynote"
             src="/static/portfolio3.jpeg"
@@ -139,10 +139,10 @@ export default function Page() {
           getting sponsors for these events of <b>Reactplay</b>
         </p>
         <p>
-          I&apos;m founder at <b>Humans of tech</b>, world&apos;s first tech storytelling
-          platform, where I invite super talented tech people who has an
-          inspiring story to tell. I document these stories in audio, video and
-          text format on platforms like{" "}
+          I&apos;m founder at <b>Humans of tech</b>, world&apos;s first tech
+          storytelling platform, where I invite super talented tech people who
+          has an inspiring story to tell. I document these stories in audio,
+          video and text format on platforms like{" "}
           <Link href="https://open.spotify.com/show/3x2H8IQKlHw71JzQA4SgBH">
             spotify
           </Link>{" "}
