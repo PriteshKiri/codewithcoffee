@@ -34,7 +34,7 @@ export default function Page() {
   return (
     <section>
       <h1 className="font-medium text-2xl mb-8 tracking-tighter">
-        hey, I'm Pritesh 👋
+        hey, I&apos;m Pritesh 👋
       </h1>
       <p className="prose prose-neutral dark:prose-invert">
         {`A creative and artistic software developer, a community builder, a tech content creator and a tech speaker. I currently `}
@@ -139,7 +139,7 @@ export default function Page() {
           getting sponsors for these events of <b>Reactplay</b>
         </p>
         <p>
-          I'm founder at <b>Humans of tech</b>, world's first tech storytelling
+          I&apos;m founder at <b>Humans of tech</b>, world&apos;s first tech storytelling
           platform, where I invite super talented tech people who has an
           inspiring story to tell. I document these stories in audio, video and
           text format on platforms like{" "}
@@ -240,7 +240,7 @@ export default function Page() {
             href="https://twitter.com/priteshkiri"
           >
             <ArrowIcon />
-            <p className="h-7 ml-2">Let's connect!</p>
+            <p className="h-7 ml-2">Let&apos;s connect!</p>
           </a>
         </li>
       </ul>

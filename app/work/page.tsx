@@ -49,7 +49,7 @@ export default function WorkPage() {
           Worked on building plays on the platform and made major UI fixes and added features like filters, search on the <Link href="https://hustles.reactplay.io/events/23/hackrplay">Hack-R-Play </Link> ( Hackathon platform of Reactplay )
           </li>
           <li>
-          Skillfully managed Reactplay's social media platforms ( <Link href="https://www.linkedin.com/company/reactplay/">LinkedIn</Link> ,<Link href="https://twitter.com/reactplayio">Twitter </Link>,<Link href="https://discord.gg/vrTxWUP8Am">Discord</Link> ,<Link href="https://www.youtube.com/@tapasadhikary/streams">YouTube </Link> ), driving significant community growth to over <b>7,000+ members.</b>
+          Skillfully managed Reactplay&apos;s social media platforms ( <Link href="https://www.linkedin.com/company/reactplay/">LinkedIn</Link> ,<Link href="https://twitter.com/reactplayio">Twitter </Link>,<Link href="https://discord.gg/vrTxWUP8Am">Discord</Link> ,<Link href="https://www.youtube.com/@tapasadhikary/streams">YouTube </Link> ), driving significant community growth to over <b>7,000+ members.</b>
           </li>
           <li>
           Designed visually appealing posters for community events, Twitter spaces, YT lives, discord events etc.and posted super engaging content on the socials.
@@ -113,7 +113,7 @@ Founding creator - (Sep 2023 - Present) - 5 mos
         
         <ul className='flex flex-col gap-y-3 list-disc mt-4' >
    <li>Have designed and developed an internship portal and admin panel built on react and firebase with a tight timeline of 48 hours.</li>
-<li>Developed and deployed <b>4+ new product-line</b> and partners' responsive landing pages in the current codebase written in a react-based framework resulting in a traffic increase of 5x.</li>
+<li>Developed and deployed <b>4+ new product-line</b> and responsive landing pages in the current codebase written in a react-based framework resulting in a traffic increase of 5x.</li>
 <li>Have been POC for the tech partners like Leadsquared, Chargee, Razorpay, Dyte, and many more for the integration with the web app.</li>
 <li><b>Collaborated</b> with the tech teams for maintaining the codebase and completing projects before the deadline.</li>
 <li>Working closely with <b>marketing, SEO, and product</b> team for improving the website ranking on google and for optimizing the user journey on the web app.</li>
