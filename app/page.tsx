@@ -164,18 +164,25 @@ export default function Page() {
         </p>
       </div>
       <div className="my-8 flex flex-col sm:flex-row flex-wrap gap-y-2 w-full">
+      <ChannelLink
+          img="/static/__hashx.png"
+          name="HashX"
+          sub={"Access Hashnode blogs on every website"}
+          link="https://hashx.vercel.app"
+        />
+      <ChannelLink
+          img="/static/__tasktunes.jpeg"
+          name="Tasktunes"
+          sub={"One stop to your productivity (built with appwrite)"}
+          link="https://www.tasktunes.net/signin"
+        />
         <ChannelLink
           img="/static/_sxs.png"
           name="ShowwcaseXS"
           link="https://showwcasexs.vercel.app/"
           sub={"A chrome extension to use Showwcase on any webpage"}
         />
-        <ChannelLink
-          img="/static/__tasktunes.jpeg"
-          name="Tasktunes"
-          sub={"One stop to your productivity (built with appwrite)"}
-          link="https://www.tasktunes.net/signin"
-        />
+      
         <ChannelLink
           img="/static/sgpt.png"
           name="ScreenGPT"
