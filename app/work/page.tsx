@@ -20,10 +20,32 @@ export default function WorkPage() {
       <div className="prose prose-neutral dark:prose-invert">
         <hr className="my-6 border-neutral-100 dark:border-neutral-800" />
         <h2 className="font-medium text-xl mb-1 tracking-tighter">
+          <a href="https://www.sleeksky.com">Locofy AI</a>
+        </h2>
+        <p className="text-neutral-600 dark:text-neutral-400 text-sm">
+          Developer Advocate - (March 2024 - April 2024) - 2 mo
+        </p>
+        <ul className="flex flex-col gap-y-3 list-disc mt-4">
+          <li>Worked on building detailed documentation for the product.</li>
+          <li>
+            Edited and created live stream breakdown clips on Davinci Resolve
+          </li>
+          <li>Recorded and edited tutorials for different product features</li>
+          <li>Worked on community engagement and user queries on discord.</li>
+          <li> Intensely involved in testing new features for the product</li>
+          <li>Worked with the Growth team to organize offline meetups along with managing sponsors, swags, and beverages.</li>
+          <li>
+            Created the social media calendar and also the content for Linkedin,
+            Twitter and Youtube.
+          </li>
+        </ul>
+
+        <hr className="my-6 border-neutral-100 dark:border-neutral-800" />
+        <h2 className="font-medium text-xl mb-1 tracking-tighter">
           <a href="https://www.sleeksky.com">Sleeksky</a>
         </h2>
         <p className="text-neutral-600 dark:text-neutral-400 text-sm">
-          Sofware Engineer - (Jan 2023 - Present) - 1 yr 1 mo
+          Sofware Engineer - (Jan 2023 - Feb 204) - 1 yr 1 mo
         </p>
         <ul className="flex flex-col gap-y-3 list-disc mt-4">
           <li>
@@ -40,13 +62,48 @@ export default function WorkPage() {
             <b>technical content</b> on their LinkedIn page
           </li>
         </ul>
+        <hr className="my-6 border-neutral-100 dark:border-neutral-800" />
+        <h2 className="font-medium text-xl mb-1 tracking-tighter">
+          <a href="https://www.sleeksky.com">Cofactory AI</a>
+        </h2>
+        <p className="text-neutral-600 dark:text-neutral-400 text-sm">
+          Sofware Engineer - (Aug 2023 - Jan 2024) - 6 months
+        </p>
+        <ul className="flex flex-col gap-y-3 list-disc mt-4">
+          <li>
+            Closely worked with Cofounders to build multiple AI products from
+            scratch.
+          </li>
+          <li>
+            Led a team of engineers focused on the front-end features of the AI
+            website builder tool.
+          </li>
+          <li>
+            Developed major features like user onboarding flow, interactive AI
+            content generation module, and optimized Google Ads integration for
+            the multi tenant AI website builder.
+          </li>
+          <li>
+            Worked intensively on making important product decisions with the
+            product and design team.
+          </li>
+          <li>
+            Developed an AI hotel Chat application along with Open AI
+            integration with Next JS.
+          </li>
+          <li>
+            Developed important features like multi-navigation, organization
+            onboarding flow, and Open AI integrations for the AI grant
+            application tool.
+          </li>
+        </ul>
 
         <hr className="my-6 border-neutral-100 dark:border-neutral-800" />
         <h2 className="font-medium text-xl mb-1 tracking-tighter">
           <a href="https://reactplay.io/">ReactPlay</a>{" "}
         </h2>
         <p className="text-neutral-600 dark:text-neutral-400 text-sm">
-          Community manager/Organizer - (Feb 2023 - Present) - 1 yr
+          Community manager/Organizer - (Feb 2023 - Present) - 1 yr 3 mo
         </p>
         <ul className="flex flex-col gap-y-3 list-disc mt-4">
           <li>
@@ -107,7 +164,7 @@ export default function WorkPage() {
           <a href="https://www.thehumansoftech.com/">Humans of Tech</a>
         </h2>
         <p className="text-neutral-600 dark:text-neutral-400 text-sm">
-          Founder - (Sep 2023 - Present) - 5 mos
+          Founder - (Sep 2023 - Present) - 6 mos
         </p>
 
         <ul className="flex flex-col gap-y-3 list-disc mt-4">

@@ -49,8 +49,7 @@ html {
 }
 
 .prose .anchor:after {
-
-  content: '#';
+  content: "#";
 }
 
 .prose *:hover > .anchor {
@@ -106,8 +105,8 @@ pre {
 }
 
 /* Remove Safari input shadow on mobile */
-input[type='text'],
-input[type='email'] {
+input[type="text"],
+input[type="email"] {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -131,4 +130,9 @@ table {
 
 .title {
   text-wrap: balance;
+}
+
+.my-link {
+  text-decoration: underline;
+  font-weight: 500;
 }

@@ -34,17 +34,24 @@ export default function Page() {
   return (
     <section>
       <h1 className="font-medium text-2xl mb-8 tracking-tighter">
-        hey, I&apos;m Pritesh 👋
+        hey,&nbsp;&nbsp;I&apos;m Pritesh 👋
       </h1>
       <p className="prose prose-neutral dark:prose-invert">
-        {`A creative and artistic software developer, a community builder, a tech content creator and a tech speaker. I currently `}
-        <Link href="/work">work</Link>
-        {` as a software engineer at `}
-        <Link href="https://sleeksky.com">Sleeksky</Link>
+        {`A creative software developer, a developer relations professional, a tech content creator and a tech speaker/host. My last time role was`}
+        {` at Locofy as Developer Advocate`}
         {`. Apart from that I'm community manager/organizer at `}
-        <Link href="https://reactplay.io">Reactplay.io</Link>
+        <Link target="_blank" href="https://reactplay.io" className="my-link">
+          Reactplay.io
+        </Link>
         {` and founder at `}
-        <Link href="https://thehumansoftech.com">Humans of Tech</Link>.
+        <Link
+          target="_blank"
+          href="https://thehumansoftech.com"
+          className="my-link"
+        >
+          Humans of Tech
+        </Link>
+        .
       </p>
       <div className="columns-1 sm:columns-3 gap-4 my-8">
         <div className="relative h-40 mb-4">
@@ -133,27 +140,69 @@ export default function Page() {
       <div className="prose prose-neutral dark:prose-invert">
         <p>
           Apart from this, I work on designing poster, creating content
-          calendar, scheduling posts on twitter and linkedIn, managing events
-          like, discord tech talks,twitter spaces, hackathons, college
-          workshops, offline and online tech meetups and many more.And also
-          getting sponsors for these events of <b>Reactplay</b>
+          calendar, scheduling posts on twitter and linkedIn, managing discord
+          and events like, discord tech talks,twitter spaces, hackathons,
+          college workshops, offline and online tech meetups and many more.And
+          also getting sponsors for these events of{" "}
+          <Link
+            target="_blank"
+            href="https://reactplay.io/"
+            className="my-link"
+          >
+            Reactplay
+          </Link>
         </p>
         <p>
-          I&apos;m founder at <b>Humans of tech</b>, world&apos;s first tech
-          storytelling platform, where I invite super talented tech people who
-          has an inspiring story to tell. I document these stories in audio,
-          video and text format on platforms like{" "}
-          <Link href="https://open.spotify.com/show/3x2H8IQKlHw71JzQA4SgBH">
+          I&apos;m founder at{" "}
+          <Link
+            target="_blank"
+            href="https://www.thehumansoftech.com/"
+            className="my-link"
+          >
+            Humans of tech
+          </Link>
+          , world&apos;s first tech storytelling platform, where I invite super
+          talented tech people who has an inspiring story to tell. I document
+          these stories in audio, video and text format on platforms like{" "}
+          <Link
+            target="_blank"
+            href="https://open.spotify.com/show/3x2H8IQKlHw71JzQA4SgBH"
+            className="my-link"
+          >
             spotify
           </Link>{" "}
-          , <Link href="https://www.youtube.com/@TheHumansOfTech">youtube</Link>{" "}
           ,{" "}
-          <Link href="https://www.instagram.com/thehumansoftech/">
+          <Link
+            target="_blank"
+            href="https://www.youtube.com/@TheHumansOfTech"
+            className="my-link"
+          >
+            youtube
+          </Link>{" "}
+          ,{" "}
+          <Link
+            target="_blank"
+            href="https://www.instagram.com/thehumansoftech/"
+          >
             instagram
           </Link>{" "}
-          , <Link href="https://twitter.com/thehumansoftech">twitter</Link> and{" "}
-          <Link href="https://www.thehumansoftech.com/blog">blogs</Link> . I
-          have a team who helps me manage these things.
+          ,{" "}
+          <Link
+            target="_blank"
+            href="https://twitter.com/thehumansoftech"
+            className="my-link"
+          >
+            twitter
+          </Link>{" "}
+          and{" "}
+          <Link
+            target="_blank"
+            href="https://www.thehumansoftech.com/blog"
+            className="my-link"
+          >
+            blogs
+          </Link>{" "}
+          . I have a team who helps me manage these things.
         </p>
       </div>
 
@@ -164,13 +213,13 @@ export default function Page() {
         </p>
       </div>
       <div className="my-8 flex flex-col sm:flex-row flex-wrap gap-y-2 w-full">
-      <ChannelLink
+        <ChannelLink
           img="/static/__hashx.png"
           name="HashX"
           sub={"Access Hashnode blogs on every website"}
           link="https://hashx.vercel.app"
         />
-      <ChannelLink
+        <ChannelLink
           img="/static/__tasktunes.jpeg"
           name="Tasktunes"
           sub={"One stop to your productivity (built with appwrite)"}
@@ -178,11 +227,11 @@ export default function Page() {
         />
         <ChannelLink
           img="/static/_sxs.png"
-          name="ShowwcaseXS"
+          name="ShowwcaseXS -  Launched on Product hunt"
           link="https://showwcasexs.vercel.app/"
           sub={"A chrome extension to use Showwcase on any webpage"}
         />
-      
+
         <ChannelLink
           img="/static/sgpt.png"
           name="ScreenGPT"
@@ -235,7 +284,15 @@ export default function Page() {
         <p>
           This website has made from an open source portfolio of a person who is
           my inspiration in tech world,
-          <Link href="https://twitter.com/leeerob"> Lee Robinson</Link>.
+          <Link
+            target="_blank"
+            href="https://twitter.com/leeerob"
+            className="my-link"
+          >
+            {" "}
+            Lee Robinson
+          </Link>
+          .
         </p>
       </div>
       <ul className="flex flex-col md:flex-row mt-8 space-x-0 md:space-x-4 space-y-2 md:space-y-0 font-sm text-neutral-600 dark:text-neutral-300">
