@@ -224,7 +224,7 @@ export default function Page() {
           img="/static/__tasktunes.jpeg"
           name="Tasktunes"
           sub={"One stop to your productivity (built with appwrite)"}
-          link="https://www.tasktunes.net/signin"
+          link="https://tasktunes.vercel.app"
         />
         <ChannelLink
           img="/static/_sxs.png"
