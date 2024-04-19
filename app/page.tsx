@@ -183,7 +183,7 @@ export default function Page() {
           <Link
             target="_blank"
             href="https://www.instagram.com/thehumansoftech/"
-            className=""
+            className="my-link"
           >
             instagram
           </Link>{" "}
