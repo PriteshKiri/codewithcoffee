@@ -134,7 +134,7 @@ export default function Page() {
           img="/static/__thot.jpg"
           name="Humans of Tech"
           sub={"Tech podcasts"}
-          link="https://www.youtube.com/@vercelhq"
+          link="https://www.youtube.com/@TheHumansOfTech"
         />
       </div>
       <div className="prose prose-neutral dark:prose-invert">
