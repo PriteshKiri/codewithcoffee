@@ -127,7 +127,7 @@ export default function Page() {
         <ChannelLink
           img="/static/__reactplay.png"
           name="Reactlplay"
-          link="https://www.youtube.com/@leerob"
+          link="https://reactplay.io/"
           sub={"Opensource community"}
         />
         <ChannelLink
