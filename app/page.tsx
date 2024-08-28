@@ -37,9 +37,9 @@ export default function Page() {
         hey,&nbsp;&nbsp;I&apos;m Pritesh 👋
       </h1>
       <p className="prose prose-neutral dark:prose-invert">
-        {`A creative software developer, a developer relations professional, a tech content creator and a tech speaker/host. My last role was`}
-        {` at Locofy as Developer Advocate`}
-        {`. Apart from that I'm community manager/organizer at `}
+        {`A developer relations professional, a tech content creator and a tech speaker/host. I work`}
+        {` at ToolJet as Developer Advocate`}
+        {`. Apart from that I'm community head at `}
         <Link target="_blank" href="https://reactplay.io" className="my-link">
           Reactplay.io
         </Link>
