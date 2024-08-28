@@ -20,18 +20,18 @@ export default function WorkPage() {
       <div className="prose prose-neutral dark:prose-invert">
       <hr className="my-6 border-neutral-100 dark:border-neutral-800" />
         <h2 className="font-medium text-xl mb-1 tracking-tighter">
-          <a href="https://www.sleeksky.com">ToolJet</a>
+          <a href="https://www.tooljet.com">ToolJet</a>
         </h2>
         <p className="text-neutral-600 dark:text-neutral-400 text-sm">
-          Developer Advocate - (May 2024 - Present) - 2 mo
+          Developer Advocate - (May 2024 - Present) - 4 mo
         </p>
         <ul className="flex flex-col gap-y-3 list-disc mt-4">
-        <li>Managing and growing the developer community</li>
-  <li>Collaborating on events and partnerships</li>
-  <li>Creating technical content to educate users about ToolJet</li>
-  <li>Conducting customer demos to showcase ToolJet's capabilities</li>
-  <li>Handling customer and contributor queries in the Slack community</li>
-  <li>Managing contribution issues and pull requests</li>
+        <li>Managing and growing the developer community.</li>
+  <li>Collaborating on events and partnerships.</li>
+  <li>Creating technical content to educate users about ToolJet.</li>
+  <li>Conducting customer demos to showcase ToolJet&apos;s capabilities.</li>
+  <li>Handling customer and contributor queries in the Slack community.</li>
+  <li>Managing contribution issues and pull requests.</li>
         </ul>
 
         <hr className="my-6 border-neutral-100 dark:border-neutral-800" />
