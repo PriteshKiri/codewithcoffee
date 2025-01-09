@@ -23,15 +23,20 @@ export default function WorkPage() {
           <a href="https://www.tooljet.com">ToolJet</a>
         </h2>
         <p className="text-neutral-600 dark:text-neutral-400 text-sm">
-          Developer Advocate - (May 2024 - Present) - 4 mo
+          Developer Advocate - (May 2024 - Present) - 8 mo
         </p>
         <ul className="flex flex-col gap-y-3 list-disc mt-4">
-        <li>Managing and growing the developer community.</li>
-  <li>Collaborating on events and partnerships.</li>
-  <li>Creating technical content to educate users about ToolJet.</li>
-  <li>Conducting customer demos to showcase ToolJet&apos;s capabilities.</li>
-  <li>Handling customer and contributor queries in the Slack community.</li>
-  <li>Managing contribution issues and pull requests.</li>
+        <li>Grew the ToolJet community to 5k+ members through consistent engagement and support.</li>
+    <li>Collaborated with Elasticsearch, LambdaTest, Portkey, Qdrant, and many more.</li>
+    <li>Hosted monthly community calls on ToolJet’s YouTube channel, building use-case-based apps.</li>
+    <li>Conducted customer demos to showcase ToolJet's capabilities.</li>
+    <li>Actively helped users and contributors by answering questions and resolving issues in the Slack community.</li>
+    <li>Increased ToolJet's GitHub stars from 28k to 33.5k by supporting community contributions.</li>
+    <li>Managed ToolJet's community GitHub repository, creating and managing over 80 contribution issues and pull requests from contributors.</li>
+    <li>Produced video tutorials to help users get started with ToolJet.</li>
+    <li>Wrote technical documentation that made ToolJet easier to understand and use for everyone.</li>
+    <li>Collaborated with technical newsletters for brand awareness.</li>
+    <li>Gathered valuable feedback from the community and helped the product and engineering team with product improvements.</li>
         </ul>
 
         <hr className="my-6 border-neutral-100 dark:border-neutral-800" />
