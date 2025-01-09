@@ -28,11 +28,11 @@ export default function WorkPage() {
         <ul className="flex flex-col gap-y-3 list-disc mt-4">
         <li>Grew the ToolJet community to 5k+ members through consistent engagement and support.</li>
     <li>Collaborated with Elasticsearch, LambdaTest, Portkey, Qdrant, and many more.</li>
-    <li>Hosted monthly community calls on ToolJet’s YouTube channel, building use-case-based apps.</li>
-    <li>Conducted customer demos to showcase ToolJet's capabilities.</li>
+    <li>Hosted monthly community calls on ToolJet&#39;s YouTube channel, building use-case-based apps.</li>
+    <li>Conducted customer demos to showcase ToolJet&#39;s capabilities.</li>
     <li>Actively helped users and contributors by answering questions and resolving issues in the Slack community.</li>
-    <li>Increased ToolJet's GitHub stars from 28k to 33.5k by supporting community contributions.</li>
-    <li>Managed ToolJet's community GitHub repository, creating and managing over 80 contribution issues and pull requests from contributors.</li>
+    <li>Increased ToolJet&#39;s GitHub stars from 28k to 33.5k by supporting community contributions.</li>
+    <li>Managed ToolJet&#39;s community GitHub repository, creating and managing over 80 contribution issues and pull requests from contributors.</li>
     <li>Produced video tutorials to help users get started with ToolJet.</li>
     <li>Wrote technical documentation that made ToolJet easier to understand and use for everyone.</li>
     <li>Collaborated with technical newsletters for brand awareness.</li>
