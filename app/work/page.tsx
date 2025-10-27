@@ -17,13 +17,47 @@ export default function WorkPage() {
   return (
     <section>
       <h1 className="font-medium text-2xl mb-8 tracking-tighter">my work</h1>
-      <div className="prose prose-neutral dark:prose-invert">
+      <div className="prose prose-neutral dark:prose-invert prose-a:underline prose-a:underline-offset-4">
       <hr className="my-6 border-neutral-100 dark:border-neutral-800" />
+        <h2 className="font-medium text-xl mb-1 tracking-tighter">
+          <a href="https://harness.io">Harness</a>
+        </h2>
+        <p className="text-neutral-600 dark:text-neutral-400 text-sm">
+          Community Manager - (Aug 2025 - Present)
+        </p>
+        <ul className="flex flex-col gap-y-3 list-disc mt-4">
+          <li>
+            Manage and grow the <Link href="https://litmuschaos.io">LitmusChaos</Link> community, an open source <Link href="https://www.cncf.io/">CNCF</Link> incubating project with a goal to drive it towards CNCF graduation.
+          </li>
+          <li>
+            Own community operations across GitHub: triage and maintain issues, guide contributors, review PRs, and contribute to repositories under the LitmusChaos organization.
+          </li>
+          <li>
+            Plan and produce educational content: <Link href="https://www.youtube.com/@litmuschaos">YouTube</Link> videos, tutorials, and demos on Chaos Engineering and LitmusChaos to advocate resilience practices.
+          </li>
+          <li>
+            Lead social media presence for LitmusChaos across Twitter/X, LinkedIn, and YouTube to increase awareness, contributors, and adoption.
+          </li>
+          <li>
+            Host and organize community events in Bangalore around Resilience Engineering and Chaos Engineering; collaborate with partners and speakers.
+          </li>
+          <li>
+            Speak at meetups and conferences about Chaos Engineering and how teams can use LitmusChaos to implement chaos experiments and build resilient systems.
+          </li>
+          <li>
+            Work on open source growth: increase GitHub stars, contributors, and community engagement; manage the LitmusChaos Slack community.
+          </li>
+          <li>
+            Write blogs and social posts to spread awareness and highlight community impact and releases.
+          </li>
+        </ul>
+
+        <hr className="my-6 border-neutral-100 dark:border-neutral-800" />
         <h2 className="font-medium text-xl mb-1 tracking-tighter">
           <a href="https://www.tooljet.com">ToolJet</a>
         </h2>
         <p className="text-neutral-600 dark:text-neutral-400 text-sm">
-          Developer Advocate - (May 2024 - Present) - 8 mo
+          Developer Advocate - (May 2024 - Aug 2025) - 1 yr 4 mo
         </p>
         <ul className="flex flex-col gap-y-3 list-disc mt-4">
         <li>Grew the ToolJet community to 5k+ members through consistent engagement and support.</li>

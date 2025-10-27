@@ -37,9 +37,12 @@ export default function Page() {
         hey,&nbsp;&nbsp;I&apos;m Pritesh 👋
       </h1>
       <p className="prose prose-neutral dark:prose-invert">
-        {`A developer relations professional, a tech content creator and a tech speaker/host. I work`}
-        {` at ToolJet as Developer Advocate`}
-        {`. Apart from that I'm community head at `}
+        {`A developer relations and community professional, a tech content creator and a tech speaker/host. I work`}
+        {` at harness as Community Manager, managing the `}
+        <Link target="_blank" href="https://litmuschaos.io" className="my-link">
+          LitmusChaos
+        </Link>
+        {` community (a CNCF incubating project). Apart from that I'm community head at `}
         <Link target="_blank" href="https://reactplay.io" className="my-link">
           Reactplay.io
         </Link>
@@ -233,12 +236,6 @@ export default function Page() {
           sub={"A chrome extension to use Showwcase on any webpage"}
         />
 
-        <ChannelLink
-          img="/static/sgpt.png"
-          name="ScreenGPT"
-          sub={"coming soon...."}
-          link="#"
-        />
       </div>
       <div className="prose prose-neutral dark:prose-invert">
         <p>Here are my socials: </p>
@@ -281,21 +278,7 @@ export default function Page() {
           </a>
         </div>
       </div>
-      <div className="prose prose-neutral dark:prose-invert">
-        <p>
-          This website has made from an open source portfolio of a person who is
-          my inspiration in tech world,
-          <Link
-            target="_blank"
-            href="https://twitter.com/leeerob"
-            className="my-link"
-          >
-            {" "}
-            Lee Robinson
-          </Link>
-          .
-        </p>
-      </div>
+
       <ul className="flex flex-col md:flex-row mt-8 space-x-0 md:space-x-4 space-y-2 md:space-y-0 font-sm text-neutral-600 dark:text-neutral-300">
         <li>
           <a
