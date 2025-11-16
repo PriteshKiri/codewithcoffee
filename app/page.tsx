@@ -11,6 +11,8 @@ import {
 } from "react-icons/fa6";
 import { GiSchoolBag } from "react-icons/gi";
 import ChannelLink from "./components/channelLinks";
+import ContentCard from "./components/contentCard";
+import contentData from "./data/content.json";
 // import ChannelLink from "./components/channelLink";
 
 function ArrowIcon() {
@@ -37,24 +39,23 @@ export default function Page() {
         hey,&nbsp;&nbsp;I&apos;m Pritesh 👋
       </h1>
       <p className="prose prose-neutral dark:prose-invert">
-        {`A developer relations and community professional, a tech content creator and a tech speaker/host. I work`}
-        {` at harness as Community Manager, managing the `}
+        {`I'm a developer by heart. I love creating videos, building communities, and speaking/hosting events. I work at `}
+        <Link target="_blank" href="https://www.harness.io/" className="my-link">
+          Harness
+        </Link>
+        {`as Community Manager, managing the `}
         <Link target="_blank" href="https://litmuschaos.io" className="my-link">
           LitmusChaos
         </Link>
-        {` community (a CNCF incubating project). Apart from that I'm community head at `}
+        {` community (a CNCF incubating project). I have 4+ years of experince in tech. Apart from that I'm community head at `}
         <Link target="_blank" href="https://reactplay.io" className="my-link">
           Reactplay.io
         </Link>
-        {` and founder at `}
-        <Link
-          target="_blank"
-          href="https://thehumansoftech.com"
-          className="my-link"
-        >
-          Humans of Tech
+        {` hosting monthly `}
+        <Link target="_blank" href="https://www.meetup.com/reactplay-bengaluru/" className="my-link">
+          meetups 
         </Link>
-        .
+        {` and events in Bengaluru. `}
       </p>
       <div className="columns-1 sm:columns-3 gap-4 my-8">
         <div className="relative h-40 mb-4">
@@ -120,10 +121,10 @@ export default function Page() {
       </div>
       <div className="prose prose-neutral dark:prose-invert">
         <p>
-          I create tech educational content on web development topics for
-          developers on my social media channels like twitter, linkedin and
-          Instagram in the form of threads, crousel posts, tech blogs and video
-          content.
+        Writing content on <Link target="_blank" href="https://www.linkedin.com/in/pritesh-kiri" className="my-link">LinkedIn</Link> and <Link target="_blank" href="https://twitter.com/PriteshKiri" className="my-link">Twitter</Link> changed my life upside down. Now, I'm on a path to educate people about AI through my <Link target="_blank" href="https://www.instagram.com/pritesh_ai_/" className="my-link">video content</Link>.
+        </p>
+        <p>
+        Apart from my professional work, I lead ReactPlay community, an open source React community, and I also vlog at conferences and share those videos on Humans of Tech.
         </p>
       </div>
       <div className="my-8 flex flex-col sm:flex-row space-x-0 sm:space-x-4 space-y-4 sm:space-y-0 w-full">
@@ -136,78 +137,59 @@ export default function Page() {
         <ChannelLink
           img="/static/__thot.jpg"
           name="Humans of Tech"
-          sub={"Tech podcasts"}
+          sub={"Conference Vlogging"}
           link="https://www.youtube.com/@TheHumansOfTech"
         />
       </div>
-      <div className="prose prose-neutral dark:prose-invert">
-        <p>
-          Apart from this, I work on designing poster, creating content
-          calendar, scheduling posts on twitter and linkedIn, managing discord
-          and events like, discord tech talks,twitter spaces, hackathons,
-          college workshops, offline and online tech meetups and many more.And
-          also getting sponsors for these events of{" "}
-          <Link
-            target="_blank"
-            href="https://reactplay.io/"
-            className="my-link"
-          >
-            Reactplay
-          </Link>
-        </p>
-        <p>
-          I&apos;m founder at{" "}
-          <Link
-            target="_blank"
-            href="https://www.thehumansoftech.com/"
-            className="my-link"
-          >
-            Humans of tech
-          </Link>
-          , world&apos;s first tech storytelling platform, where I invite super
-          talented tech people who has an inspiring story to tell. I document
-          these stories in audio, video and text format on platforms like{" "}
-          <Link
-            target="_blank"
-            href="https://open.spotify.com/show/3x2H8IQKlHw71JzQA4SgBH"
-            className="my-link"
-          >
-            spotify
-          </Link>{" "}
-          ,{" "}
-          <Link
-            target="_blank"
-            href="https://www.youtube.com/@TheHumansOfTech"
-            className="my-link"
-          >
-            youtube
-          </Link>{" "}
-          ,{" "}
-          <Link
-            target="_blank"
-            href="https://www.instagram.com/thehumansoftech/"
-            className="my-link"
-          >
-            instagram
-          </Link>{" "}
-          ,{" "}
-          <Link
-            target="_blank"
-            href="https://twitter.com/thehumansoftech"
-            className="my-link"
-          >
-            twitter
-          </Link>{" "}
-          and{" "}
-          <Link
-            target="_blank"
-            href="https://www.thehumansoftech.com/blog"
-            className="my-link"
-          >
-            blogs
-          </Link>{" "}
-          . I have a team who helps me manage these things.
-        </p>
+
+      {/* Featured Videos Section */}
+      <h2 className="font-medium text-2xl mb-8 tracking-tighter">
+        Featured Videos
+      </h2>
+      <div className="my-8 flex flex-row flex-wrap gap-4 w-full">
+        {contentData.featuredVideos.map((video) => (
+          <ContentCard
+            key={crypto.randomUUID()}
+            title={video.title}
+            subtitle={video.subtitle}
+            image={video.image}
+            link={video.link}
+            from={video.from}
+          />
+        ))}
+      </div>
+      <div className="flex justify-start mb-8">
+        <Link 
+          href="/videos"
+          className="text-sm font-medium text-neutral-600 dark:text-neutral-300 hover:text-neutral-800 dark:hover:text-neutral-100 transition-all px-4 py-2 no-underline"
+        >
+          Explore More →
+        </Link>
+      </div>
+
+      {/* Featured Blogs Section */}
+      <h2 className="font-medium text-2xl mb-8 tracking-tighter">
+        Featured Blogs
+      </h2>
+      <div className="my-8 flex flex-row flex-wrap gap-4 w-full">
+        {contentData.featuredBlogs.map((blog) => (
+          <ContentCard
+            key={crypto.randomUUID()}
+            title={blog.title}
+            subtitle={blog.subtitle}
+            image={blog.image}
+            link={blog.link}
+            from={blog.from}
+          />
+        ))}
+      </div>
+      <div className="flex justify-start mb-8">
+        <Link 
+          href="/blog"
+          className="text-sm font-medium text-neutral-600 dark:text-neutral-300 hover:text-neutral-800 dark:hover:text-neutral-100 transition-all px-4 py-2 no-underline"
+        >
+          Explore More →
+        </Link>
       </div>
 
       <div className="prose prose-neutral dark:prose-invert">
@@ -257,7 +239,7 @@ export default function Page() {
           </a>
         </div>
         <div className="border border-neutral-200 dark:border-neutral-700 bg-neutral-50 dark:bg-neutral-800 rounded flex items-center justify-between px-6 py-3">
-          <a href="https://www.instagram.com/codewithcoffee.in/">
+          <a href="https://www.instagram.com/pritesh_ai_/">
             <FaInstagram />
           </a>
         </div>
@@ -285,7 +267,7 @@ export default function Page() {
             className="flex items-center hover:text-neutral-800 dark:hover:text-neutral-100 transition-all"
             rel="noopener noreferrer"
             target="_blank"
-            href="https://twitter.com/priteshkiri"
+            href="https://www.linkedin.com/in/pritesh-kiri"
           >
             <ArrowIcon />
             <p className="h-7 ml-2">Let&apos;s connect!</p>

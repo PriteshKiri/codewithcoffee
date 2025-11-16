@@ -1,4 +1,7 @@
+'use client';
+
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 
 const navItems = {
   '/': {
@@ -10,6 +13,9 @@ const navItems = {
   '/blog': {
     name: 'blog',
   },
+  '/videos': {
+    name: 'videos',
+  },
   'https://priteshkiri.gumroad.com/l/cssflexbox': {
     name: 'ebook',
   },
@@ -19,6 +25,8 @@ const navItems = {
 };
 
 export function Navbar() {
+  const pathname = usePathname();
+
   return (
     <aside className="-ml-[8px] mb-16 tracking-tight">
       <div className="lg:sticky lg:top-20">
@@ -28,14 +36,22 @@ export function Navbar() {
         >
           <div className="flex flex-row space-x-0 pr-10">
             {Object.entries(navItems).map(([path, { name }]) => {
+              const isActive = pathname === path;
+              const isExternal = path.startsWith('http');
+              
               return (
                 <Link
                   key={path}
                   href={path}
-                  target='__blank'
-                  className="transition-all hover:text-neutral-800 dark:hover:text-neutral-200 flex align-middle relative py-1 px-2"
+                  target={isExternal ? '_blank' : undefined}
+                  className={`transition-all hover:text-neutral-800 dark:hover:text-neutral-200 flex align-middle relative py-1 px-2 ${
+                    isActive ? 'text-neutral-800 dark:text-neutral-200' : ''
+                  }`}
                 >
                   {name}
+                  {isActive && (
+                    <span className="absolute bottom-0 left-2 right-2 h-[2px] bg-neutral-800 dark:bg-neutral-200" />
+                  )}
                 </Link>
               );
             })}
