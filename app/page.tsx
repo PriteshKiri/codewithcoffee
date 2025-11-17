@@ -1,36 +1,10 @@
 import Link from "next/link";
 import Image from "next/image";
 
-import {
-  FaGithub,
-  FaHashnode,
-  FaInstagram,
-  FaLinkedin,
-  FaProductHunt,
-  FaXTwitter,
-} from "react-icons/fa6";
-import { GiSchoolBag } from "react-icons/gi";
 import ChannelLink from "./components/channelLinks";
 import ContentCard from "./components/contentCard";
+import Footer from "./components/footer";
 import contentData from "./data/content.json";
-// import ChannelLink from "./components/channelLink";
-
-function ArrowIcon() {
-  return (
-    <svg
-      width="12"
-      height="12"
-      viewBox="0 0 12 12"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <path
-        d="M2.07102 11.3494L0.963068 10.2415L9.2017 1.98864H2.83807L2.85227 0.454545H11.8438V9.46023H10.2955L10.3097 3.09659L2.07102 11.3494Z"
-        fill="currentColor"
-      />
-    </svg>
-  );
-}
 
 export default function Page() {
   return (
@@ -61,7 +35,7 @@ export default function Page() {
         <div className="relative h-40 mb-4">
           <Image
             alt="Me speaking on stage at React Summit about the future of Next.js"
-            src="/static/portfolio2.jpeg"
+            src="/static/3.jpg"
             fill
             sizes="(max-width: 768px) 213px, 33vw"
             priority
@@ -71,7 +45,7 @@ export default function Page() {
         <div className="relative h-80 mb-4 sm:mb-0">
           <Image
             alt="Me, Lydia, and Delba filming the Next.js Conf keynote"
-            src="/static/portfolio5.jpeg"
+            src="/static/6.jpg"
             fill
             sizes="(max-width: 768px) 213px, 33vw"
             priority
@@ -81,7 +55,7 @@ export default function Page() {
         <div className="relative h-40 sm:h-80 mb-4">
           <Image
             alt="Me standing on stage at Reactathon delivering the keynote"
-            src="/static/portfolio3.jpeg"
+            src="/static/2.jpg"
             fill
             sizes="(max-width: 768px) 213px, 33vw"
             priority
@@ -91,7 +65,7 @@ export default function Page() {
         <div className="relative h-40 mb-4 sm:mb-0">
           <Image
             alt="Me standing on stage at SmashingConf giving a talk about my optimism for the web"
-            src="/static/portfolio4.jpeg"
+            src="/static/5.jpg"
             fill
             sizes="(max-width: 768px) 213px, 33vw"
             priority
@@ -101,7 +75,7 @@ export default function Page() {
         <div className="relative h-40 mb-4">
           <Image
             alt="Me and Guillermo Rauch on stage for Vercel Ship, answering questions from the Next.js community"
-            src="/static/portfolio6.jpeg"
+            src="/static/6_.jpg"
             fill
             sizes="(max-width: 768px) 213px, 33vw"
             priority
@@ -111,13 +85,19 @@ export default function Page() {
         <div className="relative h-80">
           <Image
             alt="My badge on top of a pile of badges from a Vercel meetup we held"
-            src="/static/portfolio1.jpeg"
+            src="/static/4.jpg"
             fill
             sizes="(min-width: 768px) 213px, 33vw"
             priority
             className="rounded-lg object-cover"
           />
         </div>
+      </div>
+
+      <div className="prose prose-neutral dark:prose-invert">
+        <p>
+        I’m a fitness enthusiast from Gujarat who loves hitting the gym and being outdoors. I like keeping life active, simple, and full of good energy.
+        </p>
       </div>
       <div className="prose prose-neutral dark:prose-invert">
         <p>
@@ -126,7 +106,7 @@ export default function Page() {
         <p>
         Apart from my professional work, I lead     <Link target="_blank" href="https://reactplay.io" className="my-link">
           Reactplay.io
-        </Link> community, an open source React community, and I also vlog at conferences and share those videos on Humans of Tech.
+        </Link> community, an open source React community, and I also vlog at conferences and share those videos on Humans of Tech YouTube channel.
         </p>
       </div>
       <div className="my-8 flex flex-col sm:flex-row space-x-0 sm:space-x-4 space-y-4 sm:space-y-0 w-full">
@@ -271,56 +251,8 @@ export default function Page() {
         />
 
       </div>
-      <div className="prose prose-neutral dark:prose-invert">
-        <p>Here are my socials: </p>
-      </div>
-      <div className="my-4 flex flex-row space-x-2 w-full h-[auto] flex-wrap gap-y-2">
-        <div className="border border-neutral-200 dark:border-neutral-700 bg-neutral-50 dark:bg-neutral-800 rounded flex items-center justify-between px-6 py-3">
-          <a href="https://github.com/PriteshKiri">
-            <FaGithub />
-          </a>
-        </div>
-        <div className="border border-neutral-200 dark:border-neutral-700 bg-neutral-50 dark:bg-neutral-800 rounded flex items-center justify-between px-6 py-3">
-          <a href="https://twitter.com/PriteshKiri">
-            <FaXTwitter />
-          </a>
-        </div>
-        <div className="border border-neutral-200 dark:border-neutral-700 bg-neutral-50 dark:bg-neutral-800 rounded flex items-center justify-between px-6 py-3">
-          <a href="https://www.linkedin.com/in/pritesh-kiri">
-            <FaLinkedin />
-          </a>
-        </div>
-        <div className="border border-neutral-200 dark:border-neutral-700 bg-neutral-50 dark:bg-neutral-800 rounded flex items-center justify-between px-6 py-3">
-          <a href="https://www.instagram.com/pritesh_ai_/">
-            <FaInstagram />
-          </a>
-        </div>
 
-        <div className="border border-neutral-200 dark:border-neutral-700 bg-neutral-50 dark:bg-neutral-800 rounded flex items-center justify-between px-6 py-3">
-          <a href="https://www.producthunt.com/@pritesh_kiri">
-            <FaProductHunt />
-          </a>
-        </div>
-        <div className="border border-neutral-200 dark:border-neutral-700 bg-neutral-50 dark:bg-neutral-800 rounded flex items-center justify-between px-6 py-3">
-          <a href="https://priteshkiri.hashnode.dev/">
-            <FaHashnode />
-          </a>
-        </div>
-      </div>
-
-      <ul className="flex flex-col md:flex-row mt-8 space-x-0 md:space-x-4 space-y-2 md:space-y-0 font-sm text-neutral-600 dark:text-neutral-300">
-        <li>
-          <a
-            className="flex items-center hover:text-neutral-800 dark:hover:text-neutral-100 transition-all"
-            rel="noopener noreferrer"
-            target="_blank"
-            href="https://www.linkedin.com/in/pritesh-kiri"
-          >
-            <ArrowIcon />
-            <p className="h-7 ml-2">Let&apos;s connect!</p>
-          </a>
-        </li>
-      </ul>
+      <Footer />
     </section>
   );
 }

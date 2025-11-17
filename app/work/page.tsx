@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Footer from "../components/footer";
 
 export const metadata: Metadata = {
   title: "Work",
@@ -25,7 +26,7 @@ export default function WorkPage() {
         <p className="text-neutral-600 dark:text-neutral-400 text-sm">
           Community Manager - (Aug 2025 - Present)
         </p>
-        <ul className="flex flex-col gap-y-3 list-disc mt-4">
+        <ul className="flex flex-col gap-y-3 list-disc mt-4 ml-6">
           <li>
             Manage and grow the <Link href="https://litmuschaos.io">LitmusChaos</Link> community, an open source <Link href="https://www.cncf.io/">CNCF</Link> incubating project with a goal to drive it towards CNCF graduation.
           </li>
@@ -59,7 +60,7 @@ export default function WorkPage() {
         <p className="text-neutral-600 dark:text-neutral-400 text-sm">
           Developer Advocate - (May 2024 - Aug 2025) - 1 yr 4 mo
         </p>
-        <ul className="flex flex-col gap-y-3 list-disc mt-4">
+        <ul className="flex flex-col gap-y-3 list-disc mt-4 ml-6">
         <li>Grew the ToolJet <Link href="https://www.tooljet.ai/slack">Slack</Link> community to 5k+ members from 2k+ members through consistent engagement and support.</li>
         <li>Produced video tutorials for youtube and <Link href="https://academy.tooljet.ai/lms/courses/tooljet-developer-certification">ToolJet Academy</Link> to help users get started with ToolJet.</li>
     <li>Collaborated with <Link href="https://www.youtube.com/watch?v=GXHqXjv8MKc">Elasticsearch</Link>, <Link href="https://www.lambdatest.com/testmuconf-2024/tooljet">LambdaTest</Link>, <Link href="https://www.tooljet.ai/partners">Portkey</Link>, <Link href="https://www.youtube.com/watch?v=w6Ca7WBrziM">Qdrant</Link>, <Link href="https://www.youtube.com/watch?v=-zIXAx0p1BI">Weaviate</Link>, and many more.</li>
@@ -80,7 +81,7 @@ export default function WorkPage() {
         <p className="text-neutral-600 dark:text-neutral-400 text-sm">
           Head of Community - (Feb 2023 - Present) - 1 yr 10 mo - [Part Time]
         </p>
-        <ul className="flex flex-col gap-y-3 list-disc mt-4">
+        <ul className="flex flex-col gap-y-3 list-disc mt-4 ml-6">
         <li>
             Started the initiative of <b>Reactplay Banglore,</b> our offline
             technical meetups
@@ -140,7 +141,7 @@ export default function WorkPage() {
         <p className="text-neutral-600 dark:text-neutral-400 text-sm">
           Developer Advocate - (March 2024 - April 2024) - 2 mo
         </p>
-        <ul className="flex flex-col gap-y-3 list-disc mt-4">
+        <ul className="flex flex-col gap-y-3 list-disc mt-4 ml-6">
           <li>Worked on building detailed documentation for the product.</li>
           <li>
             Edited and created live stream breakdown clips on Davinci Resolve
@@ -162,7 +163,7 @@ export default function WorkPage() {
         <p className="text-neutral-600 dark:text-neutral-400 text-sm">
           Sofware Engineer - (Jan 2023 - Feb 204) - 1 yr 1 mo
         </p>
-        <ul className="flex flex-col gap-y-3 list-disc mt-4">
+        <ul className="flex flex-col gap-y-3 list-disc mt-4 ml-6">
           <li>
             Worked on large-scale applications, building high-performant
             features with Angular
@@ -184,7 +185,7 @@ export default function WorkPage() {
         <p className="text-neutral-600 dark:text-neutral-400 text-sm">
           Sofware Engineer - (Aug 2023 - Jan 2024) - 6 months [Part Time]
         </p>
-        <ul className="flex flex-col gap-y-3 list-disc mt-4">
+        <ul className="flex flex-col gap-y-3 list-disc mt-4 ml-6">
           <li>
             Closely worked with Cofounders to build multiple AI products from
             scratch.
@@ -222,7 +223,7 @@ export default function WorkPage() {
           Founder - (Sep 2023 - Present) - 6 mos
         </p>
 
-        <ul className="flex flex-col gap-y-3 list-disc mt-4">
+        <ul className="flex flex-col gap-y-3 list-disc mt-4 ml-6">
           <li>
             Managing the content creation and content flow cross different
             channels like spotify, youtube, instagram and blogs on the website
@@ -242,7 +243,7 @@ export default function WorkPage() {
           Founding creator - (May 2023 - Nov 2023) - 7 mos
         </p>
 
-        <ul className="flex flex-col gap-y-3 list-disc">
+        <ul className="flex flex-col gap-y-3 list-disc ml-6">
           <li>
             Posted Highly technical and engaging content on Web development
             concepts
@@ -261,7 +262,7 @@ export default function WorkPage() {
           Jr. Fullstack developer - (Dec 2021 - Jan 2023) - 1 year
         </p>
 
-        <ul className="flex flex-col gap-y-3 list-disc mt-4">
+        <ul className="flex flex-col gap-y-3 list-disc mt-4 ml-6">
           <li>
             Have designed and developed an internship portal and admin panel
             built on react and firebase with a tight timeline of 48 hours.
@@ -299,7 +300,7 @@ export default function WorkPage() {
         <p className="text-neutral-600 dark:text-neutral-400 text-sm mt-6">
           Sales and Marketing executive - (June 2021 - Nov 2021) - 6 mo
         </p>
-        <ul className="flex flex-col gap-y-3 list-disc mt-4">
+        <ul className="flex flex-col gap-y-3 list-disc mt-4 ml-6">
           <li>
             Handling a team of <b>500+ interns</b> for markeing and sales.
           </li>
@@ -319,6 +320,8 @@ export default function WorkPage() {
           </li>
         </ul>
       </div>
+
+      <Footer />
     </section>
   );
 }

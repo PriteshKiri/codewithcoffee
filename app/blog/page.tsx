@@ -1,4 +1,5 @@
 import ChannelLink from "../components/channelLinks";
+import Footer from "../components/footer";
 
 
 export const metadata = {
@@ -35,6 +36,7 @@ export default function BlogPage() {
         />
       </div>
     
+      <Footer />
     </section>
   );
 }

@@ -1,4 +1,5 @@
 import ContentCard from "../components/contentCard";
+import Footer from "../components/footer";
 import talksData from "../data/talks.json";
 
 interface Talk {
@@ -33,6 +34,8 @@ export default function TalksPage() {
           />
         ))}
       </div>
+
+      <Footer />
     </section>
   );
 }
