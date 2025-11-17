@@ -43,15 +43,15 @@ export default function Page() {
         <Link target="_blank" href="https://www.harness.io/" className="my-link">
           Harness
         </Link>
-        {`as Community Manager, managing the `}
+        {` as Community Manager, managing the `}
         <Link target="_blank" href="https://litmuschaos.io" className="my-link">
           LitmusChaos
         </Link>
-        {` community (a CNCF incubating project). I have 4+ years of experince in tech. Apart from that I'm community head at `}
+        {` community (a CNCF incubating project). I have 4+ years of experince in tech. I'm also the community head at `}
         <Link target="_blank" href="https://reactplay.io" className="my-link">
           Reactplay.io
         </Link>
-        {` hosting monthly `}
+        {` hosting monthly tech `}
         <Link target="_blank" href="https://www.meetup.com/reactplay-bengaluru/" className="my-link">
           meetups 
         </Link>
@@ -124,7 +124,9 @@ export default function Page() {
         Writing content on <Link target="_blank" href="https://www.linkedin.com/in/pritesh-kiri" className="my-link">LinkedIn</Link> and <Link target="_blank" href="https://twitter.com/PriteshKiri" className="my-link">Twitter</Link> changed my life upside down. Now, I'm on a path to educate people about AI through my <Link target="_blank" href="https://www.instagram.com/pritesh_ai_/" className="my-link">video content</Link>.
         </p>
         <p>
-        Apart from my professional work, I lead ReactPlay community, an open source React community, and I also vlog at conferences and share those videos on Humans of Tech.
+        Apart from my professional work, I lead     <Link target="_blank" href="https://reactplay.io" className="my-link">
+          Reactplay.io
+        </Link> community, an open source React community, and I also vlog at conferences and share those videos on Humans of Tech.
         </p>
       </div>
       <div className="my-8 flex flex-col sm:flex-row space-x-0 sm:space-x-4 space-y-4 sm:space-y-0 w-full">
@@ -192,6 +194,56 @@ export default function Page() {
         </Link>
       </div>
 
+      {/* Featured Talks Section */}
+      <h2 className="font-medium text-2xl mb-8 tracking-tighter">
+        Featured Talks
+      </h2>
+      <div className="my-8 flex flex-row flex-wrap gap-4 w-full">
+        {contentData.featuredTalks.map((talk) => (
+          <ContentCard
+            key={crypto.randomUUID()}
+            title={talk.title}
+            subtitle={talk.subtitle}
+            image={talk.image}
+            link={talk.link}
+            from={talk.from}
+          />
+        ))}
+      </div>
+      <div className="flex justify-start mb-8">
+        <Link 
+          href="/talks"
+          className="text-sm font-medium text-neutral-600 dark:text-neutral-300 hover:text-neutral-800 dark:hover:text-neutral-100 transition-all px-4 py-2 no-underline"
+        >
+          Explore More →
+        </Link>
+      </div>
+
+      {/* Featured Events Section */}
+      <h2 className="font-medium text-2xl mb-8 tracking-tighter">
+        Featured Events
+      </h2>
+      <div className="my-8 flex flex-row flex-wrap gap-4 w-full">
+        {contentData.featuredEvents.map((event) => (
+          <ContentCard
+            key={crypto.randomUUID()}
+            title={event.title}
+            subtitle={event.subtitle}
+            image={event.image}
+            link={event.link}
+            from={event.from}
+          />
+        ))}
+      </div>
+      <div className="flex justify-start mb-8">
+        <Link 
+          href="/events"
+          className="text-sm font-medium text-neutral-600 dark:text-neutral-300 hover:text-neutral-800 dark:hover:text-neutral-100 transition-all px-4 py-2 no-underline"
+        >
+          Explore More →
+        </Link>
+      </div>
+
       <div className="prose prose-neutral dark:prose-invert">
         <p>
           I love building and shipping tech products, here are some of my
@@ -241,11 +293,6 @@ export default function Page() {
         <div className="border border-neutral-200 dark:border-neutral-700 bg-neutral-50 dark:bg-neutral-800 rounded flex items-center justify-between px-6 py-3">
           <a href="https://www.instagram.com/pritesh_ai_/">
             <FaInstagram />
-          </a>
-        </div>
-        <div className="border border-neutral-200 dark:border-neutral-700 bg-neutral-50 dark:bg-neutral-800 rounded flex items-center justify-between px-6 py-3">
-          <a href="https://www.showwcase.com/priteshkiri">
-            <GiSchoolBag />
           </a>
         </div>
 

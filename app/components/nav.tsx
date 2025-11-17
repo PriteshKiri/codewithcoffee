@@ -10,16 +10,22 @@ const navItems = {
   '/work': {
     name: 'work',
   },
+  '/videos': {
+    name: 'videos',
+  },
   '/blog': {
     name: 'blog',
   },
-  '/videos': {
-    name: 'videos',
+  '/talks': {
+    name: 'talks',
+  },
+  '/events': {
+    name: 'events',
   },
   'https://priteshkiri.gumroad.com/l/cssflexbox': {
     name: 'ebook',
   },
-  'https://www.youtube.com/@TheHumansOfTech': {
+  'https://www.youtube.com/watch?v=vGS7kfjCMlY&list=PL451ezMNl8yNanc6EY19g1_yFCWpKv8Ho': {
     name: 'podcasts',
   },
 };

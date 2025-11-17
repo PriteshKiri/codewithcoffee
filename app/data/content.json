@@ -44,5 +44,37 @@
       "link": "https://dev.to/tooljet/building-an-ed-tech-sales-crm-using-tooljet-3e2i",
       "from": "dev2"
     }
+  ],
+  "featuredTalks": [
+    {
+      "title": "Breaking Things before they break you: Chaos Engineering with Litmus",
+      "subtitle": "At CNCF Hyderabad event",
+      "image": "https://i.ytimg.com/vi/9dtg-5Ab-Io/hqdefault.jpg?sqp=-oaymwEnCPYBEIoBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBDihBSch89y9WwYEAUWs2dMd1qEA",
+      "link": "https://www.youtube.com/watch?v=9dtg-5Ab-Io&list=PLPP8t2V7gfl40sZHmzDmtIdOnLNhLnEja&index=2",
+      "from": "default"
+    },
+    {
+      "title": "Litmus MCP server: Chaos Engineering made accessible",
+      "subtitle": "At DigitalOcean Hacktoberfest meetup - Hyderabad",
+      "image": "https://media.licdn.com/dms/image/v2/D5612AQEbxa-tJZRKZw/article-inline_image-shrink_1000_1488/B56ZnYTtn1G4AQ-/0/1760270688340?e=1764806400&v=beta&t=C1ImZ_KQJg_60VDHVepRHj8Xu4wpo3XZ5l1Xuy8Qwbg",
+      "link": "https://www.linkedin.com/pulse/hacktoberfest-hackathon-2025-ft-litmuschos-mcp-server-pritesh-kiri-sfldc/?trackingId=gFcvzT1fSNi1k%2FopNOwXmA%3D%3D",
+      "from": "default"
+    }
+  ],
+  "featuredEvents": [
+    {
+      "title": "Hosted 19th ReactPlay Meetup @Kanini office",
+      "subtitle": "On 15th November, I hosted the ReactPlay November Meetup at Kanini’s office in Bangalore with Tapas Adhikary (founder of ReactPlay), and honestly, it was a blast.",
+      "image": "https://media.licdn.com/dms/image/v2/D5612AQG1osElPtz92w/article-cover_image-shrink_720_1280/B56ZqM8F37I4AI-/0/1763301157781?e=1764806400&v=beta&t=B0N_eg_S7nFs4JW0C4xp6yTeinRA30RUFlRI9C_29HY",
+      "link": "https://www.linkedin.com/pulse/17th-reactplay-meetup-kanini-office-pritesh-kiri-wzykc/?trackingId=gFcvzT1fSNi1k%2FopNOwXmA%3D%3D",
+      "from": "default"
+    },
+    {
+      "title": "Hosted Hacktoberfest 2025 at Harness Office",
+      "subtitle": "130+ developers joined us at Harness office in Bangalore for Hacktoberfest 2025",
+      "image": "https://i.ytimg.com/vi/RPXbq4pypns/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDTVoPfSWeQjOy6TtsMRjaSJNL4qg",
+      "link": "https://www.youtube.com/watch?v=RPXbq4pypns",
+      "from": "default"
+    }
   ]
 }
