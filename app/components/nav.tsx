@@ -34,7 +34,7 @@ export function Navbar() {
   const pathname = usePathname();
 
   return (
-    <aside className="-ml-[8px] mb-8 md:mb-16 tracking-tight sticky top-0 z-50 bg-white dark:bg-transparent py-4">
+    <aside className="-ml-[8px] mb-8 md:mb-16 tracking-tight sticky top-0 z-50 bg-white dark:bg-neutral-900 py-4">
       <div>
         <nav
           className="flex flex-row items-start relative px-0 pb-0 fade md:overflow-auto scroll-pr-6 md:relative"
