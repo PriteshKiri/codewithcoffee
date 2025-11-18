@@ -13,16 +13,16 @@ interface ContentCardProps {
 export default function ContentCard({ title, subtitle, image, link, from = "default", badge }: ContentCardProps) {
   // Determine card size based on 'from' parameter
   const cardSizeClass = from === "dev2" 
-    ? "w-full sm:w-[calc(50%-1rem)] min-w-[280px] max-w-[380px]" // Larger size for dev2
+    ? "w-full sm:w-[calc(50%-1rem)] sm:min-w-[280px] sm:max-w-[380px]" // Larger size for dev2
     : from === "video"
-    ? "w-full sm:w-[calc(25%-0.75rem)] min-w-[220px] max-w-[240px]" // Smaller size for videos
-    : "w-full sm:w-[calc(33.333%-1rem)] min-w-[280px] max-w-[280px]"; // Default size
+    ? "w-full sm:w-[calc(25%-0.75rem)] sm:min-w-[220px] sm:max-w-[240px]" // Smaller size for videos
+    : "w-full sm:w-[calc(33.333%-1rem)] sm:min-w-[280px] sm:max-w-[280px]"; // Default size
   
   const imageHeightClass = from === "dev2" 
     ? "h-32" // Taller image for dev2
     : from === "video"
-    ? "h-32" // Smaller height for videos (maintains 16:9 aspect ratio)
-    : "h-40"; // Default image height
+    ? "h-44 md:h-32 " // Smaller height for videos (maintains 16:9 aspect ratio)
+    : "h-44 md:h-40"; // Default image height
 
   return (
     <Link
