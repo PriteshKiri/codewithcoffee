@@ -35,7 +35,7 @@ export default function Page() {
         <div className="relative h-40 mb-4">
           <Image
             alt="Me speaking on stage at React Summit about the future of Next.js"
-            src="/static/3.jpg"
+            src="/static/3.JPG"
             fill
             sizes="(max-width: 768px) 213px, 33vw"
             priority
@@ -45,7 +45,7 @@ export default function Page() {
         <div className="relative h-80 mb-4 sm:mb-0">
           <Image
             alt="Me, Lydia, and Delba filming the Next.js Conf keynote"
-            src="/static/6.jpg"
+            src="/static/6.JPG"
             fill
             sizes="(max-width: 768px) 213px, 33vw"
             priority
@@ -55,7 +55,7 @@ export default function Page() {
         <div className="relative h-40 sm:h-80 mb-4">
           <Image
             alt="Me standing on stage at Reactathon delivering the keynote"
-            src="/static/2.jpg"
+            src="/static/2.JPG"
             fill
             sizes="(max-width: 768px) 213px, 33vw"
             priority
@@ -85,7 +85,7 @@ export default function Page() {
         <div className="relative h-80">
           <Image
             alt="My badge on top of a pile of badges from a Vercel meetup we held"
-            src="/static/4.jpg"
+            src="/static/4.JPG"
             fill
             sizes="(min-width: 768px) 213px, 33vw"
             priority
