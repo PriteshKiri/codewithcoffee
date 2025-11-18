@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Footer from "../components/footer";
 
 export const metadata: Metadata = {
   title: "Work",
@@ -20,67 +21,127 @@ export default function WorkPage() {
       <div className="prose prose-neutral dark:prose-invert prose-a:underline prose-a:underline-offset-4">
       <hr className="my-6 border-neutral-100 dark:border-neutral-800" />
         <h2 className="font-medium text-xl mb-1 tracking-tighter">
-          <a href="https://harness.io">Harness</a>
+          <a href="https://harness.io" target="_blank" rel="noopener noreferrer">Harness</a>
         </h2>
         <p className="text-neutral-600 dark:text-neutral-400 text-sm">
           Community Manager - (Aug 2025 - Present)
         </p>
-        <ul className="flex flex-col gap-y-3 list-disc mt-4">
+        <ul className="flex flex-col gap-y-3 list-disc mt-4 ml-6">
           <li>
-            Manage and grow the <Link href="https://litmuschaos.io">LitmusChaos</Link> community, an open source <Link href="https://www.cncf.io/">CNCF</Link> incubating project with a goal to drive it towards CNCF graduation.
+            Manage and grow the <Link href="https://litmuschaos.io" target="_blank" rel="noopener noreferrer">LitmusChaos</Link> community, an open source <Link href="https://www.cncf.io/" target="_blank" rel="noopener noreferrer">CNCF</Link> incubating project with a goal to drive it towards CNCF graduation.
           </li>
           <li>
-            Own community operations across GitHub: triage and maintain issues, guide contributors, review PRs, and contribute to repositories under the LitmusChaos organization.
+            Own community operations across <Link href="https://github.com/litmuschaos/litmus" target="_blank" rel="noopener noreferrer">GitHub</Link>: triage and maintain issues, guide contributors, review PRs, and contribute to repositories under the LitmusChaos organization.
           </li>
           <li>
-            Plan and produce educational content: <Link href="https://www.youtube.com/@litmuschaos">YouTube</Link> videos, tutorials, and demos on Chaos Engineering and LitmusChaos to advocate resilience practices.
+            Plan and produce educational content: <Link href="https://www.youtube.com/@litmuschaos" target="_blank" rel="noopener noreferrer">YouTube</Link> videos, tutorials, and demos on Chaos Engineering and LitmusChaos to advocate resilience practices.
           </li>
           <li>
             Lead social media presence for LitmusChaos across Twitter/X, LinkedIn, and YouTube to increase awareness, contributors, and adoption.
           </li>
           <li>
-            Host and organize community events in Bangalore around Resilience Engineering and Chaos Engineering; collaborate with partners and speakers.
+            Host and <Link href="https://www.meetup.com/chaos-and-resilience-testing-meetup/" target="_blank" rel="noopener noreferrer">organize community events</Link>  in Bangalore around Resilience Engineering and Chaos Engineering; collaborate with partners and speakers.
           </li>
           <li>
-            Speak at meetups and conferences about Chaos Engineering and how teams can use LitmusChaos to implement chaos experiments and build resilient systems.
+            Speak at meetups and conferences about Chaos Engineering and how teams can use LitmusChaos to implement chaos experiments and build resilient systems. Checkout my <Link href="/talks" target="_blank">talks</Link>.
           </li>
           <li>
             Work on open source growth: increase GitHub stars, contributors, and community engagement; manage the LitmusChaos Slack community.
           </li>
           <li>
-            Write blogs and social posts to spread awareness and highlight community impact and releases.
+            Write  <Link href="https://dev.to/priteshkiri" target="_blank" rel="noopener noreferrer">blogs</Link> and social posts to spread awareness and highlight community impact and releases.
           </li>
         </ul>
 
         <hr className="my-6 border-neutral-100 dark:border-neutral-800" />
         <h2 className="font-medium text-xl mb-1 tracking-tighter">
-          <a href="https://www.tooljet.com">ToolJet</a>
+          <a href="https://www.tooljet.com" target="_blank" rel="noopener noreferrer">ToolJet</a>
         </h2>
         <p className="text-neutral-600 dark:text-neutral-400 text-sm">
           Developer Advocate - (May 2024 - Aug 2025) - 1 yr 4 mo
         </p>
-        <ul className="flex flex-col gap-y-3 list-disc mt-4">
-        <li>Grew the ToolJet community to 5k+ members through consistent engagement and support.</li>
-    <li>Collaborated with Elasticsearch, LambdaTest, Portkey, Qdrant, and many more.</li>
-    <li>Hosted monthly community calls on ToolJet&#39;s YouTube channel, building use-case-based apps.</li>
-    <li>Conducted customer demos to showcase ToolJet&#39;s capabilities.</li>
+        <ul className="flex flex-col gap-y-3 list-disc mt-4 ml-6">
+        <li>Grew the ToolJet <Link href="https://www.tooljet.ai/slack" target="_blank" rel="noopener noreferrer">Slack</Link> community to 5k+ members from 2k+ members through consistent engagement and support.</li>
+        <li>Produced video tutorials for youtube and <Link href="https://academy.tooljet.ai/lms/courses/tooljet-developer-certification" target="_blank" rel="noopener noreferrer">ToolJet Academy</Link> to help users get started with ToolJet.</li>
+    <li>Collaborated with <Link href="https://www.youtube.com/watch?v=GXHqXjv8MKc" target="_blank" rel="noopener noreferrer">Elasticsearch</Link>, <Link href="https://www.lambdatest.com/testmuconf-2024/tooljet" target="_blank" rel="noopener noreferrer">LambdaTest</Link>, <Link href="https://www.tooljet.ai/partners" target="_blank" rel="noopener noreferrer">Portkey</Link>, <Link href="https://www.youtube.com/watch?v=w6Ca7WBrziM" target="_blank" rel="noopener noreferrer">Qdrant</Link>, <Link href="https://www.youtube.com/watch?v=-zIXAx0p1BI" target="_blank" rel="noopener noreferrer">Weaviate</Link>, and many more.</li>
+    <li>Hosted monthly community calls on ToolJet&#39;s <Link href="https://www.youtube.com/@tooljet" target="_blank" rel="noopener noreferrer">YouTube channel</Link>, building use-case-based apps.</li>
+    <li>Conducted customer demos and built POCs to showcase ToolJet&#39;s capabilities.</li>
     <li>Actively helped users and contributors by answering questions and resolving issues in the Slack community.</li>
-    <li>Increased ToolJet&#39;s GitHub stars from 28k to 33.5k by supporting community contributions.</li>
-    <li>Managed ToolJet&#39;s community GitHub repository, creating and managing over 80 contribution issues and pull requests from contributors.</li>
-    <li>Produced video tutorials to help users get started with ToolJet.</li>
-    <li>Wrote technical documentation that made ToolJet easier to understand and use for everyone.</li>
+    <li>Increased ToolJet&#39;s <Link href="https://github.com/tooljet/tooljet" target="_blank" rel="noopener noreferrer">GitHub</Link> stars from 28k to 33.5k by supporting community contributions.</li>
+    <li>Managed ToolJet&#39;s community <Link href="https://github.com/tooljet/tooljet" target="_blank" rel="noopener noreferrer">GitHub repository</Link>, creating and managing over 80 contribution issues and pull requests from contributors.</li>
+    <li>Wrote and enhanced technical <Link href="https://docs.tooljet.ai/docs/" target="_blank" rel="noopener noreferrer">documentation</Link> that made ToolJet easier to understand and use for everyone.</li>
     <li>Collaborated with technical newsletters for brand awareness.</li>
     <li>Gathered valuable feedback from the community and helped the product and engineering team with product improvements.</li>
         </ul>
 
         <hr className="my-6 border-neutral-100 dark:border-neutral-800" />
         <h2 className="font-medium text-xl mb-1 tracking-tighter">
-          <a href="https://www.sleeksky.com">Locofy AI</a>
+          <a href="https://reactplay.io/" target="_blank" rel="noopener noreferrer">ReactPlay</a>{" "}
+        </h2>
+        <p className="text-neutral-600 dark:text-neutral-400 text-sm">
+          Head of Community - (Feb 2023 - Present) - 1 yr 10 mo - [Part Time]
+        </p>
+        <ul className="flex flex-col gap-y-3 list-disc mt-4 ml-6">
+        <li>
+            Started the initiative of <b>Reactplay Banglore,</b> our offline
+            technical meetups
+          </li>
+          <li>
+            Grown the offline <Link href="https://www.meetup.com/reactplay-bengaluru/" target="_blank" rel="noopener noreferrer">Reactplay Banglore</Link> community from <b>0 to 5500k+ </b>in just 20 months
+          </li>
+          <li>
+            Managed these events end-to-end from scouting for venue sponsors to
+            Hosting the event.
+          </li>
+          <li>
+            Successfully completed 18 events with  average <b>300+ RSVPs</b> and partnered with 15+ companies.
+          </li>
+          <li>
+            Worked on building plays on the platform and made major UI fixes and
+            added features like filters, search on the{" "}
+            <Link href="https://hustles.reactplay.io/events/23/hackrplay" target="_blank" rel="noopener noreferrer">
+              Hack-R-Play{" "}
+            </Link>{" "}
+            ( Hackathon platform of Reactplay )
+          </li>
+          <li>
+            Skillfully managed Reactplay&apos;s social media platforms ({" "}
+            <Link href="https://www.linkedin.com/company/reactplay/" target="_blank" rel="noopener noreferrer">
+              LinkedIn
+            </Link>{" "}
+            ,<Link href="https://twitter.com/reactplayio" target="_blank" rel="noopener noreferrer">Twitter </Link>,
+            <Link href="https://discord.gg/vrTxWUP8Am" target="_blank" rel="noopener noreferrer">Discord</Link> ,
+            <Link href="https://www.youtube.com/@tapasadhikary/streams" target="_blank" rel="noopener noreferrer">
+              YouTube{" "}
+            </Link>{" "}
+            ), driving significant community growth to over{" "}
+            <b>8,000+ members.</b>
+          </li>
+          <li>
+            Designed visually appealing posters for community events, Twitter
+            spaces, YT lives, discord events etc.and posted super engaging
+            content on the socials.
+          </li>
+          <li>Hosted 5+ Twitter Spaces with renowned tech speakers</li>
+          <li>
+            Launched and hosted an initiative <b>Reactplay Live</b>, an online
+            technical meetup of Reactplay
+          </li>
+          <li>
+            Managed <b>Hack-R-Play</b> (Hackathon platform of Reactplay) from
+            start to finish, including participant recruitment, content
+            creation, and event coordination etc.
+          </li>
+        </ul>
+
+        <hr className="my-6 border-neutral-100 dark:border-neutral-800" />
+        <h2 className="font-medium text-xl mb-1 tracking-tighter">
+          <a href="https://www.sleeksky.com" target="_blank" rel="noopener noreferrer">Locofy AI</a>
         </h2>
         <p className="text-neutral-600 dark:text-neutral-400 text-sm">
           Developer Advocate - (March 2024 - April 2024) - 2 mo
         </p>
-        <ul className="flex flex-col gap-y-3 list-disc mt-4">
+        <ul className="flex flex-col gap-y-3 list-disc mt-4 ml-6">
           <li>Worked on building detailed documentation for the product.</li>
           <li>
             Edited and created live stream breakdown clips on Davinci Resolve
@@ -97,12 +158,12 @@ export default function WorkPage() {
 
         <hr className="my-6 border-neutral-100 dark:border-neutral-800" />
         <h2 className="font-medium text-xl mb-1 tracking-tighter">
-          <a href="https://www.sleeksky.com">Sleeksky</a>
+          <a href="https://www.sleeksky.com" target="_blank" rel="noopener noreferrer">Sleeksky</a>
         </h2>
         <p className="text-neutral-600 dark:text-neutral-400 text-sm">
           Sofware Engineer - (Jan 2023 - Feb 204) - 1 yr 1 mo
         </p>
-        <ul className="flex flex-col gap-y-3 list-disc mt-4">
+        <ul className="flex flex-col gap-y-3 list-disc mt-4 ml-6">
           <li>
             Worked on large-scale applications, building high-performant
             features with Angular
@@ -119,12 +180,12 @@ export default function WorkPage() {
         </ul>
         <hr className="my-6 border-neutral-100 dark:border-neutral-800" />
         <h2 className="font-medium text-xl mb-1 tracking-tighter">
-          <a href="https://www.sleeksky.com">Cofactory AI</a>
+          <a href="https://www.sleeksky.com" target="_blank" rel="noopener noreferrer">Cofactory AI</a>
         </h2>
         <p className="text-neutral-600 dark:text-neutral-400 text-sm">
-          Sofware Engineer - (Aug 2023 - Jan 2024) - 6 months
+          Sofware Engineer - (Aug 2023 - Jan 2024) - 6 months [Part Time]
         </p>
-        <ul className="flex flex-col gap-y-3 list-disc mt-4">
+        <ul className="flex flex-col gap-y-3 list-disc mt-4 ml-6">
           <li>
             Closely worked with Cofounders to build multiple AI products from
             scratch.
@@ -153,76 +214,16 @@ export default function WorkPage() {
           </li>
         </ul>
 
-        <hr className="my-6 border-neutral-100 dark:border-neutral-800" />
-        <h2 className="font-medium text-xl mb-1 tracking-tighter">
-          <a href="https://reactplay.io/">ReactPlay</a>{" "}
-        </h2>
-        <p className="text-neutral-600 dark:text-neutral-400 text-sm">
-          Community manager/Organizer - (Feb 2023 - Present) - 1 yr 3 mo
-        </p>
-        <ul className="flex flex-col gap-y-3 list-disc mt-4">
-          <li>
-            Worked on building plays on the platform and made major UI fixes and
-            added features like filters, search on the{" "}
-            <Link href="https://hustles.reactplay.io/events/23/hackrplay">
-              Hack-R-Play{" "}
-            </Link>{" "}
-            ( Hackathon platform of Reactplay )
-          </li>
-          <li>
-            Skillfully managed Reactplay&apos;s social media platforms ({" "}
-            <Link href="https://www.linkedin.com/company/reactplay/">
-              LinkedIn
-            </Link>{" "}
-            ,<Link href="https://twitter.com/reactplayio">Twitter </Link>,
-            <Link href="https://discord.gg/vrTxWUP8Am">Discord</Link> ,
-            <Link href="https://www.youtube.com/@tapasadhikary/streams">
-              YouTube{" "}
-            </Link>{" "}
-            ), driving significant community growth to over{" "}
-            <b>7,000+ members.</b>
-          </li>
-          <li>
-            Designed visually appealing posters for community events, Twitter
-            spaces, YT lives, discord events etc.and posted super engaging
-            content on the socials.
-          </li>
-          <li>Hosted 5+ Twitter Spaces with renowned tech speakers</li>
-          <li>
-            Launched and hosted an initiative <b>Reactplay Live</b>, an online
-            technical meetup of Reactplay
-          </li>
-          <li>
-            Managed <b>Hack-R-Play</b> (Hackathon platform of Reactplay) from
-            start to finish, including participant recruitment, content
-            creation, and event coordination etc.
-          </li>
-          <li>
-            Started the initiative of <b>Reactplay Banglore,</b> our offline
-            technical meetups
-          </li>
-          <li>
-            Managed these events end-to-end from scouting for venue sponsors to
-            Hosting the event.
-          </li>
-          <li>
-            Grown the offline community from <b>0 to 730+ </b>in just two months
-          </li>
-          <li>
-            Successfully completed 2 events with <b>400+ RSVPs</b> and 8+
-            amazing speakers
-          </li>
-        </ul>
 
         <hr className="my-6 border-neutral-100 dark:border-neutral-800" />
         <h2 className="font-medium text-xl mb-1 tracking-tighter">
-          <a href="https://www.thehumansoftech.com/">Humans of Tech</a>
+          <a href="https://www.thehumansoftech.com/" target="_blank" rel="noopener noreferrer">Humans of Tech</a>
         </h2>
         <p className="text-neutral-600 dark:text-neutral-400 text-sm">
           Founder - (Sep 2023 - Present) - 6 mos
         </p>
 
-        <ul className="flex flex-col gap-y-3 list-disc mt-4">
+        <ul className="flex flex-col gap-y-3 list-disc mt-4 ml-6">
           <li>
             Managing the content creation and content flow cross different
             channels like spotify, youtube, instagram and blogs on the website
@@ -236,13 +237,13 @@ export default function WorkPage() {
 
         <hr className="my-6 border-neutral-100 dark:border-neutral-800" />
         <h2 className="font-medium text-xl mb-1 tracking-tighter">
-          <a href="https://www.showwcase.com/">Showwcase</a>
+          <a href="https://www.showwcase.com/" target="_blank" rel="noopener noreferrer">Showwcase</a>
         </h2>
         <p className="text-neutral-600 dark:text-neutral-400 text-sm">
           Founding creator - (May 2023 - Nov 2023) - 7 mos
         </p>
 
-        <ul className="flex flex-col gap-y-3 list-disc">
+        <ul className="flex flex-col gap-y-3 list-disc ml-6">
           <li>
             Posted Highly technical and engaging content on Web development
             concepts
@@ -255,13 +256,13 @@ export default function WorkPage() {
         <hr className="my-6 border-neutral-100 dark:border-neutral-800" />
         <h2 className="font-medium text-xl mb-1 tracking-tighter">
           {" "}
-          <a href="https://www.unschool.in/">Unschool-(Backed by YC)</a>
+          <a href="https://www.unschool.in/" target="_blank" rel="noopener noreferrer">Unschool-(Backed by YC)</a>
         </h2>
         <p className="text-neutral-600 dark:text-neutral-400 text-sm">
           Jr. Fullstack developer - (Dec 2021 - Jan 2023) - 1 year
         </p>
 
-        <ul className="flex flex-col gap-y-3 list-disc mt-4">
+        <ul className="flex flex-col gap-y-3 list-disc mt-4 ml-6">
           <li>
             Have designed and developed an internship portal and admin panel
             built on react and firebase with a tight timeline of 48 hours.
@@ -299,7 +300,7 @@ export default function WorkPage() {
         <p className="text-neutral-600 dark:text-neutral-400 text-sm mt-6">
           Sales and Marketing executive - (June 2021 - Nov 2021) - 6 mo
         </p>
-        <ul className="flex flex-col gap-y-3 list-disc mt-4">
+        <ul className="flex flex-col gap-y-3 list-disc mt-4 ml-6">
           <li>
             Handling a team of <b>500+ interns</b> for markeing and sales.
           </li>
@@ -319,6 +320,8 @@ export default function WorkPage() {
           </li>
         </ul>
       </div>
+
+      <Footer />
     </section>
   );
 }
