@@ -68,7 +68,7 @@ export default function EventsPage() {
     <>
       <div className="flex flex-col md:flex-row gap-8">
         {/* Mobile Year Selector */}
-        <div className="md:hidden w-full mb-6 sticky top-20 z-40 bg-white dark:bg-neutral-900 py-4 -mt-4">
+        <div className="md:hidden w-full mb-6 sticky top-20 z-40 bg-white dark:bg-[#111010] py-4 -mt-4">
           <CustomDropdown
             options={years}
             value={activeYear}
