@@ -101,7 +101,7 @@ export default function Page() {
       </div>
       <div className="prose prose-neutral dark:prose-invert">
         <p>
-        Writing content on <Link target="_blank" href="https://www.linkedin.com/in/pritesh-kiri" className="my-link">LinkedIn</Link> and <Link target="_blank" href="https://twitter.com/PriteshKiri" className="my-link">Twitter</Link> changed my life upside down. Now, I'm on a path to educate people about AI through my <Link target="_blank" href="https://www.instagram.com/pritesh_ai_/" className="my-link">video content</Link>.
+        Writing content on <Link target="_blank" href="https://www.linkedin.com/in/pritesh-kiri" className="my-link">LinkedIn</Link> and <Link target="_blank" href="https://twitter.com/PriteshKiri" className="my-link">Twitter</Link> changed my life upside down. Now, I&apos;m on a path to educate people about AI through my <Link target="_blank" href="https://www.instagram.com/pritesh_ai_/" className="my-link">video content</Link>.
         </p>
         <p>
         Apart from my professional work, I lead     <Link target="_blank" href="https://reactplay.io" className="my-link">
