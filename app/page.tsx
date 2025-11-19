@@ -103,13 +103,40 @@ export default function Page() {
         <p>
         Writing content on <Link target="_blank" href="https://www.linkedin.com/in/pritesh-kiri" className="my-link">LinkedIn</Link> and <Link target="_blank" href="https://twitter.com/PriteshKiri" className="my-link">Twitter</Link> changed my life upside down. Now, I&apos;m on a path to educate people about AI through my <Link target="_blank" href="https://www.instagram.com/pritesh_ai_/" className="my-link">video content</Link>.
         </p>
+
+      </div>
+
+
+      {/* Instagram Feed Section */}
+      <div className="my-8 w-full">
+        <div className="relative w-full overflow-hidden rounded-lg border border-neutral-200 dark:border-neutral-800">
+          <iframe
+            src="https://www.instagram.com/pritesh_ai_/embed"
+            className="w-full"
+            style={{ minHeight: '380px', border: 'none' }}
+            scrolling="no"
+            allowTransparency={true}
+          />
+        </div>
+        <div className="flex justify-center mt-4">
+          <Link 
+            href="https://www.instagram.com/pritesh_ai_/"
+            target="_blank"
+            className="text-sm font-medium text-neutral-600 dark:text-neutral-300 hover:text-neutral-800 dark:hover:text-neutral-100 transition-all px-4 py-2 no-underline"
+          >
+            Follow on Instagram →
+          </Link>
+        </div>
+      </div>
+
+      <div className="prose prose-neutral dark:prose-invert">
         <p>
         Apart from my professional work, I lead     <Link target="_blank" href="https://reactplay.io" className="my-link">
           Reactplay.io
         </Link> community, an open source React community, and I also vlog at conferences and share those videos on Humans of Tech YouTube channel.
         </p>
       </div>
-      <div className="my-8 flex flex-col sm:flex-row space-x-0 sm:space-x-4 space-y-4 sm:space-y-0 w-full">
+            <div className="my-8 flex flex-col sm:flex-row space-x-0 sm:space-x-4 space-y-4 sm:space-y-0 w-full">
         <ChannelLink
           img="/static/__reactplay.png"
           name="Reactlplay"
@@ -244,8 +271,8 @@ export default function Page() {
           link="https://tasktunes.vercel.app"
         />
         <ChannelLink
-          img="/static/_sxs.png"
-          name="ShowwcaseXS -  Launched on Product hunt"
+          img="/static/_test.png"
+          name="ShowwcaseXS"
           link="https://showwcasexs.vercel.app/"
           sub={"A chrome extension to use Showwcase on any webpage"}
         />
