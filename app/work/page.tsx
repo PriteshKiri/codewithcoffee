@@ -24,26 +24,26 @@ export default function WorkPage() {
           <a href="https://harness.io" target="_blank" rel="noopener noreferrer">Harness</a>
         </h2>
         <p className="text-neutral-600 dark:text-neutral-400 text-sm">
-          Community Manager - (Aug 2025 - Present)
+          Community Manager - (Aug 2025 - Present) - 4 months
         </p>
         <ul className="flex flex-col gap-y-3 list-disc mt-4 ml-6">
           <li>
-            Manage and grow the <Link href="https://litmuschaos.io" target="_blank" rel="noopener noreferrer">LitmusChaos</Link> community, an open source <Link href="https://www.cncf.io/" target="_blank" rel="noopener noreferrer">CNCF</Link> incubating project with a goal to drive it towards CNCF graduation.
+            Manage and grow the <Link href="https://litmuschaos.io" target="_blank" rel="noopener noreferrer">LitmusChaos</Link> community (sponsored by Harness), an open source <Link href="https://www.cncf.io/" target="_blank" rel="noopener noreferrer">CNCF</Link> incubating project with a goal to drive it towards CNCF graduation.
           </li>
           <li>
-            Own community operations across <Link href="https://github.com/litmuschaos/litmus" target="_blank" rel="noopener noreferrer">GitHub</Link>: triage and maintain issues, guide contributors, review PRs, and contribute to repositories under the LitmusChaos organization.
+           Travel to conferences and meetups to give talks on Chaos Engineering and how teams can use LitmusChaos to implement chaos experiments and build resilient systems. Checkout my <Link href="/talks" target="_blank">talks</Link>.
           </li>
           <li>
             Plan and produce educational content: <Link href="https://www.youtube.com/@litmuschaos" target="_blank" rel="noopener noreferrer">YouTube</Link> videos, tutorials, and demos on Chaos Engineering and LitmusChaos to advocate resilience practices.
+          </li>
+          <li>
+            Own community operations across <Link href="https://github.com/litmuschaos/litmus" target="_blank" rel="noopener noreferrer">GitHub</Link>: triage and maintain issues, guide contributors, review PRs, and contribute to repositories under the LitmusChaos organization.
           </li>
           <li>
             Lead social media presence for LitmusChaos across Twitter/X, LinkedIn, and YouTube to increase awareness, contributors, and adoption.
           </li>
           <li>
             Host and <Link href="https://www.meetup.com/chaos-and-resilience-testing-meetup/" target="_blank" rel="noopener noreferrer">organize community events</Link>  in Bangalore around Resilience Engineering and Chaos Engineering; collaborate with partners and speakers.
-          </li>
-          <li>
-            Speak at meetups and conferences about Chaos Engineering and how teams can use LitmusChaos to implement chaos experiments and build resilient systems. Checkout my <Link href="/talks" target="_blank">talks</Link>.
           </li>
           <li>
             Work on open source growth: increase GitHub stars, contributors, and community engagement; manage the LitmusChaos Slack community.
@@ -58,7 +58,7 @@ export default function WorkPage() {
           <a href="https://www.tooljet.com" target="_blank" rel="noopener noreferrer">ToolJet</a>
         </h2>
         <p className="text-neutral-600 dark:text-neutral-400 text-sm">
-          Developer Advocate - (May 2024 - Aug 2025) - 1 yr 4 mo
+          Developer Advocate - (May 2024 - Aug 2025) - 1 year 4 months
         </p>
         <ul className="flex flex-col gap-y-3 list-disc mt-4 ml-6">
         <li>Grew the ToolJet <Link href="https://www.tooljet.ai/slack" target="_blank" rel="noopener noreferrer">Slack</Link> community to 5k+ members from 2k+ members through consistent engagement and support.</li>
@@ -79,22 +79,22 @@ export default function WorkPage() {
           <a href="https://reactplay.io/" target="_blank" rel="noopener noreferrer">ReactPlay</a>{" "}
         </h2>
         <p className="text-neutral-600 dark:text-neutral-400 text-sm">
-          Head of Community - (Feb 2023 - Present) - 1 yr 10 mo - [Part Time]
+          Head of Community - (Feb 2023 - Present) - 2 years 10 months - [Part Time]
         </p>
         <ul className="flex flex-col gap-y-3 list-disc mt-4 ml-6">
         <li>
             Started the initiative of <b>Reactplay Banglore,</b> our offline
-            technical meetups
+            technical meetups.
           </li>
           <li>
-            Grown the offline <Link href="https://www.meetup.com/reactplay-bengaluru/" target="_blank" rel="noopener noreferrer">Reactplay Banglore</Link> community from <b>0 to 5500k+ </b>in just 20 months
+            Grown the offline <Link href="https://www.meetup.com/reactplay-bengaluru/" target="_blank" rel="noopener noreferrer">Reactplay Banglore</Link> community from <b>0 to 5500k+ </b>in just 2 years.
           </li>
           <li>
             Managed these events end-to-end from scouting for venue sponsors to
             Hosting the event.
           </li>
           <li>
-            Successfully completed 18 events with  average <b>300+ RSVPs</b> and partnered with 15+ companies.
+            Successfully completed 18 events with  average <b>300+ RSVPs</b> and partnered with 15+ companies. Checkout the glimpse of meetup on our <Link href="https://www.instagram.com/reactplayio/" target="_blank" rel="noopener noreferrer">Instagram</Link>.
           </li>
           <li>
             Worked on building plays on the platform and made major UI fixes and
@@ -115,7 +115,7 @@ export default function WorkPage() {
               YouTube{" "}
             </Link>{" "}
             ), driving significant community growth to over{" "}
-            <b>8,000+ members.</b>
+            <b>8k+ members.</b>
           </li>
           <li>
             Designed visually appealing posters for community events, Twitter
@@ -139,7 +139,7 @@ export default function WorkPage() {
           <a href="https://www.sleeksky.com" target="_blank" rel="noopener noreferrer">Locofy AI</a>
         </h2>
         <p className="text-neutral-600 dark:text-neutral-400 text-sm">
-          Developer Advocate - (March 2024 - April 2024) - 2 mo
+          Developer Advocate - (March 2024 - April 2024) - 2 months
         </p>
         <ul className="flex flex-col gap-y-3 list-disc mt-4 ml-6">
           <li>Worked on building detailed documentation for the product.</li>
@@ -161,21 +161,21 @@ export default function WorkPage() {
           <a href="https://www.sleeksky.com" target="_blank" rel="noopener noreferrer">Sleeksky</a>
         </h2>
         <p className="text-neutral-600 dark:text-neutral-400 text-sm">
-          Sofware Engineer - (Jan 2023 - Feb 204) - 1 yr 1 mo
+          Sofware Engineer - (Jan 2023 - Feb 204) - 1 year 1 month
         </p>
         <ul className="flex flex-col gap-y-3 list-disc mt-4 ml-6">
           <li>
             Worked on large-scale applications, building high-performant
-            features with Angular
+            features with React and Angular.
           </li>
           <li>
             Closely worked with CEO, <b>brainstorming</b> and building headless{" "}
-            <b>CMS features</b> with React and Material UI
+            <b>CMS features</b> with React and Material UI.
           </li>
-          <li>Worked on enhancing the Ejs website UIs for various products</li>
+          <li>Worked on enhancing the Ejs website UIs for various products.</li>
           <li>
             Helped the organization with creating highly engaging{" "}
-            <b>technical content</b> on their LinkedIn page
+            <b>technical content</b> on their LinkedIn page.
           </li>
         </ul>
         <hr className="my-6 border-neutral-100 dark:border-neutral-800" />
@@ -220,7 +220,7 @@ export default function WorkPage() {
           <a href="https://www.thehumansoftech.com/" target="_blank" rel="noopener noreferrer">Humans of Tech</a>
         </h2>
         <p className="text-neutral-600 dark:text-neutral-400 text-sm">
-          Founder - (Sep 2023 - Present) - 6 mos
+          Founder - (Sep 2023 - Present) - 2 years 1 months
         </p>
 
         <ul className="flex flex-col gap-y-3 list-disc mt-4 ml-6">
@@ -240,7 +240,7 @@ export default function WorkPage() {
           <a href="https://www.showwcase.com/" target="_blank" rel="noopener noreferrer">Showwcase</a>
         </h2>
         <p className="text-neutral-600 dark:text-neutral-400 text-sm">
-          Founding creator - (May 2023 - Nov 2023) - 7 mos
+          Founding creator - (May 2023 - Nov 2023) - 7 months
         </p>
 
         <ul className="flex flex-col gap-y-3 list-disc ml-6">
@@ -298,7 +298,7 @@ export default function WorkPage() {
         </ul>
 
         <p className="text-neutral-600 dark:text-neutral-400 text-sm mt-6">
-          Sales and Marketing executive - (June 2021 - Nov 2021) - 6 mo
+          Sales and Marketing executive - (June 2021 - Nov 2021) - 6 months
         </p>
         <ul className="flex flex-col gap-y-3 list-disc mt-4 ml-6">
           <li>
