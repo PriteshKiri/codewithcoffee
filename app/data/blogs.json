@@ -1,0 +1,325 @@
+{
+  "2026": [
+    {
+      "title": "Disaster Recovery Testing: A Practical Step-by-Step Guide for 2026",
+      "subtitle": "A practical, three-phase lifecycle (plan, execute, review) for building a DR testing program that actually holds up when it matters.",
+      "image": "/static/blogs/harness-disaster-recovery-testing-a-practical-step-by-step-guide-for-2.jpg",
+      "link": "https://www.harness.io/blog/disaster-recovery-testing-a-practical-step-by-step-guide-for-2026",
+      "source": "Harness",
+      "year": 2026,
+      "date": "2026-05-13"
+    },
+    {
+      "title": "An Introduction to Disaster Recovery Testing: What You Need to Know in 2026",
+      "subtitle": "What disaster recovery testing is, why it matters more than ever in 2026, and how AI and modern tooling are reshaping it.",
+      "image": "/static/blogs/harness-an-introduction-to-disaster-recovery-testing-what-you-need-to.jpg",
+      "link": "https://www.harness.io/blog/an-introduction-to-disaster-recovery-testing-what-you-need-to-know-in-2026",
+      "source": "Harness",
+      "year": 2026,
+      "date": "2026-04-22"
+    },
+    {
+      "title": "Load Testing: An Essential Guide for 2026",
+      "subtitle": "A complete beginner-friendly guide covering load testing fundamentals, types, tools, and best practices for resilient systems in 2026.",
+      "image": "/static/blogs/harness-load-testing-an-essential-guide-for-2026.png",
+      "link": "https://www.harness.io/blog/load-testing-an-essential-guide-for-2026",
+      "source": "Harness",
+      "year": 2026,
+      "date": "2026-03-27"
+    },
+    {
+      "title": "LitmusChaos Q4 2025 update: community, contributions, and project progress",
+      "subtitle": "Q4 highlights from the LitmusChaos community: releases 3.22-3.24, the new MCP Server, Hacktoberfest impact, in-person meetups, and adopter stories.",
+      "image": "/static/blogs/cncf-litmuschaos-q4-2025-update-community-contributions-and-project-progress.jpg",
+      "link": "https://www.cncf.io/blog/2026/01/22/litmuschaos-q4-2025-update-community-contributions-and-project-progress/",
+      "source": "CNCF",
+      "year": 2026,
+      "date": "2026-01-22"
+    }
+  ],
+  "2025": [
+    {
+      "title": "Understanding System Reliability: The Foundation of Modern Infrastructure",
+      "subtitle": "What reliability really means, why most systems fail, and the foundational ideas every engineer should understand before building for scale.",
+      "image": "/static/blogs/devto-understanding-system-reliability-the-foundation-of-modern-infras.webp",
+      "link": "https://dev.to/priteshkiri/understanding-system-reliability-the-foundation-of-modern-infrastructure-2b26",
+      "source": "Dev.to",
+      "year": 2025,
+      "date": "2025-12-23"
+    },
+    {
+      "title": "Making Chaos Conversational: A Beginner-Friendly Guide to the LitmusChaos MCP Server",
+      "subtitle": "How the LitmusChaos MCP Server makes chaos engineering more conversational by bridging AI assistants and ChaosCenter.",
+      "image": "/static/blogs/devto-making-chaos-conversational-a-beginner-friendly-guide-to-the-lit.webp",
+      "link": "https://dev.to/litmus-chaos/making-chaos-conversational-a-beginner-friendly-guide-to-the-litmuschaos-mcp-server-2ia",
+      "source": "Dev.to",
+      "year": 2025,
+      "date": "2025-11-20"
+    },
+    {
+      "title": "Speaking at CNCF Hyderabad November Event",
+      "subtitle": "The event took place on November 1st at Pegasystems Office, the venue sponsor of the event. The venue was great, and the event started around 10 in the morning.",
+      "image": "/static/blogs/linkedin-speaking-at-cncf-hyderabad-november-event.jpg",
+      "link": "https://www.linkedin.com/pulse/speaking-cncf-hyderabad-november-event-pritesh-kiri-1dxkc/",
+      "source": "LinkedIn",
+      "year": 2025,
+      "date": "2025-11-04"
+    },
+    {
+      "title": "17th ReactPlay Meetup @Kanini Office",
+      "subtitle": "On 15th November, I hosted the ReactPlay November Meetup at Kanini's office in Bangalore with Tapas Adhikary, founder of ReactPlay, and honestly, it was a blast.",
+      "image": "/static/blogs/linkedin-17th-reactplay-meetup-kanini-office.png",
+      "link": "https://www.linkedin.com/pulse/17th-reactplay-meetup-kanini-office-pritesh-kiri-wzykc/",
+      "source": "LinkedIn",
+      "year": 2025,
+      "date": "2025-11-16"
+    },
+    {
+      "title": "LitmusChaos October Highlights - Hacktoberfest, Meetups & More!",
+      "subtitle": "A recap of an exciting October for LitmusChaos: Hacktoberfest 2025, community meetups, releases, and standout open-source contributions.",
+      "image": "/static/blogs/devto-litmuschaos-october-highlights-hacktoberfest-meetups-more.webp",
+      "link": "https://dev.to/litmus-chaos/litmuschaos-october-highlights-hacktoberfest-meetups-more-51h6",
+      "source": "Dev.to",
+      "year": 2025,
+      "date": "2025-11-05"
+    },
+    {
+      "title": "Hacktoberfest Hackathon 2025 ft. LitmusChaos MCP Server",
+      "subtitle": "A recap of the DigitalOcean Hacktoberfest hackathon in Hyderabad where LitmusChaos and the new MCP server took center stage.",
+      "image": "/static/blogs/linkedin-hacktoberfest-hackathon-2025-ft-litmuschaos-mcp-server.jpg",
+      "link": "https://www.linkedin.com/pulse/hacktoberfest-hackathon-2025-ft-litmuschos-mcp-server-pritesh-kiri-sfldc/",
+      "source": "LinkedIn",
+      "year": 2025,
+      "date": "2025-10-12"
+    },
+    {
+      "title": "Making Chaos Engineering Accessible: Introducing the LitmusChaos MCP Server",
+      "subtitle": "Chaos Engineering has always been about building resilient systems. The LitmusChaos MCP Server makes getting started with chaos experiments much easier.",
+      "image": "/static/blogs/devto-making-chaos-engineering-accessible-introducing-the-litmuschaos.webp",
+      "link": "https://dev.to/litmus-chaos/making-chaos-engineering-accessible-introducing-the-litmuschaos-mcp-server-kif",
+      "source": "Dev.to",
+      "year": 2025,
+      "date": "2025-10-28"
+    },
+    {
+      "title": "LitmusChaos Community Highlights - September 2025 Recap",
+      "subtitle": "An exciting month for LitmusChaos: insightful community calls, growing GitHub activity, and gearing up for Litmus 4.0 and Hacktoberfest.",
+      "image": "/static/blogs/devto-litmuschaos-community-highlights-september-2025-recap.webp",
+      "link": "https://dev.to/litmus-chaos/litmuschaos-community-highlights-september-2025-recap-e0c",
+      "source": "Dev.to",
+      "year": 2025,
+      "date": "2025-10-23"
+    },
+    {
+      "title": "I improved the Developer Experience of Litmus Documentation",
+      "subtitle": "My first contribution to the LitmusChaos documentation after joining Harness, and why small DX changes in docs can make a big difference.",
+      "image": "/static/blogs/devto-i-improved-the-developer-experience-of-litmus-documentation.webp",
+      "link": "https://dev.to/priteshkiri/i-improved-the-developer-experience-of-litmus-documentation-1hgi",
+      "source": "Dev.to",
+      "year": 2025,
+      "date": "2025-10-22"
+    },
+    {
+      "title": "Harness Celebrates Hacktoberfest with LitmusChaos",
+      "subtitle": "Harness and the LitmusChaos community welcome contributors with curated issues, mentorship, and recognition tied to the Litmus 4.0 roadmap.",
+      "image": "/static/blogs/harness-harness-celebrates-hacktoberfest-with-litmuschaos.png",
+      "link": "https://www.harness.io/blog/harness-celebrates-hacktoberfest-with-litmuschaos",
+      "source": "Harness",
+      "year": 2025,
+      "date": "2025-10-01"
+    }
+  ],
+  "2024": [
+    {
+      "title": "Building an Ed-Tech Sales CRM using ToolJet",
+      "subtitle": "A step-by-step tutorial on building an Ed-Tech sales CRM using ToolJet and ToolJet Database to streamline customer interactions.",
+      "image": "/static/blogs/devto-building-an-ed-tech-sales-crm-using-tooljet.webp",
+      "link": "https://dev.to/tooljet/building-an-ed-tech-sales-crm-using-tooljet-3e2i",
+      "source": "Dev.to",
+      "year": 2024,
+      "date": "2024-06-11"
+    },
+    {
+      "title": "HashX - Access Hashnode Blogs on every webpage",
+      "subtitle": "HashX is a Chrome extension built on top of the Hashnode APIs that lets you read any Hashnode blog from any webpage you visit.",
+      "image": "/static/blogs/hashnode-hashx-access-hashnode-blogs-on-every-webpage.png",
+      "link": "https://priteshkiri.hashnode.dev/hashx-access-hashnode-blogs-on-every-webpage",
+      "source": "Hashnode",
+      "year": 2024,
+      "date": "2024-02-03"
+    },
+    {
+      "title": "Day 16 - Happy ending :)",
+      "subtitle": "Wrapping up HashX for the Hashnode Hackathon: long days, last-minute polish, and shipping the final release.",
+      "image": "/static/blogs/hashnode-day-16-happy-ending.png",
+      "link": "https://priteshkiri.hashnode.dev/day-16-happy-ending",
+      "source": "Hashnode",
+      "year": 2024,
+      "date": "2024-02-02"
+    },
+    {
+      "title": "Day 15 - Just another Bug Fix Day :)",
+      "subtitle": "After significant UI changes, testing across multiple websites uncovered bugs that needed fixing to make HashX a perfect product.",
+      "image": "/static/blogs/hashnode-day-15-just-another-bug-fix-day.png",
+      "link": "https://priteshkiri.hashnode.dev/day-15-just-another-bug-fix-day",
+      "source": "Hashnode",
+      "year": 2024,
+      "date": "2024-02-01"
+    },
+    {
+      "title": "Day 14 - And one more major bug :/",
+      "subtitle": "HashX is now under review on the Chrome Store, but a final round of testing surfaces yet another major bug to track down.",
+      "image": "/static/blogs/hashnode-day-14-and-one-more-major-bug.png",
+      "link": "https://priteshkiri.hashnode.dev/day-14-and-one-more-major-bug",
+      "source": "Hashnode",
+      "year": 2024,
+      "date": "2024-01-31"
+    },
+    {
+      "title": "Day 13 - Yay! Extension submitted for review",
+      "subtitle": "Submitting HashX for Chrome Web Store review, navigating restrictions, manifest requirements, and the submission flow.",
+      "image": "/static/blogs/hashnode-day-13-yay-extension-submitted-for-review.png",
+      "link": "https://priteshkiri.hashnode.dev/day-13-yay-extension-submitted-for-review",
+      "source": "Hashnode",
+      "year": 2024,
+      "date": "2024-01-30"
+    },
+    {
+      "title": "Day 12 - Work Work Work!!!",
+      "subtitle": "16+ hours of testing and polish on HashX. By the end of the day the extension finally felt seamless and ready to ship.",
+      "image": "/static/blogs/hashnode-day-12-work-work-work.png",
+      "link": "https://priteshkiri.hashnode.dev/day-12-work-work-work",
+      "source": "Hashnode",
+      "year": 2024,
+      "date": "2024-01-29"
+    },
+    {
+      "title": "Day 11 - Completed Search User feature",
+      "subtitle": "Building HashX's final feature, a user search experience, taking 5-6 hours to design the logic and integrate it into the extension.",
+      "image": "/static/blogs/hashnode-day-11-completed-search-user-feature.png",
+      "link": "https://priteshkiri.hashnode.dev/day-11-completed-search-user-feature",
+      "source": "Hashnode",
+      "year": 2024,
+      "date": "2024-01-28"
+    },
+    {
+      "title": "Day 10 - Hard work pays off!!",
+      "subtitle": "A satisfying day of replacing complex implementations with simpler ones. Sometimes the best fix is dropping the libraries you didn't need.",
+      "image": "/static/blogs/hashnode-day-10-hard-work-pays-off.png",
+      "link": "https://priteshkiri.hashnode.dev/day-10-hard-work-pays-off",
+      "source": "Hashnode",
+      "year": 2024,
+      "date": "2024-01-27"
+    },
+    {
+      "title": "Day 9 - Struggles with Authentication",
+      "subtitle": "A Republic Day outing followed by a long evening fighting with Chrome extension authentication for HashX.",
+      "image": "/static/blogs/hashnode-day-9-struggles-with-authentication.png",
+      "link": "https://priteshkiri.hashnode.dev/day-9-struggles-with-authentication",
+      "source": "Hashnode",
+      "year": 2024,
+      "date": "2024-01-26"
+    },
+    {
+      "title": "Day 8 - Conflict of interest!!",
+      "subtitle": "After 80% of HashX is built, rethinking the feed experience for authenticated users to make it feel personalized and useful.",
+      "image": "/static/blogs/hashnode-day-8-conflict-of-interest.png",
+      "link": "https://priteshkiri.hashnode.dev/day-8-conflict-of-interest",
+      "source": "Hashnode",
+      "year": 2024,
+      "date": "2024-01-25"
+    },
+    {
+      "title": "Day 7 - Done building Heart of HashX",
+      "subtitle": "Finishing the entire feed section and blog layout for HashX. The core experience is finally in place with great UI polish.",
+      "image": "/static/blogs/hashnode-day-7-done-building-heart-of-hashx.png",
+      "link": "https://priteshkiri.hashnode.dev/day-7-done-building-heart-of-hashx",
+      "source": "Hashnode",
+      "year": 2024,
+      "date": "2024-01-24"
+    },
+    {
+      "title": "Day 6 - Completed the Profile and login sections",
+      "subtitle": "Building HashX's logout flow plus profile and login layouts, with a deep dive into Hashnode's GraphQL API integrations.",
+      "image": "/static/blogs/hashnode-day-6-completed-the-profile-and-login-sections.png",
+      "link": "https://priteshkiri.hashnode.dev/day-6-completed-the-profile-and-login-sections",
+      "source": "Hashnode",
+      "year": 2024,
+      "date": "2024-01-23"
+    },
+    {
+      "title": "Day 5 - Getting Started with the Authentication",
+      "subtitle": "With HashX's basic architecture in place, beginning the work of integrating Hashnode authentication into the Chrome extension.",
+      "image": "/static/blogs/hashnode-day-5-getting-started-with-the-authentication.png",
+      "link": "https://priteshkiri.hashnode.dev/day-5-getting-started-with-the-authentication",
+      "source": "Hashnode",
+      "year": 2024,
+      "date": "2024-01-22"
+    },
+    {
+      "title": "Day 4 - Setting up the architecture",
+      "subtitle": "A hectic day setting up the entire HashX extension architecture, scaffolding the foundation for everything to come.",
+      "image": "/static/blogs/hashnode-day-4-setting-up-the-architecture.png",
+      "link": "https://priteshkiri.hashnode.dev/day-4-setting-up-the-architecture",
+      "source": "Hashnode",
+      "year": 2024,
+      "date": "2024-01-21"
+    },
+    {
+      "title": "Day 3 - Improving the scope of work",
+      "subtitle": "Between a DevRel meetup and the ReactPlay Bangalore meetup, refining the scope of HashX so the build is realistic and shippable.",
+      "image": "/static/blogs/hashnode-day-3-improving-the-scope-of-work.png",
+      "link": "https://priteshkiri.hashnode.dev/day-3-improving-the-scope-of-work",
+      "source": "Hashnode",
+      "year": 2024,
+      "date": "2024-01-20"
+    },
+    {
+      "title": "Day 2 - Exploring GraphQL and Hashnode APIs",
+      "subtitle": "Day 2 of the Hashnode hackathon: exploring GraphQL and the Hashnode API to figure out exactly which features to build into HashX.",
+      "image": "/static/blogs/hashnode-day-2-exploring-graphql-and-hashnode-apis.png",
+      "link": "https://priteshkiri.hashnode.dev/day-2-exploring-graphql-and-hashnode-apis",
+      "source": "Hashnode",
+      "year": 2024,
+      "date": "2024-01-19"
+    },
+    {
+      "title": "Day 1 - Intro To Hashnode Hackathon",
+      "subtitle": "Day 1 of the Hashnode hackathon: discovering the announcement, getting excited, and figuring out what to build for the event.",
+      "image": "/static/blogs/hashnode-day-1-intro-to-hashnode-hackathon.png",
+      "link": "https://priteshkiri.hashnode.dev/day-1-intro-to-hashnode-hackathon",
+      "source": "Hashnode",
+      "year": 2024,
+      "date": "2024-01-18"
+    }
+  ],
+  "2023": [
+    {
+      "title": "TaskTunes: One-stop to your productivity!",
+      "subtitle": "Building TaskTunes for the Appwrite Hashnode Hackathon: a productivity app that combines a task manager, music player, and Pomodoro timer.",
+      "image": "/static/blogs/hashnode-tasktunes-one-stop-to-your-productivity.png",
+      "link": "https://priteshkiri.hashnode.dev/tasktunes-one-stop-to-your-productivity",
+      "source": "Hashnode",
+      "year": 2023,
+      "date": "2023-06-15"
+    },
+    {
+      "title": "Array methods you should know before getting started with React",
+      "subtitle": "A practical walkthrough of the JavaScript array methods every React developer should know before diving into components and state.",
+      "image": "/static/blogs/hashnode-array-methods-you-should-know-before-getting-started-with-rea.png",
+      "link": "https://priteshkiri.hashnode.dev/array-methods-you-should-know-before-getting-started-with-react",
+      "source": "Hashnode",
+      "year": 2023,
+      "date": "2023-03-31"
+    },
+    {
+      "title": "Limitations of the CSS Property text-transform: capitalize",
+      "subtitle": "A deep dive into the text-transform property in CSS and the surprising limitations of capitalize when working with real-world content.",
+      "image": "/static/blogs/hashnode-limitations-of-the-css-property-text-transform-capitalize.png",
+      "link": "https://priteshkiri.hashnode.dev/limitations-of-the-css-property-text-transform-capitalize",
+      "source": "Hashnode",
+      "year": 2023,
+      "date": "2023-03-26"
+    }
+  ]
+}

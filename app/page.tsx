@@ -4,6 +4,7 @@ import Image from "next/image";
 import ChannelLink from "./components/channelLinks";
 import ContentCard from "./components/contentCard";
 import Footer from "./components/footer";
+import PartnerMarquee from "./components/partnerMarquee";
 import contentData from "./data/content.json";
 
 export default function Page() {
@@ -13,7 +14,10 @@ export default function Page() {
         hey,&nbsp;&nbsp;I&apos;m Pritesh 👋
       </h1>
       <p className="prose prose-neutral dark:prose-invert">
-        {`I'm a developer by heart. I love creating videos, building communities, and speaking/hosting events. I work at `}
+        {`I'm a developer by heart. I love creating videos, building communities, and speaking/hosting events. `}
+       <br />
+       <br />
+        {`I work at `}
         <Link target="_blank" href="https://www.harness.io/" className="my-link">
           Harness
         </Link>
@@ -94,6 +98,8 @@ export default function Page() {
         </div>
       </div>
 
+      <PartnerMarquee />
+
       <div className="prose prose-neutral dark:prose-invert">
         <p>
         I’m a fitness enthusiast from Gujarat who loves hitting the gym and being outdoors. I like keeping life active, simple, and full of good energy.
@@ -115,7 +121,6 @@ export default function Page() {
             className="w-full"
             style={{ minHeight: '380px', border: 'none' }}
             scrolling="no"
-            allowTransparency={true}
           />
         </div>
         <div className="flex justify-center mt-4">
@@ -212,7 +217,9 @@ export default function Page() {
             title={talk.title}
             subtitle={talk.subtitle}
             image={talk.image}
-            link={talk.link}
+            post={talk.post}
+            blog={talk.blog}
+            video={talk.video}
             from={talk.from}
           />
         ))}

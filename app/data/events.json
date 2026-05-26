@@ -1,59 +1,224 @@
 {
+  "2026": [
+    {
+      "title": "Hosted MongoDB Meetup with Namma MUG @Harness",
+      "subtitle": "Hosted an amazing meetup with Namma MUG (MongoDB User Group) Bengaluru at the Harness office, where 70+ MongoDB enthusiasts came together to learn, network and share ideas.",
+      "image": "/static/events/event-33-mongodb-harness-2026.jpg",
+      "post": "https://www.linkedin.com/posts/pritesh-kiri_last-weekend-we-hosted-an-amazing-meetup-activity-7462724884008288257-XOpB?utm_source=share&utm_medium=member_desktop&rcm=ACoAACUf2UIBz0gedK0--YhFwk0JRJUXuvIRH9o",
+      "badge": "MongoDB",
+      "category": "Harness",
+      "year": 2026
+    },
+    {
+      "title": "Hosted 24th ReactPlay Meetup @Paytm",
+      "subtitle": "On 17th May, I hosted 90+ amazing developers at the Paytm office for the May edition of ReactPlay Bangalore, a day full of learning, networking and great talks.",
+      "image": "/static/events/event-32-paytm-2026.jpg",
+      "post": "https://www.linkedin.com/posts/pritesh-kiri_yesterday-i-hosted-90-amazing-developers-activity-7461643293139836928-u2ce?utm_source=share&utm_medium=member_desktop&rcm=ACoAACUf2UIBz0gedK0--YhFwk0JRJUXuvIRH9o",
+      "blog": "https://www.linkedin.com/pulse/reactplay-x-paytm-may-meetup-full-learning-fun-pritesh-kiri-gjxgc",
+      "badge": "Paytm",
+      "category": "ReactPlay",
+      "year": 2026
+    },
+    {
+      "title": "Hosted 4th Resilience Testing Meetup @Harness",
+      "subtitle": "110+ people showed up at the 4th Resilience Testing Meetup at the Harness office, hosted in collaboration with the Platform and Resilience Engineering community.",
+      "image": "/static/events/event-31-resilience-4-harness-2026.jpg",
+      "post": "https://www.linkedin.com/posts/pritesh-kiri_110-people-showed-up-at-the-4th-resilience-activity-7459078518870757376-loMH?utm_source=share&utm_medium=member_desktop&rcm=ACoAACUf2UIBz0gedK0--YhFwk0JRJUXuvIRH9o",
+      "badge": "Harness",
+      "category": "Harness",
+      "year": 2026
+    },
+    {
+      "title": "Hosted AI Collective DevOps AI Meetup @Harness",
+      "subtitle": "Hosted a DevOps AI meetup with the AI Collective community at the Harness office, bringing developers together to talk about the intersection of AI and DevOps.",
+      "image": "/static/events/event-30-ai-collective-devops-2026.jpg",
+      "post": "https://www.linkedin.com/posts/pritesh-kiri_last-saturday-we-hosted-a-devops-ai-meetup-activity-7454380387759312896-GICu?utm_source=share&utm_medium=member_desktop&rcm=ACoAACUf2UIBz0gedK0--YhFwk0JRJUXuvIRH9o",
+      "badge": "Harness",
+      "category": "Harness",
+      "year": 2026
+    },
+    {
+      "title": "Hosted 3rd Resilience Testing Meetup @Harness",
+      "subtitle": "Hosted the 3rd Resilience Testing Meetup at the Harness office in collaboration with the Cloud Computing Circle community.",
+      "image": "/static/events/event-29-resilience-3-harness-2026.jpg",
+      "post": "https://www.linkedin.com/posts/pritesh-kiri_last-weekend-we-hosted-our-3rd-resilience-activity-7451830763270053888-ZLw6?utm_source=share&utm_medium=member_desktop&rcm=ACoAACUf2UIBz0gedK0--YhFwk0JRJUXuvIRH9o",
+      "badge": "Harness",
+      "category": "Harness",
+      "year": 2026
+    },
+    {
+      "title": "Hosted 23rd ReactPlay Meetup @Amadeus",
+      "subtitle": "On 18th April, 80+ developers showed up for the 23rd ReactPlay Bangalore meetup at the Amadeus office for a day of great talks and conversations.",
+      "image": "/static/events/event-28-amadeus-2026.jpg",
+      "post": "https://www.linkedin.com/posts/pritesh-kiri_80-developers-showed-up-for-the-reactplay-activity-7451499862811967488-ESlv?utm_source=share&utm_medium=member_desktop&rcm=ACoAACUf2UIBz0gedK0--YhFwk0JRJUXuvIRH9o",
+      "blog": "https://www.linkedin.com/pulse/reason-i-love-hosting-meetup-ft-reactplay-23rd-pritesh-kiri-wkpfc",
+      "badge": "Amadeus",
+      "category": "ReactPlay",
+      "year": 2026
+    },
+    {
+      "title": "Hosted Agents & APIs Meetup with Postman @Harness",
+      "subtitle": "On 28th March, 90+ developers showed up at the Harness office for the Agents & APIs meetup co-hosted with Postman.",
+      "image": "/static/events/event-26-postman-2026.jpg",
+      "post": "https://www.linkedin.com/posts/pritesh-kiri_90-developers-showed-up-last-saturday-at-activity-7444231471747194880-hrsz?utm_source=share&utm_medium=member_desktop&rcm=ACoAACUf2UIBz0gedK0--YhFwk0JRJUXuvIRH9o",
+      "badge": "Postman",
+      "category": "Harness",
+      "year": 2026
+    },
+    {
+      "title": "Hosted 22nd ReactPlay Meetup @CodeRabbit",
+      "subtitle": "On 22nd March, 85 developers, 5 talks, and 4 hours of pure ReactPlay energy at the CodeRabbit office in Bangalore.",
+      "image": "/static/events/event-25-coderabbit-2026.jpg",
+      "post": "https://www.linkedin.com/posts/pritesh-kiri_85-developers-5-talks-and-4-hours-that-activity-7441329066768699393-x8Ds?utm_source=share&utm_medium=member_desktop&rcm=ACoAACUf2UIBz0gedK0--YhFwk0JRJUXuvIRH9o",
+      "blog": "https://www.linkedin.com/pulse/behind-scenes-my-22nd-reactplay-meetup-story-pritesh-kiri-jffdc",
+      "badge": "CodeRabbit",
+      "category": "ReactPlay",
+      "year": 2026
+    },
+    {
+      "title": "Emcee at CloudxAI Conference by Cast AI",
+      "subtitle": "On 14th March, I had the chance to be the Emcee at the CloudxAI conference by Cast AI, an incredible day of conversations on cloud and AI.",
+      "image": "/static/events/event-27-cloudxai-castai-2026.jpg",
+      "post": "https://www.linkedin.com/posts/pritesh-kiri_still-taking-it-all-in-had-an-amazing-activity-7445678469147160577-0edm?utm_source=share&utm_medium=member_desktop&rcm=ACoAACUf2UIBz0gedK0--YhFwk0JRJUXuvIRH9o",
+      "badge": "CloudXAI",
+      "category": "Emcee",
+      "year": 2026
+    },
+    {
+      "title": "Hosted Edge Security AI Meetup with Kong @Harness",
+      "subtitle": "Hosted my first Edge Security AI meetup with the Kong community at the Harness office in Bangalore.",
+      "image": "/static/events/event-24-edge-security-kong-2026.jpg",
+      "post": "https://www.linkedin.com/posts/pritesh-kiri_hosted-my-first-edge-security-ai-meetup-activity-7434094218488225792-ltQ8?utm_source=share&utm_medium=member_desktop&rcm=ACoAACUf2UIBz0gedK0--YhFwk0JRJUXuvIRH9o",
+      "badge": "Kong",
+      "category": "Harness",
+      "year": 2026
+    },
+    {
+      "title": "Hosted 2nd Resilience Testing Meetup @Harness",
+      "subtitle": "Saturday morning, 90+ people, full house at the 2nd Resilience Testing Meetup at the Harness office, this one was on another level.",
+      "image": "/static/events/event-23-resilience-harness-2026.jpg",
+      "post": "https://www.linkedin.com/posts/pritesh-kiri_saturday-morning-90-people-full-house-activity-7431537045245931521-yx8q?utm_source=share&utm_medium=member_desktop&rcm=ACoAACUf2UIBz0gedK0--YhFwk0JRJUXuvIRH9o",
+      "blog": "https://www.linkedin.com/pulse/my-2nd-resilience-meetup-harness-another-level-pritesh-kiri-wthbc",
+      "badge": "Harness",
+      "category": "Harness",
+      "year": 2026
+    },
+    {
+      "title": "Hosted 21st ReactPlay Meetup @IBM",
+      "subtitle": "On 21st February, I hosted the biggest ReactPlay meetup in history with 200+ developers joining us at the IBM office in Bangalore.",
+      "image": "/static/events/event-22-ibm-2026.jpg",
+      "post": "https://www.linkedin.com/posts/pritesh-kiri_i-hosted-the-biggestreactplaymeetup-in-activity-7431329878509256704-RVpq?utm_source=share&utm_medium=member_desktop&rcm=ACoAACUf2UIBz0gedK0--YhFwk0JRJUXuvIRH9o",
+      "blog": "https://www.linkedin.com/pulse/my-largest-meetup-ever-happened-ibm-pritesh-kiri-u9y8c",
+      "badge": "IBM",
+      "category": "ReactPlay",
+      "year": 2026
+    },
+    {
+      "title": "Hosted 20th ReactPlay Meetup @ZopDev",
+      "subtitle": "On Saturday, 31st January, I hosted the first ReactPlay Bangalore meetup of the year and the 20th in the series at the ZopDev office.",
+      "image": "/static/events/event-21-zopdev-2026.jpg",
+      "post": "https://www.linkedin.com/posts/pritesh-kiri_still-soaking-this-in-last-saturday-activity-7423947814516408321-Qdx_?utm_source=share&utm_medium=member_desktop&rcm=ACoAACUf2UIBz0gedK0--YhFwk0JRJUXuvIRH9o",
+      "blog": "https://www.linkedin.com/pulse/hosted-20th-reactplay-bangalore-meetup-zopdev-office-pritesh-kiri-b2oac",
+      "badge": "ZopDev",
+      "category": "ReactPlay",
+      "year": 2026
+    }
+  ],
   "2025": [
     {
-      "title": "Hosted 18th ReactPlay Meetup @Kanini office",
-      "subtitle": "On 15th November, I hosted the ReactPlay November Meetup at Kanini's office in Bangalore with Tapas Adhikary (founder of ReactPlay), and honestly, it was a blast.",
-      "image": "https://media.licdn.com/dms/image/v2/D5612AQG1osElPtz92w/article-cover_image-shrink_720_1280/B56ZqM8F37I4AI-/0/1763301157781?e=1764806400&v=beta&t=B0N_eg_S7nFs4JW0C4xp6yTeinRA30RUFlRI9C_29HY",
-      "link": "https://www.linkedin.com/pulse/17th-reactplay-meetup-kanini-office-pritesh-kiri-wzykc/?trackingId=gFcvzT1fSNi1k%2FopNOwXmA%3D%3D",
+      "title": "Hosted 19th ReactPlay Meetup @CashFree",
+      "subtitle": "The December ReactPlay meetup at the CashFree office was the 19th in the series and an evening full of great talks, energy and conversations.",
+      "image": "/static/events/event-20-cashfree-2025.jpg",
+      "post": "https://www.linkedin.com/feed/update/urn:li:activity:7406262174727208960/",
+      "blog": "https://www.linkedin.com/pulse/19th-reactplay-meetup-cashfree-office-pritesh-kiri-btv9c",
+      "video": "https://www.linkedin.com/posts/cashfree_where-does-ai-actually-save-time-for-frontend-ugcPost-7411660768066236417-Qgll?utm_source=share&utm_medium=member_desktop&rcm=ACoAACUf2UIBz0gedK0--YhFwk0JRJUXuvIRH9o",
+      "badge": "CashFree",
+      "category": "ReactPlay",
       "year": 2025
     },
     {
-      "title": "Hosted Hacktoberfest 2025 at Harness Office",
+      "title": "Hosted 1st Resilience Testing Meetup @Harness",
+      "subtitle": "On 6th December, 80+ engineers joined our first ever Resilience Testing Meetup at the new Harness office in Bangalore.",
+      "image": "/static/events/event-19-resilience-harness-2025.jpg",
+      "post": "https://www.linkedin.com/posts/pritesh-kiri_80-engineers-joined-our-first-resilience-activity-7403432758326280192-KMBF?utm_source=share&utm_medium=member_desktop&rcm=ACoAACUf2UIBz0gedK0--YhFwk0JRJUXuvIRH9o",
+      "blog": "https://www.linkedin.com/pulse/my-first-resilience-testing-meetup-new-harness-office-pritesh-kiri-mwcqc",
+      "badge": "Harness",
+      "category": "Harness",
+      "year": 2025
+    },
+    {
+      "title": "Hosted 18th ReactPlay Meetup @Kanini office",
+      "subtitle": "On 15th November, I hosted the ReactPlay November Meetup at Kanini's office in Bangalore with Tapas Adhikary (founder of ReactPlay), and honestly, it was a blast.",
+      "image": "/static/events/event-18-kanini-2025.jpg",
+      "post": "https://www.linkedin.com/pulse/17th-reactplay-meetup-kanini-office-pritesh-kiri-wzykc/?trackingId=gFcvzT1fSNi1k%2FopNOwXmA%3D%3D",
+      "badge": "Kanini",
+      "category": "ReactPlay",
+      "year": 2025
+    },
+    {
+      "title": "Hosted 17th ReactPlay Meetup - Hacktoberfest 2025 at Harness Office",
       "subtitle": "130+ developers joined us at Harness office in Bangalore for Hacktoberfest 2025",
-      "image": "https://i.ytimg.com/vi/RPXbq4pypns/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDTVoPfSWeQjOy6TtsMRjaSJNL4qg",
-      "link": "https://www.youtube.com/watch?v=RPXbq4pypns",
+      "image": "/static/events/event-17-hacktoberfest-2025.jpg",
+      "post": "https://www.linkedin.com/posts/pritesh-kiri_hacktoberfest-2025-activity-7257264777079476224-k010",
+      "blog": "https://www.linkedin.com/pulse/hosted-hacktoberfest-workshop-litmuschaos-reactplay-communities-kiri-4ilxc/?trackingId=cf9U%2FsOWTmKp9FCIfCnJSg%3D%3D",
+      "video": "https://www.youtube.com/watch?v=RPXbq4pypns",
+      "badge": "Harness",
+      "category": "ReactPlay",
       "year": 2025
     },
     {
       "title": "Hosted 16th ReactPlay Meetup @Razorpay",
       "subtitle": "On 20th September, I hosted the 16th ReactPlay Meetup with Tapas Adhikary (founder of ReactPlay), and this time we were at the Razorpay office.",
-      "image": "https://media.licdn.com/dms/image/v2/D5612AQGSWOj6I09seA/article-cover_image-shrink_720_1280/B56ZlsqxErIsAI-/0/1758464776243?e=1764806400&v=beta&t=ILU73JOHwV5J1vO2doyDdtk75RCqXPEU3_TX1G8K-d0",
-      "link": "https://www.linkedin.com/pulse/17th-reactplay-meetup-razorpay-pritesh-kiri-2xfsc/?trackingId=LzRkpuVWQWmObWR8FJjjBg%3D%3D",
+      "image": "/static/events/event-16-razorpay-2025.jpg",
+      "post":"https://www.linkedin.com/feed/update/urn:li:activity:7375202096280821760/",
+      "blog": "https://www.linkedin.com/pulse/17th-reactplay-meetup-razorpay-pritesh-kiri-2xfsc/?trackingId=LzRkpuVWQWmObWR8FJjjBg%3D%3D",
+      "badge": "Razorpay",
+      "category": "ReactPlay",
       "year": 2025
     },
     {
       "title": "EMcee at React Nexus 2025",
       "subtitle": "600+ developers joined us at React Nexus 3.0 for 3 days in Bangalore and I got to be the EMcee for the event.",
-      "image": "https://media.licdn.com/dms/image/v2/D5622AQGwye9Lm256Ug/feedshare-shrink_2048_1536/B56ZgIwTxXHUAs-/0/1752493544114?e=1764806400&v=beta&t=eodQIw6b0tjJ1cA_2yBAkcIANdKdM2rUPIEJjzJONp0",
-      "link": "https://www.linkedin.com/posts/pritesh-kiri_this-was-one-of-the-best-experiences-of-my-activity-7350490764671414275-G-5T?utm_source=share&utm_medium=member_desktop&rcm=ACoAACUf2UIBz0gedK0--YhFwk0JRJUXuvIRH9o",
+      "image": "/static/events/event-emcee-react-nexus-2025.jpg",
+      "post": "https://www.linkedin.com/posts/pritesh-kiri_this-was-one-of-the-best-experiences-of-my-activity-7350490764671414275-G-5T?utm_source=share&utm_medium=member_desktop&rcm=ACoAACUf2UIBz0gedK0--YhFwk0JRJUXuvIRH9o",
+      "badge": "React Nexus",
+      "category": "Emcee",
       "year": 2025
     },
     {
       "title": "Hosted 15th Reactplay meetup @DevRev",
       "subtitle": "On 21st June, I hosted the 15th ReactPlay Meetup with Tapas Adhikary (founder of ReactPlay), and this time we were at the DevRev office.",
-      "image": "https://media.licdn.com/dms/image/v2/D5622AQHvIZwrXM0MYA/feedshare-shrink_2048_1536/B56ZeimWyjH8Ao-/0/1750779661374?e=1764806400&v=beta&t=RhZWSrJggQLE9a_jrKBsxa5UWROoQDQdAxC7ZLYrxdI",
-      "link": "https://www.linkedin.com/posts/reactplay_glimpses-of-the-reactplay-june-meetup-activity-7343302162531172353-nFCD?utm_source=share&utm_medium=member_desktop&rcm=ACoAACUf2UIBz0gedK0--YhFwk0JRJUXuvIRH9o",
+      "image": "/static/events/event-15-devrev-2025.jpg",
+      "post": "https://www.linkedin.com/posts/reactplay_glimpses-of-the-reactplay-june-meetup-activity-7343302162531172353-nFCD?utm_source=share&utm_medium=member_desktop&rcm=ACoAACUf2UIBz0gedK0--YhFwk0JRJUXuvIRH9o",
+      "badge": "DevRev",
+      "category": "ReactPlay",
       "year": 2025
     },
     {
       "title": "Hosted 14th ReactPlay meetup @Contentstack",
       "subtitle": "On 17th May, in collaboration with React Banglore community, I hosted the 14th ReactPlay Meetup with Tapas Adhikary (founder of ReactPlay), and this time we were at the Contentstack office.",
-      "image": "https://media.licdn.com/dms/image/v2/D5622AQGVLUjGeKrjng/feedshare-shrink_800/B56Zbtyp_.GsAk-/0/1747746215642?e=1764806400&v=beta&t=VwvtVrXclyj1qe_etkNUbhK_0NadZNj_4fLHaXKv3G4",
-      "link": "https://www.linkedin.com/posts/reactplay_glimpses-of-the-reactplay-may-meetup-ugcPost-7330578968791658496-IUcC?utm_source=share&utm_medium=member_desktop&rcm=ACoAACUf2UIBz0gedK0--YhFwk0JRJUXuvIRH9o",
+      "image": "/static/events/event-14-contentstack-2025.jpg",
+      "post": "https://www.linkedin.com/posts/reactplay_glimpses-of-the-reactplay-may-meetup-ugcPost-7330578968791658496-IUcC?utm_source=share&utm_medium=member_desktop&rcm=ACoAACUf2UIBz0gedK0--YhFwk0JRJUXuvIRH9o",
+      "badge": "Contentstack",
+      "category": "ReactPlay",
       "year": 2025
     },
     {
       "title": "Hosted 13th ReactPlay meetup with Imagekit",
       "subtitle": "On 15th of Feb, We hosted 80+ developers at Bhive (Bengaluru) in collaboration with Imagekit",
-      "image": "https://media.licdn.com/dms/image/v2/D5622AQHbI4IoOqDulA/feedshare-shrink_2048_1536/B56ZUy4yHlGQAo-/0/1740315509070?e=1764806400&v=beta&t=Bf_qwbGKhnujLkt0CM8VkLnGul81RHUl22Sfc68B6bE",
-      "link": "https://www.linkedin.com/posts/reactplay_glimpses-of-the-reactplay-feb-25-meetup-activity-7299412316293320704-ELo0?utm_source=share&utm_medium=member_desktop&rcm=ACoAACUf2UIBz0gedK0--YhFwk0JRJUXuvIRH9o",
+      "image": "/static/events/event-13-imagekit-2025.jpg",
+      "post": "https://www.linkedin.com/posts/reactplay_glimpses-of-the-reactplay-feb-25-meetup-activity-7299412316293320704-ELo0?utm_source=share&utm_medium=member_desktop&rcm=ACoAACUf2UIBz0gedK0--YhFwk0JRJUXuvIRH9o",
+      "badge": "Imagekit",
+      "category": "ReactPlay",
       "year": 2025
     },
     {
       "title": "Hosted 12th ReactPlay meetup @Microsoft",
       "subtitle": "On 11th Jan, I hosted our First meetup of 2025 and 90+ developers joined us at Microsoft office in Bangalore",
-      "image": "https://media.licdn.com/dms/image/v2/D5622AQFeMzPLm15ZBg/feedshare-shrink_2048_1536/B56ZR_dxkxH0As-/0/1737305305782?e=1764806400&v=beta&t=88_mhRyGtLg52NSG8C7mlezaDbqgHjId1s8BLyQk0m4",
-      "link": "https://www.linkedin.com/posts/pritesh-kiri_first-reactplay-bangalore-meetup-of-2025-ugcPost-7286786605707669504-39aN?utm_source=share&utm_medium=member_desktop&rcm=ACoAACUf2UIBz0gedK0--YhFwk0JRJUXuvIRH9o",
+      "image": "/static/events/event-12-microsoft-2025.jpg",
+      "post": "https://www.linkedin.com/posts/pritesh-kiri_first-reactplay-bangalore-meetup-of-2025-ugcPost-7286786605707669504-39aN?utm_source=share&utm_medium=member_desktop&rcm=ACoAACUf2UIBz0gedK0--YhFwk0JRJUXuvIRH9o",
+      "badge": "Microsoft",
+      "category": "ReactPlay",
       "year": 2025
     }
   ],
@@ -61,64 +226,82 @@
     {
       "title": "Hosted 11th ReactPlay meetup @ANSR",
       "subtitle": "On Dec 14th, in collabroation with Talent500 Community, along with 2 amazing speakers we hosted 11th ReactPlay meetup",
-      "image": "https://media.licdn.com/dms/image/v2/D5622AQHHEYr48L5qww/feedshare-shrink_2048_1536/B56ZPon.a0HIAo-/0/1734774614826?e=1764806400&v=beta&t=Jr05UCeCfTLTx4gTF3OhPwvVC1jdvBO-4vnbvrIR980",
-      "link": "https://www.linkedin.com/posts/pritesh-kiri_wrapping-up-2024-with-a-bang-the-reactplay-activity-7276172114829656064-yDFZ?utm_source=share&utm_medium=member_desktop&rcm=ACoAACUf2UIBz0gedK0--YhFwk0JRJUXuvIRH9o",
+      "image": "/static/events/event-11-ansr-2024.jpg",
+      "post": "https://www.linkedin.com/posts/pritesh-kiri_wrapping-up-2024-with-a-bang-the-reactplay-activity-7276172114829656064-yDFZ?utm_source=share&utm_medium=member_desktop&rcm=ACoAACUf2UIBz0gedK0--YhFwk0JRJUXuvIRH9o",
+      "badge": "ANSR",
+      "category": "ReactPlay",
       "year": 2024
     },
     {
       "title": "Hosted 10th ReactPlay meetup, A Casual Tech Meetup",
       "subtitle": "On Oct 26th, I hosted second casual Tech meetup in Cubbon Park, Bangalore",
-      "image": "https://media.licdn.com/dms/image/v2/D5622AQEy-PFivwNOhw/feedshare-shrink_800/feedshare-shrink_800/0/1730266754888?e=1764806400&v=beta&t=cYn-vIfM_GTvrr_-DCgS5eF9ns-F2HDtQdeLkGfG2VA",
-      "link": "https://www.linkedin.com/posts/pritesh-kiri_hosted-my-second-casual-tech-meetup-in-activity-7257264777079476224-k010?utm_source=share&utm_medium=member_desktop&rcm=ACoAACUf2UIBz0gedK0--YhFwk0JRJUXuvIRH9o",
+      "image": "/static/events/event-10-casual-meetup-2024.jpg",
+      "post": "https://www.linkedin.com/posts/pritesh-kiri_hosted-my-second-casual-tech-meetup-in-activity-7257264777079476224-k010?utm_source=share&utm_medium=member_desktop&rcm=ACoAACUf2UIBz0gedK0--YhFwk0JRJUXuvIRH9o",
+      "badge": "Cubbon Park",
+      "category": "ReactPlay",
       "year": 2024
     },
     {
       "title": "Hosted 9th ReactPlay meetup, A Casual Tech Meetup",
       "subtitle": "On Sep 21st, I hosted first casual Tech meetup in Cubbon Park, Bangalore",
-      "image": "https://media.licdn.com/dms/image/v2/D5622AQEXIyzYr9Jh9Q/feedshare-shrink_800/feedshare-shrink_800/0/1727012001484?e=1764806400&v=beta&t=5wqRhmqwKVLbUyb-PArBs8Py5J387KOqoS_TEffx_fg",
-      "link": "https://www.linkedin.com/posts/pritesh-kiri_hosted-my-first-casual-tech-meetup-in-bangalore-activity-7243613351308632067-hk8n?utm_source=share&utm_medium=member_desktop&rcm=ACoAACUf2UIBz0gedK0--YhFwk0JRJUXuvIRH9o",
+      "image": "/static/events/event-9-casual-meetup-2024.jpg",
+      "post": "https://www.linkedin.com/posts/pritesh-kiri_hosted-my-first-casual-tech-meetup-in-bangalore-activity-7243613351308632067-hk8n?utm_source=share&utm_medium=member_desktop&rcm=ACoAACUf2UIBz0gedK0--YhFwk0JRJUXuvIRH9o",
+      "badge": "Cubbon Park",
+      "category": "ReactPlay",
       "year": 2024
     },
     {
       "title": "Hosted 8th ReactPlay meetup with @Lamdatest",
       "subtitle": "On 3rd August, in collaboration with Lamdatest I hosted 120+ Developers in Bangalore",
-      "image": "https://media.licdn.com/dms/image/v2/D5622AQHt8krmrfXLVQ/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1722781803509?e=1764806400&v=beta&t=Wfy8cQ3hY3Y8C-HFLMKdF6uYBwAdHDXe9AOEcjTJqOs",
-      "link": "https://www.linkedin.com/posts/reactplay_glimpses-of-the-reactplay-august-meetup-activity-7225870634830983170-Dr8h?utm_source=share&utm_medium=member_desktop&rcm=ACoAACUf2UIBz0gedK0--YhFwk0JRJUXuvIRH9o",
+      "image": "/static/events/event-8-lambdatest-2024.jpg",
+      "post": "https://www.linkedin.com/posts/reactplay_glimpses-of-the-reactplay-august-meetup-activity-7225870634830983170-Dr8h?utm_source=share&utm_medium=member_desktop&rcm=ACoAACUf2UIBz0gedK0--YhFwk0JRJUXuvIRH9o",
+      "badge": "LambdaTest",
+      "category": "ReactPlay",
       "year": 2024
     },
     {
       "title": "Hosted 7th ReactPlay meetup @DeleteMe",
       "subtitle": "On 15th June, I hosted 7th ReactPlay meetup with DeleteMe in Bangalore",
-      "image": "https://media.licdn.com/dms/image/v2/D5622AQGRxTFdRE6UWA/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1718533861712?e=1764806400&v=beta&t=MHWKdyxnhw05zSevZNgCEcnSb3gfSZg9r6ut79-OmXs",
-      "link": "https://www.linkedin.com/posts/reactplay_glimpse-of-the-june-meetup-awesome-talks-ugcPost-7208053466936590337-AL6H?utm_source=share&utm_medium=member_desktop&rcm=ACoAACUf2UIBz0gedK0--YhFwk0JRJUXuvIRH9o",
+      "image": "/static/events/event-7-deleteme-2024.jpg",
+      "post": "https://www.linkedin.com/posts/reactplay_glimpse-of-the-june-meetup-awesome-talks-ugcPost-7208053466936590337-AL6H?utm_source=share&utm_medium=member_desktop&rcm=ACoAACUf2UIBz0gedK0--YhFwk0JRJUXuvIRH9o",
+      "badge": "DeleteMe",
+      "category": "ReactPlay",
       "year": 2024
     },
     {
       "title": "Hosted 6th ReactPlay meetup @GeekyAnts",
       "subtitle": "On April 20th, I hosted 6th ReactPlay meetup with GeekyAnts in Bangalore",
-      "image": "https://media.licdn.com/dms/image/v2/D5622AQEY-DcaQiNvpA/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1713769450101?e=1764806400&v=beta&t=jwMLqA6ip3mtN_bFfzFp0XlvIJRkUZgffU2DKOMOPJg",
-      "link": "https://www.linkedin.com/feed/update/urn:li:activity:7188070066083577856/",
+      "image": "/static/events/event-6-geekyants-2024.jpg",
+      "post": "https://www.linkedin.com/feed/update/urn:li:activity:7188070066083577856/",
+      "badge": "GeekyAnts",
+      "category": "ReactPlay",
       "year": 2024
     },
     {
       "title": "Hosted 5th ReactPlay meetup @SenseHQ",
       "subtitle": "On March 9th, I hosted 5th ReactPlay meetup with SenseHQ in Bangalore",
-      "image": "https://media.licdn.com/dms/image/v2/D5622AQG0ZyQX0vGTlw/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1713350741494?e=1764806400&v=beta&t=QeI1H5N8IX6MuRMzadtxz9ieoBvIAVtxeca9fYz2XPY",
-      "link": "https://www.linkedin.com/feed/update/urn:li:activity:7186313879554002946?utm_source=share&utm_medium=member_desktop&rcm=ACoAACUf2UIBz0gedK0--YhFwk0JRJUXuvIRH9o",
+      "image": "/static/events/event-5-sensehq-2024.jpg",
+      "post": "https://www.linkedin.com/feed/update/urn:li:activity:7186313879554002946?utm_source=share&utm_medium=member_desktop&rcm=ACoAACUf2UIBz0gedK0--YhFwk0JRJUXuvIRH9o",
+      "badge": "SenseHQ",
+      "category": "ReactPlay",
       "year": 2024
     },
     {
       "title": "Hosted 4th ReactPlay meetup @HingeHealth",
       "subtitle": "On February 24th, I hosted 4th ReactPlay meetup with HingeHealth in Bangalore",
-      "image": "https://media.licdn.com/dms/image/v2/D5622AQEx-yaaVIptbg/feedshare-shrink_1280/feedshare-shrink_1280/0/1709399359116?e=1764806400&v=beta&t=pqCqxxpNdFZNfveCznfwlxvok51vrspI0SaHpUf-_dE",
-      "link": "https://www.linkedin.com/posts/pritesh-kiri_hosted-reactplay-banglore-february-meetup-activity-7169740579147296770-G3ZS?utm_source=share&utm_medium=member_desktop&rcm=ACoAACUf2UIBz0gedK0--YhFwk0JRJUXuvIRH9o",
+      "image": "/static/events/event-4-hingehealth-2024.jpg",
+      "post": "https://www.linkedin.com/posts/pritesh-kiri_hosted-reactplay-banglore-february-meetup-activity-7169740579147296770-G3ZS?utm_source=share&utm_medium=member_desktop&rcm=ACoAACUf2UIBz0gedK0--YhFwk0JRJUXuvIRH9o",
+      "badge": "HingeHealth",
+      "category": "ReactPlay",
       "year": 2024
     },
     {
       "title": "Hosted 3rd ReactPlay meetup @Razorpay",
       "subtitle": "On January 20th, I hosted 3rd ReactPlay meetup with Razorpay in Bangalore",
-      "image": "https://media.licdn.com/dms/image/v2/D5622AQH_FpQUqzMH3w/feedshare-shrink_1280/feedshare-shrink_1280/0/1707370442201?e=1764806400&v=beta&t=oqjIe4UVwg8ai0eGRk5OoNZTrsv6DSuSaKnsZ5hCZ64",
-      "link": "https://www.youtube.com/watch?v=RPXbq4pypns",
+      "image": "/static/events/event-3-razorpay-2024.jpg",
+      "post": "https://www.instagram.com/p/C2egioaLwGV/?img_index=1",
+      "badge": "Razorpay",
+      "category": "ReactPlay",
       "year": 2024
     }
   ],
@@ -126,17 +309,20 @@
     {
       "title": "Hosted 2nd ReactPlay meetup with LambdaTest",
       "subtitle": "On 17th December, I hosted 2nd ReactPlay meetup with LambdaTest in Bangalore",
-      "image": "https://media.licdn.com/dms/image/v2/D5622AQHw9DIn5HaTfw/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1703137652525?e=1764806400&v=beta&t=7D1kdER1nUArB-MveaI9H4ACraXXZJXCr0fBeEN0fSQ",
-      "link": "https://www.linkedin.com/posts/reactplay_the-last-event-of-2023-was-december-meetup-activity-7142759887951859714-9YKE?utm_source=share&utm_medium=member_desktop&rcm=ACoAACUf2UIBz0gedK0--YhFwk0JRJUXuvIRH9o",
+      "image": "/static/events/event-2-lambdatest-2023.jpg",
+      "post": "https://www.instagram.com/p/C3FThKjRoSF/?img_index=6&igsh=MXV3eW1va2pvYnpycQ==",
+      "badge": "LambdaTest",
+      "category": "ReactPlay",
       "year": 2023
     },
     {
       "title": "Hosted 1st ReactPlay meetup @GeekyAnts",
       "subtitle": "On 18th November, I hosted 1st ReactPlay meetup with GeekyAnts in Bangalore",
-      "image": "https://media.licdn.com/dms/image/v2/D5622AQHPHMxx00ghXw/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1700480613325?e=1764806400&v=beta&t=ZfqXJSpxafguq8ifNUZ1VUA31p1t-M7yMp0dGxEzL0Q",
-      "link": "https://www.linkedin.com/feed/update/urn:li:activity:7132332645643948032/",
+      "image": "/static/events/event-1-geekyants-2023.jpg",
+      "post": "https://www.linkedin.com/feed/update/urn:li:activity:7132332645643948032/",
+      "badge": "GeekyAnts",
+      "category": "ReactPlay",
       "year": 2023
     }
-      
   ]
 }

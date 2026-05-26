@@ -3,43 +3,55 @@
     {
       "title": "Breaking Things before they break you: Chaos Engineering with Litmus",
       "subtitle": "At CNCF Hyderabad event",
-      "image": "https://media.licdn.com/dms/image/v2/D5612AQGHuBI-tb71VQ/article-cover_image-shrink_720_1280/B56ZpNSQQZJ4AI-/0/1762233223213?e=1764806400&v=beta&t=LJY1I4OP1WlTRPXyVq3BCjSKTbM-kU1oo8EtGV7A6lI",
-      "link": "https://www.youtube.com/watch?v=9dtg-5Ab-Io&list=PLPP8t2V7gfl40sZHmzDmtIdOnLNhLnEja&index=2",
+      "image": "/static/talks/talk-1-chaos-engineering-litmus.jpg",
+      "post": "https://www.linkedin.com/posts/cncf-hyderabad_cncfhyderabad-community-meetup-activity-7390317694161649664-pN3u?utm_source=share&utm_medium=member_desktop&rcm=ACoAACUf2UIBz0gedK0--YhFwk0JRJUXuvIRH9o",
+      "blog": "https://www.linkedin.com/pulse/speaking-cncf-hyderabad-november-event-pritesh-kiri-1dxkc/?trackingId=jvD09b8%2FS7u8r3SrnnLwlg%3D%3D",
+      "video": "https://www.youtube.com/watch?v=9dtg-5Ab-Io&list=PLPP8t2V7gfl40sZHmzDmtIdOnLNhLnEja&index=3",
       "year": 2025
     },
     {
       "title": "Litmus MCP server: Chaos Engineering made accessible",
       "subtitle": "At DigitalOcean Hacktoberfest meetup - Hyderabad",
-      "image": "https://media.licdn.com/dms/image/v2/D5612AQEbxa-tJZRKZw/article-inline_image-shrink_1000_1488/B56ZnYTtn1G4AQ-/0/1760270688340?e=1764806400&v=beta&t=C1ImZ_KQJg_60VDHVepRHj8Xu4wpo3XZ5l1Xuy8Qwbg",
-      "link": "https://www.linkedin.com/pulse/hacktoberfest-hackathon-2025-ft-litmuschos-mcp-server-pritesh-kiri-sfldc/?trackingId=gFcvzT1fSNi1k%2FopNOwXmA%3D%3D",
+      "image": "/static/talks/talk-2-litmus-mcp-server.png",
+      "post": "",
+      "blog": "https://www.linkedin.com/pulse/hacktoberfest-hackathon-2025-ft-litmuschos-mcp-server-pritesh-kiri-sfldc/?trackingId=gFcvzT1fSNi1k%2FopNOwXmA%3D%3D",
+      "video": "https://www.youtube.com/watch?v=NO_Vfaqnk7E",
       "year": 2025
     },
     {
       "title": "Panel: Building Communities that Last",
       "subtitle": "At Devrel Con 2024, Bengaluru",
-      "image": "https://media.licdn.com/dms/image/v2/D5622AQEmEXRrCD2pQA/feedshare-shrink_2048_1536/B56ZPLE9vUHoAo-/0/1734278906581?e=1764806400&v=beta&t=QIqRpResXKX7rLXqxvNvCQyxvUxmSx-oohD9-tcHIk8",
-      "link": "https://www.linkedin.com/posts/pritesh-kiri_devrelcon-activity-7274273790115639296-dFMU?utm_source=share&utm_medium=member_desktop&rcm=ACoAACUf2UIBz0gedK0--YhFwk0JRJUXuvIRH9o",
+      "image": "/static/talks/talk-3-devrelcon-panel.jpg",
+      "post": "https://www.linkedin.com/posts/pritesh-kiri_devrelcon-activity-7274273790115639296-dFMU?utm_source=share&utm_medium=member_desktop&rcm=ACoAACUf2UIBz0gedK0--YhFwk0JRJUXuvIRH9o",
+      "blog": "",
+      "video": "",
       "year": 2025
     },
     {
       "title": "How to make most out of Opensource communities?",
       "subtitle": "At Nokia office in Bangalore, Hacktoberfest 2024",
-      "image": "https://media.licdn.com/dms/image/v2/D5622AQFD5Yi6AjRswg/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1729317972753?e=1764806400&v=beta&t=FDjGU4k9ljAzfsJOlG296J8KoN4MiYE0rQjVT3uVciI",
-      "link": "https://www.linkedin.com/posts/pritesh-kiri_had-an-amazing-time-at-the-hacktoberfest-activity-7253285299798081536-zz3g/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACUf2UIBz0gedK0--YhFwk0JRJUXuvIRH9o",
+      "image": "/static/talks/talk-4-opensource-communities.jpg",
+      "post": "https://www.linkedin.com/posts/pritesh-kiri_had-an-amazing-time-at-the-hacktoberfest-activity-7253285299798081536-zz3g/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACUf2UIBz0gedK0--YhFwk0JRJUXuvIRH9o",
+      "blog": "",
+      "video": "",
       "year": 2025
     },
     {
       "title": "What are Memory leaks in React and how to prevent them?",
       "subtitle": "At Hotstar office in Bangalore, hosted by JS lovers community.",
-      "image": "https://media.licdn.com/dms/image/v2/D5622AQEfm2UMA17LgA/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1702530609948?e=1764806400&v=beta&t=_lWUeblVVgBCDF5zcri3YzFp_4V5NtaRazDzORt1gQo",
-      "link": "https://www.linkedin.com/feed/update/urn:li:activity:7140930974967619584/",
+      "image": "/static/talks/talk-5-memory-leaks-react.jpg",
+      "post": "https://www.linkedin.com/feed/update/urn:li:activity:7140930974967619584/",
+      "blog": "",
+      "video": "",
       "year": 2025
     },
     {
       "title": "Buliding an AI chat assitant in 10 mins using Vercel AI SDK",
       "subtitle": "At Geekyants office in Bangalore, hosted by Reactplay community.",
-      "image": "https://media.licdn.com/dms/image/v2/D5622AQE8jB21Be5gFg/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1700480609829?e=1764806400&v=beta&t=KIfDn0PJ897y4LOFkvfe5mixyDsLq7JmhoMoGhXoJ1s",
-      "link": "https://www.linkedin.com/posts/pritesh-kiri_geekyants-reactplaymeetup-offlinemeetup-activity-7132702586188570624-Bmm8",
+      "image": "/static/talks/talk-6-ai-chat-assistant.jpg",
+      "post": "https://www.linkedin.com/posts/pritesh-kiri_geekyants-reactplaymeetup-offlinemeetup-activity-7132702586188570624-Bmm8",
+      "blog": "",
+      "video": "",
       "year": 2023
     }
   ]

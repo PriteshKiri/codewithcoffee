@@ -6,12 +6,13 @@ interface Talk {
   title: string;
   subtitle: string;
   image: string;
-  link: string;
+  post?: string;
+  blog?: string;
+  video?: string;
   year: number;
 }
 
 export default function TalksPage() {
-  // Flatten all talks from all years into a single array
   const allTalks: Talk[] = Object.values(talksData).flat();
 
   return (
@@ -29,7 +30,9 @@ export default function TalksPage() {
             title={talk.title}
             subtitle={talk.subtitle}
             image={talk.image}
-            link={talk.link}
+            post={talk.post}
+            blog={talk.blog}
+            video={talk.video}
             from="default"
           />
         ))}
