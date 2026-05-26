@@ -60,11 +60,11 @@ export default function Page() {
         <Link target="_blank" href="https://www.harness.io/" className="my-link">
           Harness
         </Link>
-        {` as Community Manager, managing the `}
+        {` as Developer Relations Engineer and community manager, managing the `}
         <Link target="_blank" href="https://litmuschaos.io" className="my-link">
           LitmusChaos
         </Link>
-        {` community (a CNCF incubating project). I have 4+ years of experince in tech. I'm also the community head at `}
+        {` community (a CNCF incubating project) and working closely with Harness Engineering team continuously to improve the product and community. I have 4.5+ years of experince in tech. I'm also the community head at `}
         <Link target="_blank" href="https://reactplay.io" className="my-link">
           Reactplay.io
         </Link>
