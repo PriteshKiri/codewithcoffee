@@ -1,6 +1,15 @@
 {
   "2026": [
     {
+      "title": "Reactplay X Paytm: May Meetup Full of Learning and Fun - 24th Meetup",
+      "subtitle": "Hosting two community meetups in a single day: 90+ developers, talks on Type-Safe AI Apps, A2UI, and WebMCP, plus the iconic Paytm Karo moment.",
+      "image": "/static/blogs/linkedin-reactplay-x-paytm-may-meetup.jpg",
+      "link": "https://www.linkedin.com/pulse/reactplay-x-paytm-may-meetup-full-learning-fun-pritesh-kiri-gjxgc/",
+      "source": "LinkedIn",
+      "year": 2026,
+      "date": "2026-05-17"
+    },
+    {
       "title": "Disaster Recovery Testing: A Practical Step-by-Step Guide for 2026",
       "subtitle": "A practical, three-phase lifecycle (plan, execute, review) for building a DR testing program that actually holds up when it matters.",
       "image": "/static/blogs/harness-disaster-recovery-testing-a-practical-step-by-step-guide-for-2.jpg",
@@ -25,7 +34,62 @@
       "link": "https://www.harness.io/blog/load-testing-an-essential-guide-for-2026",
       "source": "Harness",
       "year": 2026,
-      "date": "2026-03-27"
+      "date": "2026-03-27",
+      "featured": true
+    },
+    {
+      "title": "The Story of My First International Talk at FOSS Asia",
+      "subtitle": "Sharing my first ever international talk at FOSSASIA 2026 in Bangkok where I spoke about the LitmusChaos MCP Server on a global stage.",
+      "image": "/static/blogs/linkedin-the-story-of-my-first-international-talk-foss-asia.jpg",
+      "link": "https://www.linkedin.com/pulse/story-my-first-international-talk-foss-asia-pritesh-kiri-j2oac/",
+      "source": "LinkedIn",
+      "year": 2026,
+      "date": "2026-03-23"
+    },
+    {
+      "title": "Behind the Scenes of My 22nd Reactplay Meetup - With a Story",
+      "subtitle": "The story behind hosting the 22nd ReactPlay Bangalore meetup at CodeRabbit office, with two first-time speakers, 85+ attendees, and a small lesson on community etiquette.",
+      "image": "/static/blogs/linkedin-behind-the-scenes-of-22nd-reactplay-meetup.jpg",
+      "link": "https://www.linkedin.com/pulse/behind-scenes-my-22nd-reactplay-meetup-story-pritesh-kiri-jffdc/",
+      "source": "LinkedIn",
+      "year": 2026,
+      "date": "2026-03-22"
+    },
+    {
+      "title": "My 2nd Resilience Meetup at Harness Was on Another Level",
+      "subtitle": "90+ engineers and an all-women speaker panel at the second Resilience Testing meetup at Harness, in collaboration with Cloud Computing Circle and the LitmusChaos community.",
+      "image": "/static/blogs/linkedin-my-2nd-resilience-meetup-at-harness.jpg",
+      "link": "https://www.linkedin.com/pulse/my-2nd-resilience-meetup-harness-another-level-pritesh-kiri-wthbc/",
+      "source": "LinkedIn",
+      "year": 2026,
+      "date": "2026-02-26"
+    },
+    {
+      "title": "My Largest Meetup Ever and It Happened at IBM",
+      "subtitle": "Hosting the biggest ReactPlay meetup yet at IBM with 200+ developers, first-time speakers, a deep React Compiler session, and a memorable Saturday.",
+      "image": "/static/blogs/linkedin-my-largest-meetup-ever-happened-at-ibm.jpg",
+      "link": "https://www.linkedin.com/pulse/my-largest-meetup-ever-happened-ibm-pritesh-kiri-u9y8c/",
+      "source": "LinkedIn",
+      "year": 2026,
+      "date": "2026-02-24"
+    },
+    {
+      "title": "Here is why Open Source Conferences are special to me",
+      "subtitle": "Speaking at DevConf India 2026, my first conference talks: a 45-minute session on LitmusChaos MCP and a lightning talk on building open source communities.",
+      "image": "/static/blogs/linkedin-here-is-why-open-source-conferences-are-special.jpg",
+      "link": "https://www.linkedin.com/pulse/here-why-open-source-conferences-special-me-pritesh-kiri-ufwyc/",
+      "source": "LinkedIn",
+      "year": 2026,
+      "date": "2026-02-17"
+    },
+    {
+      "title": "Hosted 20th Reactplay Bangalore Meetup @ZopDev office",
+      "subtitle": "Kicking off 2026 with the 20th ReactPlay Bangalore meetup at the ZopDev office in HSR, with 90+ attendees and the first meetup co-hosted on Luma.",
+      "image": "/static/blogs/linkedin-hosted-20th-reactplay-bangalore-meetup-zopdev.jpg",
+      "link": "https://www.linkedin.com/pulse/hosted-20th-reactplay-bangalore-meetup-zopdev-office-pritesh-kiri-b2oac/",
+      "source": "LinkedIn",
+      "year": 2026,
+      "date": "2026-02-02"
     },
     {
       "title": "LitmusChaos Q4 2025 update: community, contributions, and project progress",
@@ -34,7 +98,26 @@
       "link": "https://www.cncf.io/blog/2026/01/22/litmuschaos-q4-2025-update-community-contributions-and-project-progress/",
       "source": "CNCF",
       "year": 2026,
-      "date": "2026-01-22"
+      "date": "2026-01-22",
+      "featured": true
+    },
+    {
+      "title": "Speaking at CNCF Kolkata | My First Visit to the City and a Great Community Experience",
+      "subtitle": "My first visit to Kolkata as a speaker at the Cloud Native Kolkata meetup, talking about resilience and the LitmusChaos MCP server as an AI copilot for chaos engineering.",
+      "image": "/static/blogs/linkedin-speaking-at-cncf-kolkata.jpg",
+      "link": "https://www.linkedin.com/pulse/speaking-cncf-kolkata-my-first-visit-city-great-community-kiri-v2ohc/",
+      "source": "LinkedIn",
+      "year": 2026,
+      "date": "2026-01-04"
+    },
+    {
+      "title": "19th Reactplay Meetup @CashFree Office",
+      "subtitle": "Wrapping up 2025 with the December ReactPlay meetup at Cashfree Payments, featuring 70+ attendees, first-time speakers, and AI in the browser.",
+      "image": "/static/blogs/linkedin-19th-reactplay-meetup-cashfree-office.jpg",
+      "link": "https://www.linkedin.com/pulse/19th-reactplay-meetup-cashfree-office-pritesh-kiri-btv9c/",
+      "source": "LinkedIn",
+      "year": 2026,
+      "date": "2026-01-03"
     }
   ],
   "2025": [
@@ -46,6 +129,15 @@
       "source": "Dev.to",
       "year": 2025,
       "date": "2025-12-23"
+    },
+    {
+      "title": "My First Resilience Testing Meetup at the New Harness Office",
+      "subtitle": "Hosting my first ever Resilience Testing meetup at the new Harness office with 80+ engineers, talks on cost-optimized resiliency and chaos engineering with MCP.",
+      "image": "/static/blogs/linkedin-my-first-resilience-testing-meetup-harness-office.jpg",
+      "link": "https://www.linkedin.com/pulse/my-first-resilience-testing-meetup-new-harness-office-pritesh-kiri-mwcqc/",
+      "source": "LinkedIn",
+      "year": 2025,
+      "date": "2025-12-12"
     },
     {
       "title": "Making Chaos Conversational: A Beginner-Friendly Guide to the LitmusChaos MCP Server",
@@ -66,7 +158,7 @@
       "date": "2025-11-04"
     },
     {
-      "title": "17th ReactPlay Meetup @Kanini Office",
+      "title": "18th ReactPlay Meetup @Kanini Office",
       "subtitle": "On 15th November, I hosted the ReactPlay November Meetup at Kanini's office in Bangalore with Tapas Adhikary, founder of ReactPlay, and honestly, it was a blast.",
       "image": "/static/blogs/linkedin-17th-reactplay-meetup-kanini-office.png",
       "link": "https://www.linkedin.com/pulse/17th-reactplay-meetup-kanini-office-pritesh-kiri-wzykc/",
@@ -93,13 +185,32 @@
       "date": "2025-10-12"
     },
     {
+      "title": "Hosted a Hacktoberfest Workshop with LitmusChaos and Reactplay Communities",
+      "subtitle": "A Hacktoberfest workshop at the Harness office with 125+ developers learning open source, contributing to LitmusChaos, and making their first PRs.",
+      "image": "/static/blogs/linkedin-hosted-hacktoberfest-workshop-litmuschaos-reactplay.jpg",
+      "link": "https://www.linkedin.com/pulse/hosted-hacktoberfest-workshop-litmuschaos-reactplay-communities-kiri-4ilxc/",
+      "source": "LinkedIn",
+      "year": 2025,
+      "date": "2025-10-06"
+    },
+    {
+      "title": "AgentsNexus 2025 was a blast",
+      "subtitle": "Volunteering at AgentsNexus 2025 in HSR Bangalore handling AV and speaker management for an AI Agent conference packed with engineering leaders and panels.",
+      "image": "/static/blogs/linkedin-agentsnexus-2025-was-a-blast.jpg",
+      "link": "https://www.linkedin.com/pulse/agentsnexus-2025-blast-pritesh-kiri-nkntc/",
+      "source": "LinkedIn",
+      "year": 2025,
+      "date": "2025-10-01"
+    },
+    {
       "title": "Making Chaos Engineering Accessible: Introducing the LitmusChaos MCP Server",
       "subtitle": "Chaos Engineering has always been about building resilient systems. The LitmusChaos MCP Server makes getting started with chaos experiments much easier.",
       "image": "/static/blogs/devto-making-chaos-engineering-accessible-introducing-the-litmuschaos.webp",
       "link": "https://dev.to/litmus-chaos/making-chaos-engineering-accessible-introducing-the-litmuschaos-mcp-server-kif",
       "source": "Dev.to",
       "year": 2025,
-      "date": "2025-10-28"
+      "date": "2025-10-28",
+      "featured": true
     },
     {
       "title": "LitmusChaos Community Highlights - September 2025 Recap",
@@ -127,6 +238,15 @@
       "source": "Harness",
       "year": 2025,
       "date": "2025-10-01"
+    },
+    {
+      "title": "16th ReactPlay Meetup @Razorpay",
+      "subtitle": "Hosting the 16th ReactPlay Meetup at the Razorpay office with 100+ attendees, five great talks, the Tech Term game, and conversations on building proof of work.",
+      "image": "/static/blogs/linkedin-17th-reactplay-meetup-razorpay.jpg",
+      "link": "https://www.linkedin.com/pulse/17th-reactplay-meetup-razorpay-pritesh-kiri-2xfsc/",
+      "source": "LinkedIn",
+      "year": 2025,
+      "date": "2025-09-22"
     }
   ],
   "2024": [

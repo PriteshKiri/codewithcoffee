@@ -51,6 +51,18 @@ export default function WorkPage() {
           <li>
             Write  <Link href="https://dev.to/priteshkiri" target="_blank" rel="noopener noreferrer">blogs</Link> and social posts to spread awareness and highlight community impact and releases.
           </li>
+          <li>
+            Created long-form introduction <Link href="/videos" target="_blank">videos</Link> for <b>Resilience Testing</b> and <b>Disaster Recovery Testing</b> to help users understand and get started with the new modules.
+          </li>
+          <li>
+            Conducted content research and gap analysis across <b>Resilience Testing</b>, <b>Load Testing</b>, and <b>Disaster Recovery Testing</b> to improve adoption and content reach of new modules.
+          </li>
+          <li>
+            Published <b>16 highly engaging, well-edited <Link href="/videos" target="_blank">short videos</Link></b> and <b><Link href="/blog" target="_blank">3 blogs</Link></b> to drive awareness and educate the community on resilience practices.
+          </li>
+          <li>
+            Worked closely with the engineering team to give continuous feedback on the <b>Resilience Testing MCP</b>, helping shape the developer experience.
+          </li>
         </ul>
 
         <hr className="my-6 border-neutral-100 dark:border-neutral-800" />

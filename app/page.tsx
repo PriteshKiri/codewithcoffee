@@ -2,12 +2,51 @@ import Link from "next/link";
 import Image from "next/image";
 
 import ChannelLink from "./components/channelLinks";
-import ContentCard from "./components/contentCard";
+import FeaturedCarousel from "./components/featuredCarousel";
 import Footer from "./components/footer";
 import PartnerMarquee from "./components/partnerMarquee";
-import contentData from "./data/content.json";
+import videosData from "./data/videos.json";
+import blogsData from "./data/blogs.json";
+import talksData from "./data/talks.json";
+import eventsData from "./data/events.json";
+
+interface FeaturedItem {
+  title: string;
+  subtitle: string;
+  image: string;
+  link?: string;
+  post?: string;
+  blog?: string;
+  video?: string;
+  badge?: string;
+  featured?: boolean;
+}
+
+// Walk every year (newest first) and collect items flagged with `featured: true`.
+// Within a given year items are kept in their declaration order in the JSON file.
+function collectFeatured<T extends FeaturedItem>(
+  data: Record<string, T[]>,
+): T[] {
+  return Object.keys(data)
+    .sort((a, b) => Number(b) - Number(a))
+    .flatMap((year) => data[year] ?? [])
+    .filter((item) => item.featured === true);
+}
 
 export default function Page() {
+  const featuredVideos = collectFeatured(
+    videosData as unknown as Record<string, FeaturedItem[]>,
+  );
+  const featuredBlogs = collectFeatured(
+    blogsData as unknown as Record<string, FeaturedItem[]>,
+  );
+  const featuredTalks = collectFeatured(
+    talksData as unknown as Record<string, FeaturedItem[]>,
+  );
+  const featuredEvents = collectFeatured(
+    eventsData as unknown as Record<string, FeaturedItem[]>,
+  );
+
   return (
     <section>
       <h1 className="font-medium text-2xl mb-8 tracking-tighter">
@@ -113,32 +152,11 @@ export default function Page() {
       </div>
 
 
-      {/* Instagram Feed Section */}
-      <div className="my-8 w-full">
-        <div className="relative w-full overflow-hidden rounded-lg border border-neutral-200 dark:border-neutral-800">
-          <iframe
-            src="https://www.instagram.com/pritesh_ai_/embed"
-            className="w-full"
-            style={{ minHeight: '380px', border: 'none' }}
-            scrolling="no"
-          />
-        </div>
-        <div className="flex justify-center mt-4">
-          <Link 
-            href="https://www.instagram.com/pritesh_ai_/"
-            target="_blank"
-            className="text-sm font-medium text-neutral-600 dark:text-neutral-300 hover:text-neutral-800 dark:hover:text-neutral-100 transition-all px-4 py-2 no-underline"
-          >
-            Follow on Instagram →
-          </Link>
-        </div>
-      </div>
-
       <div className="prose prose-neutral dark:prose-invert">
         <p>
         Apart from my professional work, I lead     <Link target="_blank" href="https://reactplay.io" className="my-link">
           Reactplay.io
-        </Link> community, an open source React community, and I also vlog at conferences and share those videos on Humans of Tech YouTube channel.
+        </Link> community, an open source React community, and checkout all the meetup glimpses on <Link target="_blank" href="https://www.instagram.com/reactplayio/" className="my-link">Instagram</Link> or <Link target="_blank" href="https://www.meetup.com/reactplay-bengaluru/" className="my-link">meetup page</Link>. I also vlog at conferences and share those videos on Humans of Tech YouTube channel.
         </p>
       </div>
             <div className="my-8 flex flex-col sm:flex-row space-x-0 sm:space-x-4 space-y-4 sm:space-y-0 w-full">
@@ -160,18 +178,7 @@ export default function Page() {
       <h2 className="font-medium text-2xl mb-8 tracking-tighter">
         Featured Videos
       </h2>
-      <div className="my-8 flex flex-row flex-wrap gap-4 w-full">
-        {contentData.featuredVideos.map((video) => (
-          <ContentCard
-            key={crypto.randomUUID()}
-            title={video.title}
-            subtitle={video.subtitle}
-            image={video.image}
-            link={video.link}
-            from={video.from}
-          />
-        ))}
-      </div>
+      <FeaturedCarousel items={featuredVideos} ariaLabel="Featured Videos" />
       <div className="flex justify-start mb-8">
         <Link 
           href="/videos"
@@ -185,18 +192,7 @@ export default function Page() {
       <h2 className="font-medium text-2xl mb-8 tracking-tighter">
         Featured Blogs
       </h2>
-      <div className="my-8 flex flex-row flex-wrap gap-4 w-full">
-        {contentData.featuredBlogs.map((blog) => (
-          <ContentCard
-            key={crypto.randomUUID()}
-            title={blog.title}
-            subtitle={blog.subtitle}
-            image={blog.image}
-            link={blog.link}
-            from={blog.from}
-          />
-        ))}
-      </div>
+      <FeaturedCarousel items={featuredBlogs} ariaLabel="Featured Blogs" />
       <div className="flex justify-start mb-8">
         <Link 
           href="/blog"
@@ -210,20 +206,7 @@ export default function Page() {
       <h2 className="font-medium text-2xl mb-8 tracking-tighter">
         Featured Talks
       </h2>
-      <div className="my-8 flex flex-row flex-wrap gap-4 w-full">
-        {contentData.featuredTalks.map((talk) => (
-          <ContentCard
-            key={crypto.randomUUID()}
-            title={talk.title}
-            subtitle={talk.subtitle}
-            image={talk.image}
-            post={talk.post}
-            blog={talk.blog}
-            video={talk.video}
-            from={talk.from}
-          />
-        ))}
-      </div>
+      <FeaturedCarousel items={featuredTalks} ariaLabel="Featured Talks" />
       <div className="flex justify-start mb-8">
         <Link 
           href="/talks"
@@ -237,18 +220,7 @@ export default function Page() {
       <h2 className="font-medium text-2xl mb-8 tracking-tighter">
         Featured Events
       </h2>
-      <div className="my-8 flex flex-row flex-wrap gap-4 w-full">
-        {contentData.featuredEvents.map((event) => (
-          <ContentCard
-            key={crypto.randomUUID()}
-            title={event.title}
-            subtitle={event.subtitle}
-            image={event.image}
-            link={event.link}
-            from={event.from}
-          />
-        ))}
-      </div>
+      <FeaturedCarousel items={featuredEvents} ariaLabel="Featured Events" />
       <div className="flex justify-start mb-8">
         <Link 
           href="/events"

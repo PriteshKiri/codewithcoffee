@@ -7,7 +7,8 @@
       "post": "https://www.linkedin.com/posts/pritesh-kiri_last-weekend-we-hosted-an-amazing-meetup-activity-7462724884008288257-XOpB?utm_source=share&utm_medium=member_desktop&rcm=ACoAACUf2UIBz0gedK0--YhFwk0JRJUXuvIRH9o",
       "badge": "MongoDB",
       "category": "Harness",
-      "year": 2026
+      "year": 2026,
+      "featured": true
     },
     {
       "title": "Hosted 24th ReactPlay Meetup @Paytm",
@@ -54,7 +55,8 @@
       "blog": "https://www.linkedin.com/pulse/reason-i-love-hosting-meetup-ft-reactplay-23rd-pritesh-kiri-wkpfc",
       "badge": "Amadeus",
       "category": "ReactPlay",
-      "year": 2026
+      "year": 2026,
+      "featured": true
     },
     {
       "title": "Hosted Agents & APIs Meetup with Postman @Harness",
@@ -82,7 +84,8 @@
       "post": "https://www.linkedin.com/posts/pritesh-kiri_still-taking-it-all-in-had-an-amazing-activity-7445678469147160577-0edm?utm_source=share&utm_medium=member_desktop&rcm=ACoAACUf2UIBz0gedK0--YhFwk0JRJUXuvIRH9o",
       "badge": "CloudXAI",
       "category": "Emcee",
-      "year": 2026
+      "year": 2026,
+      "featured": true
     },
     {
       "title": "Hosted Edge Security AI Meetup with Kong @Harness",
@@ -111,7 +114,8 @@
       "blog": "https://www.linkedin.com/pulse/my-largest-meetup-ever-happened-ibm-pritesh-kiri-u9y8c",
       "badge": "IBM",
       "category": "ReactPlay",
-      "year": 2026
+      "year": 2026,
+      "featured": true
     },
     {
       "title": "Hosted 20th ReactPlay Meetup @ZopDev",
@@ -164,7 +168,8 @@
       "video": "https://www.youtube.com/watch?v=RPXbq4pypns",
       "badge": "Harness",
       "category": "ReactPlay",
-      "year": 2025
+      "year": 2025,
+      "featured": true
     },
     {
       "title": "Hosted 16th ReactPlay Meetup @Razorpay",

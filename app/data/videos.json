@@ -6,7 +6,8 @@
       "image": "https://i.ytimg.com/vi/QSXI5rSZld8/hqdefault.jpg",
       "link": "https://www.youtube.com/watch?v=QSXI5rSZld8",
       "year": 2026,
-      "org": "LitmusChaos"
+      "org": "LitmusChaos",
+      "featured": true
     },
     {
       "title": "The Step-by-Step Guide Nobody Told You About Resilience Testing",
@@ -268,7 +269,8 @@
       "image": "https://i.ytimg.com/vi/-d_5VLr5Hmo/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLC8QTNSdxWu6WwIrm4RGzedrWoXug",
       "link": "https://www.youtube.com/watch?v=-d_5VLr5Hmo",
       "year": 2025,
-      "org": "LitmusChaos"
+      "org": "LitmusChaos",
+      "featured": true
     },
     {
       "title": "Creating and Run Your First Chaos Experiment",
@@ -398,7 +400,8 @@
       "link": "https://www.youtube.com/watch?v=w6Ca7WBrziM",
       "year": 2025,
       "badge": "Collaboration",
-      "org": "ToolJet"
+      "org": "ToolJet",
+      "featured": true
     },
     {
       "title": "Building Multilingual Applications Using ToolJet",
@@ -416,7 +419,8 @@
       "image": "https://i.ytimg.com/vi/sXXOwl7DDxk/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBQZvz_68HnNhxfCHvhvejWKu0APQ",
       "link": "https://www.youtube.com/watch?v=sXXOwl7DDxk",
       "year": 2024,
-      "org": "Personal"
+      "org": "Personal",
+      "featured": true
     },
     {
       "title": "Building internal tools with ToolJet and Elasticsearch",

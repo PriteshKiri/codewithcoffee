@@ -42,6 +42,10 @@ export default function ContentCard({
     ? "w-full sm:w-[calc(50%-0.5rem)] sm:min-w-0 sm:max-w-none"
     : from === "video"
     ? "w-full sm:w-[calc(25%-0.75rem)] sm:min-w-[220px] sm:max-w-[240px]"
+    : from === "talks"
+    ? "w-[calc(50%-0.5rem)] sm:w-[calc(50%-0.5rem)] sm:min-w-0 sm:max-w-none"
+    : from === "featured"
+    ? "w-full"
     : "w-full sm:w-[calc(33.333%-1rem)] sm:min-w-[280px] sm:max-w-[280px]";
 
   const imageHeightClass = from === "dev2"
@@ -50,6 +54,10 @@ export default function ContentCard({
     ? "h-28 md:h-24"
     : from === "video"
     ? "h-44 md:h-32 "
+    : from === "talks"
+    ? "h-28 md:h-32"
+    : from === "featured"
+    ? "h-36 md:h-40"
     : "h-44 md:h-40";
 
   const links: TalkLinks = { post, blog, video };

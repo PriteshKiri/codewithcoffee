@@ -1,5 +1,45 @@
 {
+  "2026": [
+    {
+      "title": "First International Talk on LitmusChaos MCP Server",
+      "subtitle": "At FOSSASIA Summit 2026, Bangkok - my first ever international talk introducing LitmusChaos and the Litmus MCP Server to a global audience.",
+      "image": "/static/talks/talk-10-fossasia-litmus-mcp.jpg",
+      "post": "https://www.linkedin.com/posts/pritesh-kiri_gave-my-first-international-talk-and-it-activity-7440370745152536577-W0yX?utm_source=share&utm_medium=member_desktop&rcm=ACoAACUf2UIBz0gedK0--YhFwk0JRJUXuvIRH9o",
+      "blog": "https://www.linkedin.com/pulse/story-my-first-international-talk-foss-asia-pritesh-kiri-j2oac",
+      "video": "",
+      "year": 2026,
+      "featured": true
+    },
+    {
+      "title": "Chaos Engineering with LitmusChaos",
+      "subtitle": "At DevConf India 2026, hosted by Red Hat - spoke about chaos engineering and how the LitmusChaos MCP Server is changing the way we test resilience.",
+      "image": "/static/talks/talk-8-devconf-india-chaos.jpg",
+      "post": "https://www.linkedin.com/posts/pritesh-kiri_the-best-part-of-conferences-isnt-just-the-activity-7428776901118394368-Q0bs?utm_source=share&utm_medium=member_desktop&rcm=ACoAACUf2UIBz0gedK0--YhFwk0JRJUXuvIRH9o",
+      "blog": "https://www.linkedin.com/pulse/here-why-open-source-conferences-special-me-pritesh-kiri-ufwyc",
+      "video": "https://www.youtube.com/watch?v=eyvHNyeVRZw&t=9s",
+      "year": 2026
+    },
+    {
+      "title": "Why Open Source Communities Matter",
+      "subtitle": "Second talk at DevConf India 2026, hosted by Red Hat - sharing my journey and learnings from years of building and being part of open source communities.",
+      "image": "/static/talks/talk-9-devconf-india-community.jpg",
+      "post": "https://www.linkedin.com/posts/pritesh-kiri_the-best-part-of-conferences-isnt-just-the-activity-7428776901118394368-Q0bs?utm_source=share&utm_medium=member_desktop&rcm=ACoAACUf2UIBz0gedK0--YhFwk0JRJUXuvIRH9o",
+      "blog": "https://www.linkedin.com/pulse/here-why-open-source-conferences-special-me-pritesh-kiri-ufwyc",
+      "video": "https://www.youtube.com/watch?v=wAy4mgyX61Q",
+      "year": 2026,
+      "featured": true
+    }
+  ],
   "2025": [
+    {
+      "title": "LitmusChaos & Litmus MCP for Beginners",
+      "subtitle": "At CNCF Kolkata meetup - introducing LitmusChaos, Chaos Engineering, and how the Litmus MCP server makes resilience testing easier for beginners.",
+      "image": "/static/talks/talk-7-cncf-kolkata-litmus.jpg",
+      "post": "",
+      "blog": "https://www.linkedin.com/pulse/speaking-cncf-kolkata-my-first-visit-city-great-community-kiri-v2ohc",
+      "video": "",
+      "year": 2025
+    },
     {
       "title": "Breaking Things before they break you: Chaos Engineering with Litmus",
       "subtitle": "At CNCF Hyderabad event",
@@ -7,7 +47,8 @@
       "post": "https://www.linkedin.com/posts/cncf-hyderabad_cncfhyderabad-community-meetup-activity-7390317694161649664-pN3u?utm_source=share&utm_medium=member_desktop&rcm=ACoAACUf2UIBz0gedK0--YhFwk0JRJUXuvIRH9o",
       "blog": "https://www.linkedin.com/pulse/speaking-cncf-hyderabad-november-event-pritesh-kiri-1dxkc/?trackingId=jvD09b8%2FS7u8r3SrnnLwlg%3D%3D",
       "video": "https://www.youtube.com/watch?v=9dtg-5Ab-Io&list=PLPP8t2V7gfl40sZHmzDmtIdOnLNhLnEja&index=3",
-      "year": 2025
+      "year": 2025,
+      "featured": true
     },
     {
       "title": "Litmus MCP server: Chaos Engineering made accessible",
@@ -17,7 +58,9 @@
       "blog": "https://www.linkedin.com/pulse/hacktoberfest-hackathon-2025-ft-litmuschos-mcp-server-pritesh-kiri-sfldc/?trackingId=gFcvzT1fSNi1k%2FopNOwXmA%3D%3D",
       "video": "https://www.youtube.com/watch?v=NO_Vfaqnk7E",
       "year": 2025
-    },
+    }
+  ],
+  "2024": [
     {
       "title": "Panel: Building Communities that Last",
       "subtitle": "At Devrel Con 2024, Bengaluru",
@@ -25,7 +68,7 @@
       "post": "https://www.linkedin.com/posts/pritesh-kiri_devrelcon-activity-7274273790115639296-dFMU?utm_source=share&utm_medium=member_desktop&rcm=ACoAACUf2UIBz0gedK0--YhFwk0JRJUXuvIRH9o",
       "blog": "",
       "video": "",
-      "year": 2025
+      "year": 2024
     },
     {
       "title": "How to make most out of Opensource communities?",
@@ -34,8 +77,10 @@
       "post": "https://www.linkedin.com/posts/pritesh-kiri_had-an-amazing-time-at-the-hacktoberfest-activity-7253285299798081536-zz3g/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACUf2UIBz0gedK0--YhFwk0JRJUXuvIRH9o",
       "blog": "",
       "video": "",
-      "year": 2025
-    },
+      "year": 2024
+    }
+  ],
+  "2023": [
     {
       "title": "What are Memory leaks in React and how to prevent them?",
       "subtitle": "At Hotstar office in Bangalore, hosted by JS lovers community.",
@@ -43,7 +88,7 @@
       "post": "https://www.linkedin.com/feed/update/urn:li:activity:7140930974967619584/",
       "blog": "",
       "video": "",
-      "year": 2025
+      "year": 2023
     },
     {
       "title": "Buliding an AI chat assitant in 10 mins using Vercel AI SDK",
