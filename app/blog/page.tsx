@@ -4,6 +4,11 @@ import { useState, useEffect, useRef, useMemo } from 'react';
 import ContentCard from '../components/contentCard';
 import CustomDropdown, { DropdownOption } from '../components/customDropdown';
 import Footer from '../components/footer';
+import {
+  useInitialYearScroll,
+  useQueryParamState,
+  writeQueryParam,
+} from '../hooks/useQueryParamState';
 import blogsData from '../data/blogs.json';
 
 interface Blog {
@@ -32,7 +37,10 @@ export default function BlogPage() {
     return list;
   }, [years]);
 
-  const [selectedSource, setSelectedSource] = useState<string>(ALL_SOURCES);
+  const [selectedSource, setSelectedSource] = useQueryParamState('source', ALL_SOURCES, [
+    ALL_SOURCES,
+    ...SOURCE_ORDER,
+  ]);
   const [activeYear, setActiveYear] = useState<string>(years[0] || '');
 
   // Source counts (always reflect total per source, irrespective of year)
@@ -96,11 +104,14 @@ export default function BlogPage() {
 
   const scrollToYear = (year: string) => {
     setActiveYear(year);
+    writeQueryParam('year', year, visibleYears[0]);
     const element = document.getElementById(`year-${year}`);
     if (element) {
       element.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }
   };
+
+  useInitialYearScroll(visibleYears, setActiveYear);
 
   useEffect(() => {
     observerRef.current = new IntersectionObserver(

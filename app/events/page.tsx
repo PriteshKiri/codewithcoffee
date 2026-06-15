@@ -4,6 +4,11 @@ import { useState, useEffect, useRef, useMemo } from 'react';
 import ContentCard from "../components/contentCard";
 import CustomDropdown, { DropdownOption } from "../components/customDropdown";
 import Footer from "../components/footer";
+import {
+  useInitialYearScroll,
+  useQueryParamState,
+  writeQueryParam,
+} from "../hooks/useQueryParamState";
 import eventsData from "../data/events.json";
 
 interface Event {
@@ -34,7 +39,11 @@ export default function EventsPage() {
     return list;
   }, [years]);
 
-  const [selectedCategory, setSelectedCategory] = useState<string>(ALL_CATEGORIES);
+  const [selectedCategory, setSelectedCategory] = useQueryParamState(
+    'category',
+    ALL_CATEGORIES,
+    [ALL_CATEGORIES, ...CATEGORY_ORDER]
+  );
   const [activeYear, setActiveYear] = useState<string>(years[0]);
 
   const categoryCounts = useMemo(() => {
@@ -90,11 +99,14 @@ export default function EventsPage() {
 
   const scrollToYear = (year: string) => {
     setActiveYear(year);
+    writeQueryParam('year', year, visibleYears[0]);
     const element = document.getElementById(`year-${year}`);
     if (element) {
       element.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }
   };
+
+  useInitialYearScroll(visibleYears, setActiveYear);
 
   useEffect(() => {
     observerRef.current = new IntersectionObserver(

@@ -4,6 +4,11 @@ import { useState, useEffect, useRef, useMemo } from 'react';
 import ContentCard from "../components/contentCard";
 import CustomDropdown, { DropdownOption } from "../components/customDropdown";
 import Footer from "../components/footer";
+import {
+  useInitialYearScroll,
+  useQueryParamState,
+  writeQueryParam,
+} from "../hooks/useQueryParamState";
 import videosData from "../data/videos.json";
 
 interface Video {
@@ -46,9 +51,12 @@ export default function VideosPage() {
     return list;
   }, [years]);
 
-  const [videoFormat, setVideoFormat] = useState<VideoFormat>('all');
-  const [selectedOrg, setSelectedOrg] = useState<string>(ALL_ORGS);
-  const [activeYear, setActiveYear] = useState<string>('2026');
+  const [videoFormat, setVideoFormat] = useQueryParamState('format', 'all', FORMAT_ORDER);
+  const [selectedOrg, setSelectedOrg] = useQueryParamState('org', ALL_ORGS, [
+    ALL_ORGS,
+    ...ORG_ORDER,
+  ]);
+  const [activeYear, setActiveYear] = useState<string>(years[0]);
 
   // Org counts: each option counts videos matching that org within the current format
   const orgCounts = useMemo(() => {
@@ -136,11 +144,14 @@ export default function VideosPage() {
 
   const scrollToYear = (year: string) => {
     setActiveYear(year);
+    writeQueryParam('year', year, visibleYears[0]);
     const element = document.getElementById(`year-${year}`);
     if (element) {
       element.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }
   };
+
+  useInitialYearScroll(visibleYears, setActiveYear);
 
   useEffect(() => {
     observerRef.current = new IntersectionObserver(

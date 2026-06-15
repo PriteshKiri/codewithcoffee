@@ -4,6 +4,7 @@ import { useState, useEffect, useRef, useMemo } from 'react';
 import ContentCard from "../components/contentCard";
 import CustomDropdown, { DropdownOption } from "../components/customDropdown";
 import Footer from "../components/footer";
+import { useInitialYearScroll, writeQueryParam } from "../hooks/useQueryParamState";
 import talksData from "../data/talks.json";
 
 interface Talk {
@@ -42,11 +43,14 @@ export default function TalksPage() {
 
   const scrollToYear = (year: string) => {
     setActiveYear(year);
+    writeQueryParam('year', year, years[0]);
     const element = document.getElementById(`year-${year}`);
     if (element) {
       element.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }
   };
+
+  useInitialYearScroll(years, setActiveYear);
 
   useEffect(() => {
     observerRef.current = new IntersectionObserver(
