@@ -1,6 +1,52 @@
 {
   "2026": [
     {
+      "title": "Hosted My 26th ReactPlay Meetup. Six Meetups in the Last Six Months",
+      "subtitle": "Looking back on six months of consistent community building: six ReactPlay meetups hosted, and a recap of the 26th Bengaluru meetup at ZopDev with talks on MCP, Voice AI, and more.",
+      "image": "/static/events/26-rp-meetup.jpeg",
+      "link": "https://www.linkedin.com/pulse/hosted-my-26th-reactplay-meetup-six-meetups-last-months-pritesh-kiri-caxpe/",
+      "source": "LinkedIn",
+      "year": 2026,
+      "date": "2026-07-28"
+    },
+    {
+      "title": "Behind the Scenes of Our 5th Resilience Testing Meetup at Harness",
+      "subtitle": "75+ engineers at the 5th Resilience Testing Meetup at Harness, in collaboration with Bangalore SRE Meetup — talks on OTel, AI resilience testing, and building trust in AI agents.",
+      "image": "/static/events/5th-rt-meetup.jpeg",
+      "link": "https://www.linkedin.com/pulse/behind-scenes-our-5th-resilience-testing-meetup-harness-pritesh-kiri-tipke/",
+      "source": "LinkedIn",
+      "year": 2026,
+      "date": "2026-07-27"
+    },
+    {
+      "title": "Flipkart and LitmusChaos at KubeCon + CloudNativeCon India 2026: A recap",
+      "subtitle": "Recapping LitmusChaos at KubeCon India 2026 — Flipkart’s winning End User Case Study keynote, a packed project booth, and conversations shaping the community in India.",
+      "image": "/static/blogs/cncf-flipkart-litmuschaos-kubecon-india-2026-recap.jpg",
+      "link": "https://www.cncf.io/blog/2026/07/17/flipkart-and-litmuschaos-at-kubecon-cloudnativecon-india-2026-a-recap/",
+      "source": "CNCF",
+      "year": 2026,
+      "date": "2026-07-17",
+      "featured": true
+    },
+    {
+      "title": "My First AWS Community Day Bengaluru",
+      "subtitle": "First time attending and speaking at AWS Community Day Bengaluru 2026 — Builder’s Mic talk on Lambda Managed Instances, plus the people, conversations, and community that made it special.",
+      "image": "/static/talks/1st-acd-talk.png",
+      "link": "https://www.linkedin.com/pulse/my-first-aws-community-day-bengaluru-pritesh-kiri-t9mdc/",
+      "source": "LinkedIn",
+      "year": 2026,
+      "date": "2026-07-13"
+    },
+    {
+      "title": "Hosted the 25th ReactPlay Meetup at Canvas",
+      "subtitle": "75+ attendees at the 25th ReactPlay Bangalore meetup on the Canvas terrace — talks on WebLLM, design intent, React data fetching, barrel files, and a lively Guess the Tech Term round.",
+      "image": "/static/events/25th-rp-meetup.jpeg",
+      "link": "https://www.linkedin.com/pulse/hosted-25th-reactplay-meetup-canvas-pritesh-kiri-f8wnf/",
+      "source": "LinkedIn",
+      "year": 2026,
+      "date": "2026-07-01"
+    },
+    {
       "title": "Reactplay X Paytm: May Meetup Full of Learning and Fun - 24th Meetup",
       "subtitle": "Hosting two community meetups in a single day: 90+ developers, talks on Type-Safe AI Apps, A2UI, and WebMCP, plus the iconic Paytm Karo moment.",
       "image": "/static/blogs/linkedin-reactplay-x-paytm-may-meetup.jpg",

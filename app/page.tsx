@@ -238,6 +238,12 @@ export default function Page() {
       </div>
       <div className="my-8 flex flex-col sm:flex-row flex-wrap gap-y-2 w-full">
         <ChannelLink
+          emoji="🦉"
+          name="Hoot"
+          sub={"Open-source real-time quiz & polling platform"}
+          link="https://hoot-the-quiz.vercel.app/"
+        />
+        <ChannelLink
           img="/static/__hashx.png"
           name="HashX"
           sub={"Access Hashnode blogs on every website"}

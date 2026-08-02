@@ -1,6 +1,40 @@
 {
   "2026": [
     {
+      "title": "How Canonical Runs Chaos Engineering on Juju with LitmusChaos | EP 03",
+      "subtitle": "Resilience Testing Talks Ep 03: Canonical shares how they run chaos engineering on Juju with LitmusChaos.",
+      "image": "https://i.ytimg.com/vi/JcGq11AJ4a0/hqdefault.jpg",
+      "link": "https://www.youtube.com/watch?v=JcGq11AJ4a0",
+      "year": 2026,
+      "org": "LitmusChaos",
+      "featured": true
+    },
+    {
+      "title": "LitmusChaos at KubeCon + CloudNativeCon India 2026",
+      "subtitle": "Keynote, project pavilion, and community highlights from LitmusChaos at KubeCon + CloudNativeCon India 2026.",
+      "image": "https://i.ytimg.com/vi/mI2jfRww2QA/hqdefault.jpg",
+      "link": "https://www.youtube.com/watch?v=mI2jfRww2QA",
+      "year": 2026,
+      "org": "LitmusChaos"
+    },
+    {
+      "title": "Chaos Testing Just Got Easier | New ChaosHub & AI Prompt Library",
+      "subtitle": "A look at the new ChaosHub and AI Prompt Library in Harness Resilience Testing that make chaos testing easier.",
+      "image": "https://i.ytimg.com/vi/KB3ymXBnIXU/hqdefault.jpg",
+      "link": "https://www.youtube.com/watch?v=KB3ymXBnIXU",
+      "year": 2026,
+      "org": "Harness",
+      "featured": true
+    },
+    {
+      "title": "I built Real Time Quiz Platform using @kirodotdev",
+      "subtitle": "Building Hoot, an open-source real-time quiz and polling platform, with Kiro — from idea to live sessions.",
+      "image": "https://i.ytimg.com/vi/25xuEJ8hzqY/hqdefault.jpg",
+      "link": "https://www.youtube.com/watch?v=25xuEJ8hzqY",
+      "year": 2026,
+      "org": "Personal"
+    },
+    {
       "title": "Flipkart’s Resilience Journey with LitmusChaos | EP 02",
       "subtitle": "Resilience Testing Talks Ep 02: Flipkart shares how they use LitmusChaos to build resilient, large-scale e-commerce systems.",
       "image": "https://i.ytimg.com/vi/QSXI5rSZld8/hqdefault.jpg",

@@ -1,6 +1,64 @@
 {
   "2026": [
     {
+      "title": "Hosted 26th ReactPlay Meetup @ZopDev",
+      "subtitle": "On 28th July, I hosted the 26th ReactPlay Bengaluru meetup at the ZopDev office — my second meetup of the day, and the sixth ReactPlay meetup I've hosted in the last six months.",
+      "image": "/static/events/26-rp-meetup.jpeg",
+      "post": "https://www.linkedin.com/posts/pritesh-kiri_in-the-last-6-months-ive-hosted-6-reactplay-ugcPost-7487192325618638848-1GQN/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACUf2UIBz0gedK0--YhFwk0JRJUXuvIRH9o",
+      "blog": "https://www.linkedin.com/pulse/hosted-my-26th-reactplay-meetup-six-meetups-last-months-pritesh-kiri-caxpe/",
+      "badge": "ZopDev",
+      "category": "ReactPlay",
+      "year": 2026
+    },
+    {
+      "title": "Hosted 5th Resilience Testing Meetup @Harness",
+      "subtitle": "On 25th July, 75+ engineers joined us at the Harness office for the 5th Resilience Testing Meetup, hosted in collaboration with the Bangalore SRE Meetup community.",
+      "image": "/static/events/5th-rt-meetup.jpeg",
+      "post": "https://www.linkedin.com/posts/pritesh-kiri_75-engineers-joined-us-at-the-5th-resilience-ugcPost-7487087315874500608-k8Y2/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACUf2UIBz0gedK0--YhFwk0JRJUXuvIRH9o",
+      "blog": "https://www.linkedin.com/pulse/behind-scenes-our-5th-resilience-testing-meetup-harness-pritesh-kiri-tipke/",
+      "badge": "Harness",
+      "category": "Harness",
+      "year": 2026
+    },
+    {
+      "title": "Hosted the First Humans of Tech Meetup",
+      "subtitle": "We hosted our very first The Humans Of Tech meetup in Bangalore, bringing together builders, learners, and communities for a day of connection.",
+      "image": "/static/events/1st-thot-meetup.jpeg",
+      "post": "https://www.linkedin.com/posts/pritesh-kiri_we-just-hosted-our-very-first-the-humans-ugcPost-7484596451826888704-JFrl/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACUf2UIBz0gedK0--YhFwk0JRJUXuvIRH9o",
+      "video": "https://www.instagram.com/reel/DbANtdhTH6L/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+      "badge": "Humans of Tech",
+      "category": "Humans of Tech",
+      "year": 2026
+    },
+    {
+      "title": "Hosted AI Connect Season 2 @Harness",
+      "subtitle": "Hosted AI Connect Season 2 at the Harness office — a panel on security when intelligence itself becomes part of the attack surface, the follow-up to last year’s first edition.",
+      "image": "/static/events/2nd-ai-connect-meetup.jpeg",
+      "post": "https://www.linkedin.com/posts/pritesh-kiri_last-week-we-hosted-ai-connect-season-2-at-ugcPost-7482670653813399552-zHAs/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACUf2UIBz0gedK0--YhFwk0JRJUXuvIRH9o",
+      "badge": "Harness",
+      "category": "Harness",
+      "year": 2026
+    },
+    {
+      "title": "Hosted 25th ReactPlay Meetup @Canvas",
+      "subtitle": "On 1st July, 75+ developers joined us for the 25th ReactPlay Bangalore meetup at the Canvas building — talks, networking, Guess the Tech Term, and React Nexus ticket giveaways.",
+      "image": "/static/events/25th-rp-meetup.jpeg",
+      "post": "https://www.linkedin.com/posts/pritesh-kiri_75-amazing-developers-joined-us-yesterday-ugcPost-7476866381175750656-LHlj/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACUf2UIBz0gedK0--YhFwk0JRJUXuvIRH9o",
+      "blog": "https://www.linkedin.com/pulse/hosted-25th-reactplay-meetup-canvas-pritesh-kiri-f8wnf/",
+      "badge": "Canvas",
+      "category": "ReactPlay",
+      "year": 2026
+    },
+    {
+      "title": "Emcee at KubeAuto Day Mumbai",
+      "subtitle": "On 17th June, I was the MC for the first India edition of KubeAuto Day in Mumbai — my first time hosting an event outside Bangalore.",
+      "image": "/static/events/01-mc-kubeautoday.jpeg",
+      "post": "https://www.linkedin.com/posts/pritesh-kiri_last-week-i-had-the-incredible-opportunity-ugcPost-7476018141110927360-Ufl4/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACUf2UIBz0gedK0--YhFwk0JRJUXuvIRH9o",
+      "badge": "KubeAuto Day",
+      "category": "Emcee",
+      "year": 2026
+    },
+    {
       "title": "Hosted MongoDB Meetup with Namma MUG @Harness",
       "subtitle": "Hosted an amazing meetup with Namma MUG (MongoDB User Group) Bengaluru at the Harness office, where 70+ MongoDB enthusiasts came together to learn, network and share ideas.",
       "image": "/static/events/event-33-mongodb-harness-2026.jpg",

@@ -24,7 +24,7 @@ interface Event {
 }
 
 const ALL_CATEGORIES = 'All';
-const CATEGORY_ORDER = ['ReactPlay', 'Harness', 'Emcee'];
+const CATEGORY_ORDER = ['ReactPlay', 'Harness', 'Humans of Tech', 'Emcee'];
 
 export default function EventsPage() {
   const years = Object.keys(eventsData).sort().reverse();

@@ -1,6 +1,15 @@
 {
   "2026": [
     {
+      "title": "Lambda Managed Instances at AWS Community Day Bengaluru",
+      "subtitle": "At AWS Community Day Bengaluru 2026, Builder’s Mic — my first talk at an AWS Community Day, covering where standard Lambda reaches its limits and how Lambda Managed Instances help.",
+      "image": "/static/talks/1st-acd-talk.png",
+      "post": "https://www.linkedin.com/posts/pritesh-kiri_yesterday-was-special-i-attended-aws-ugcPost-7482055966285357056-pDhO/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACUf2UIBz0gedK0--YhFwk0JRJUXuvIRH9o",
+      "blog": "https://www.linkedin.com/pulse/my-first-aws-community-day-bengaluru-pritesh-kiri-t9mdc/",
+      "video": "",
+      "year": 2026
+    },
+    {
       "title": "First International Talk on LitmusChaos MCP Server",
       "subtitle": "At FOSSASIA Summit 2026, Bangkok - my first ever international talk introducing LitmusChaos and the Litmus MCP Server to a global audience.",
       "image": "/static/talks/talk-10-fossasia-litmus-mcp.jpg",

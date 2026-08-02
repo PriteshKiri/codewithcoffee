@@ -21,7 +21,7 @@ function ArrowIcon() {
   }
 
   
-const ChannelLink = ({ img, link, name, sub }:any) => {
+const ChannelLink = ({ img, link, name, sub, emoji }: any) => {
   return (
     <div className="group flex w-full">
     <a
@@ -31,15 +31,24 @@ const ChannelLink = ({ img, link, name, sub }:any) => {
     >
       <div className="flex items-center space-x-3">
         <div className="relative h-16">
-          <Image
-            alt={name}
-            src={`${img}`}
-            height={64}
-            width={64}
-            sizes="33vw"
-            className="border border-neutral-200 dark:border-neutral-700 rounded-full h-16 w-16"
-            priority
-          />
+          {emoji ? (
+            <div
+              aria-label={name}
+              className="border border-neutral-200 dark:border-neutral-700 rounded-full h-16 w-16 flex items-center justify-center text-3xl bg-white dark:bg-neutral-900"
+            >
+              {emoji}
+            </div>
+          ) : (
+            <Image
+              alt={name}
+              src={`${img}`}
+              height={64}
+              width={64}
+              sizes="33vw"
+              className="border border-neutral-200 dark:border-neutral-700 rounded-full h-16 w-16"
+              priority
+            />
+          )}
         </div>
         <div className="flex flex-col">
           <p className="font-medium text-neutral-900 dark:text-neutral-100">
