@@ -31,7 +31,7 @@ const FORMAT_LABELS: Record<VideoFormat, string> = {
 };
 
 const ALL_ORGS = 'All';
-const ORG_ORDER = ['Harness', 'LitmusChaos', 'ToolJet', 'Personal'];
+const ORG_ORDER = ['Harness', 'LitmusChaos', 'ToolJet', 'Conference Vlog', 'Personal'];
 
 // Treat missing format as long-form for backwards compatibility
 const getFormat = (v: Video): 'long-form' | 'short-form' =>

@@ -64,15 +64,19 @@ export default function Page() {
         <Link target="_blank" href="https://litmuschaos.io" className="my-link">
           LitmusChaos
         </Link>
-        {` community (a CNCF incubating project) and working closely with Harness Engineering team continuously to improve the product and community. I have 4.5+ years of experince in tech. I'm also the community head at `}
-        <Link target="_blank" href="https://reactplay.io" className="my-link">
-          Reactplay.io
+        {` community (a CNCF incubating project) and working closely with Harness Engineering team continuously to improve the product and community. I have 5+ years of experince in tech. I also run `}
+        <Link target="_blank" href="https://www.aidevcircle.com" className="my-link">
+          AI Dev Circle
         </Link>
-        {` hosting monthly tech `}
-        <Link target="_blank" href="https://www.meetup.com/reactplay-bengaluru/" className="my-link">
-          meetups 
+        {`, a community for developers building with AI (the new initiative from ReactPlay, where I was community head), hosting monthly tech `}
+        <Link target="_blank" href="https://luma.com/ai-dev-circle" className="my-link">
+          meetups
         </Link>
-        {` and events in Bengaluru. `}
+        {` and events in Bengaluru. I'm also an organizer with the `}
+        <Link target="_blank" href="https://aaif.io" className="my-link">
+          Agentic AI Foundation (AAIF)
+        </Link>
+        {`. `}
       </p>
       <div className="columns-1 sm:columns-3 gap-4 my-8">
         <div className="relative h-40 mb-4">
@@ -154,19 +158,26 @@ export default function Page() {
 
       <div className="prose prose-neutral dark:prose-invert">
         <p>
-        Apart from my professional work, I lead     <Link target="_blank" href="https://reactplay.io" className="my-link">
-          Reactplay.io
-        </Link> community, an open source React community, and checkout all the meetup glimpses on <Link target="_blank" href="https://www.instagram.com/reactplayio/" className="my-link">Instagram</Link> or <Link target="_blank" href="https://www.meetup.com/reactplay-bengaluru/" className="my-link">meetup page</Link>. I also vlog at conferences and share those videos on Humans of Tech YouTube channel.
+        Apart from my professional work, I lead <Link target="_blank" href="https://www.aidevcircle.com" className="my-link">AI Dev Circle</Link>, a developer community born from <Link target="_blank" href="https://reactplay.io" className="my-link">Reactplay.io</Link>, the open source React community I led as community head. Check out all the meetup glimpses on <Link target="_blank" href="https://www.instagram.com/aidevcircle" className="my-link">Instagram</Link> or the <Link target="_blank" href="https://luma.com/ai-dev-circle" className="my-link">Luma page</Link>. I also vlog at conferences and share those videos on Humans of Tech YouTube channel.
         </p>
       </div>
-            <div className="my-8 flex flex-col sm:flex-row space-x-0 sm:space-x-4 space-y-4 sm:space-y-0 w-full">
+      <div className="my-8 flex flex-col sm:flex-row sm:flex-wrap sm:justify-center gap-4 w-full">
         <ChannelLink
+          className="sm:w-[calc(50%-0.5rem)]"
+          img="/static/__aidevcircle.png"
+          name="AI Dev Circle"
+          link="https://www.aidevcircle.com"
+          sub={"Developer community for AI"}
+        />
+        <ChannelLink
+          className="sm:w-[calc(50%-0.5rem)]"
           img="/static/__reactplay.png"
-          name="Reactlplay"
+          name="Reactplay"
           link="https://reactplay.io/"
           sub={"Opensource community"}
         />
         <ChannelLink
+          className="sm:w-[calc(50%-0.5rem)]"
           img="/static/__thot.jpg"
           name="Humans of Tech"
           sub={"Conference Vlogging"}

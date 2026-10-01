@@ -21,9 +21,9 @@ function ArrowIcon() {
   }
 
   
-const ChannelLink = ({ img, link, name, sub, emoji }: any) => {
+const ChannelLink = ({ img, link, name, sub, emoji, className = '' }: any) => {
   return (
-    <div className="group flex w-full">
+    <div className={`group flex w-full ${className}`}>
     <a
       href={link}
       target="_blank"

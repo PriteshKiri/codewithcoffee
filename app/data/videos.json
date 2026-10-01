@@ -1,6 +1,14 @@
 {
   "2026": [
     {
+      "title": "Inside KubeCon + CloudNativeCon India 2026 | Conference Vlog",
+      "subtitle": "Behind the scenes at KubeCon + CloudNativeCon India 2026 — talks, booths, and the cloud native community.",
+      "image": "https://i.ytimg.com/vi/1zseVB-uVtg/hqdefault.jpg",
+      "link": "https://www.youtube.com/watch?v=1zseVB-uVtg",
+      "year": 2026,
+      "org": "Conference Vlog"
+    },
+    {
       "title": "How Canonical Runs Chaos Engineering on Juju with LitmusChaos | EP 03",
       "subtitle": "Resilience Testing Talks Ep 03: Canonical shares how they run chaos engineering on Juju with LitmusChaos.",
       "image": "https://i.ytimg.com/vi/JcGq11AJ4a0/hqdefault.jpg",
@@ -264,6 +272,14 @@
   ],
   "2025": [
     {
+      "title": "Observability & Optimisation Meetup | New Relic x Cast AI x Kubesimplify",
+      "subtitle": "Vlog from the Observability & Optimisation meetup hosted by New Relic and Cast AI in collaboration with Kubesimplify.",
+      "image": "https://i.ytimg.com/vi/KdAonFpAR1s/hqdefault.jpg",
+      "link": "https://www.youtube.com/watch?v=KdAonFpAR1s",
+      "year": 2025,
+      "org": "Conference Vlog"
+    },
+    {
       "title": "Cloudflare Outage: How to Keep Your App Alive",
       "subtitle": "Outages are inevitable, but downtime is optional - how chaos engineering helps you survive third-party failures.",
       "image": "https://i.ytimg.com/vi/C5f14rHrfI4/hqdefault.jpg",
@@ -447,6 +463,30 @@
     }
   ],
   "2024": [
+    {
+      "title": "React Nexus 2024 | Conference Vlog",
+      "subtitle": "A vlog from React Nexus 2024 — talks, people, and moments from one of India's biggest React conferences.",
+      "image": "https://i.ytimg.com/vi/0sMaMb7xiAI/hqdefault.jpg",
+      "link": "https://www.youtube.com/watch?v=0sMaMb7xiAI",
+      "year": 2024,
+      "org": "Conference Vlog"
+    },
+    {
+      "title": "Biggest Wix Conference of India | Devstudio_con 2024",
+      "subtitle": "Conference vlog from Wix Devstudio_con 2024, featuring Tanmay Bhat and Varun Maya.",
+      "image": "https://i.ytimg.com/vi/w_Xt9LG35k8/hqdefault.jpg",
+      "link": "https://www.youtube.com/watch?v=w_Xt9LG35k8",
+      "year": 2024,
+      "org": "Conference Vlog"
+    },
+    {
+      "title": "GitHub Constellation 2024 | Tech Conference Vlog",
+      "subtitle": "Inside GitHub Constellation 2024 — a Humans of Tech vlog from GitHub's developer event in India.",
+      "image": "https://i.ytimg.com/vi/tEIMv6ahY3k/hqdefault.jpg",
+      "link": "https://www.youtube.com/watch?v=tEIMv6ahY3k",
+      "year": 2024,
+      "org": "Conference Vlog"
+    },
     {
       "title": "Building LMS using Zencoder AI",
       "subtitle": "Learn to build a LMS using Zencoder AI, an AI chrome extension for your VS code",
