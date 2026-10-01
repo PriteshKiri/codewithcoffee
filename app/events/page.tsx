@@ -19,12 +19,15 @@ interface Event {
   blog?: string;
   video?: string;
   badge?: string;
-  category?: string;
+  category?: string | string[];
   year: number;
 }
 
 const ALL_CATEGORIES = 'All';
-const CATEGORY_ORDER = ['ReactPlay', 'Harness', 'Humans of Tech', 'Emcee'];
+const CATEGORY_ORDER = ['ReactPlay', 'Harness', 'Humans of Tech', 'AAIF', 'Emcee'];
+
+const getCategories = (event: Event): string[] =>
+  event.category === undefined ? [] : ([] as string[]).concat(event.category);
 
 export default function EventsPage() {
   const years = Object.keys(eventsData).sort().reverse();
@@ -52,9 +55,11 @@ export default function EventsPage() {
       counts[cat] = 0;
     });
     allEvents.forEach((e) => {
-      if (e.category && counts[e.category] !== undefined) {
-        counts[e.category] += 1;
-      }
+      getCategories(e).forEach((cat) => {
+        if (counts[cat] !== undefined) {
+          counts[cat] += 1;
+        }
+      });
     });
     return counts;
   }, [allEvents]);
@@ -76,7 +81,7 @@ export default function EventsPage() {
     years.forEach((year) => {
       const events = (eventsData[year as keyof typeof eventsData] as Event[]) || [];
       result[year] = events.filter(
-        (e) => selectedCategory === ALL_CATEGORIES || e.category === selectedCategory
+        (e) => selectedCategory === ALL_CATEGORIES || getCategories(e).includes(selectedCategory)
       );
     });
     return result;

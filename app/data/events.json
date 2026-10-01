@@ -1,6 +1,42 @@
 {
   "2026": [
     {
+      "title": "Organised the First AAIF Bengaluru Meetup @Amadeus",
+      "subtitle": "We kicked off the AAIF Community Bengaluru chapter with our very first meetup at the Amadeus office, bringing AI enthusiasts and builders together for talks and conversations around AI.",
+      "image": "/static/events/1st-aaif-meetup.jpg",
+      "post": "https://www.linkedin.com/posts/pritesh-kiri_we-hosted-our-very-first-aaif-community-bengaluru-ugcPost-7510267831595470852-ln19/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACUf2UIBz0gedK0--YhFwk0JRJUXuvIRH9o",
+      "badge": "Amadeus",
+      "category": "AAIF",
+      "year": 2026
+    },
+    {
+      "title": "Hosted 29th ReactPlay Meetup @GeekyAnts",
+      "subtitle": "The September ReactPlay meetup at the GeekyAnts office was part of Bengaluru Tech Week, where we also launched AI Dev Circle, a new ReactPlay initiative for developers building with AI.",
+      "image": "/static/events/29-rp-meetup.jpg",
+      "post": "https://www.linkedin.com/feed/update/urn:li:activity:7502758741381935104/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACUf2UIBz0gedK0--YhFwk0JRJUXuvIRH9o",
+      "badge": "GeekyAnts",
+      "category": "ReactPlay",
+      "year": 2026
+    },
+    {
+      "title": "Hosted 28th ReactPlay Meetup with Clerk",
+      "subtitle": "On 29th August, 40+ builders joined us at a café for the Clerk Bangalore meetup with ReactPlay and The Humans Of Tech — no slides, just coffee, 60-second pitches, games, and great conversations.",
+      "image": "/static/events/28-rp-meetup.jpg",
+      "post": "https://www.linkedin.com/posts/pritesh-kiri_yesterday-i-hosted-the-clerkcom-bangalore-ugcPost-7499811343513067520-Z5iZ/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACUf2UIBz0gedK0--YhFwk0JRJUXuvIRH9o",
+      "badge": "Clerk",
+      "category": ["ReactPlay", "Humans of Tech"],
+      "year": 2026
+    },
+    {
+      "title": "Hosted 27th ReactPlay Meetup @Sarvam",
+      "subtitle": "60+ developers joined us at the Sarvam office for the August edition of ReactPlay Bengaluru, with talks from four amazing speakers.",
+      "image": "/static/events/27-rp-meetup.jpg",
+      "post": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7492091697980608514/",
+      "badge": "Sarvam",
+      "category": "ReactPlay",
+      "year": 2026
+    },
+    {
       "title": "Hosted 26th ReactPlay Meetup @ZopDev",
       "subtitle": "On 28th July, I hosted the 26th ReactPlay Bengaluru meetup at the ZopDev office — my second meetup of the day, and the sixth ReactPlay meetup I've hosted in the last six months.",
       "image": "/static/events/26-rp-meetup.jpeg",

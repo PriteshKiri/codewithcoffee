@@ -1,6 +1,53 @@
 {
   "2026": [
     {
+      "title": "Writing Docs for Two Readers: Humans and AI Agents",
+      "subtitle": "At IndiaFOSS 2026, organized by FOSS United - my first talk entirely focused on documentation, in the Documentation Dev Room, on writing docs that work for both humans and AI agents.",
+      "image": "/static/talks/talk-15-indiafoss-docs.jpeg",
+      "post": "https://www.linkedin.com/posts/pritesh-kiri_from-attending-indiafoss-for-the-last-two-ugcPost-7509684859288788993-NMRr/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACUf2UIBz0gedK0--YhFwk0JRJUXuvIRH9o",
+      "blog": "",
+      "video": "",
+      "year": 2026,
+      "featured": true
+    },
+    {
+      "title": "MCP, A2A, and ACP Explained",
+      "subtitle": "At the AI Agents Meetup hosted by Yugabyte, Bengaluru - explaining MCP, A2A, and ACP in the simplest way possible, and how the Agentic AI Foundation is shaping open standards for AI agents.",
+      "image": "/static/talks/talk-14-yugabyte-ai-agents.jpeg",
+      "post": "https://www.linkedin.com/posts/pritesh-kiri_last-saturday-i-got-the-opportunity-to-speak-ugcPost-7508383123865374720-3WBx/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACUf2UIBz0gedK0--YhFwk0JRJUXuvIRH9o",
+      "blog": "",
+      "video": "",
+      "year": 2026
+    },
+    {
+      "title": "Chaos Engineering and LitmusChaos MCP",
+      "subtitle": "At CNCG Vadodara meetup - my first CNCF community meetup talk in Gujarat, on chaos engineering and the LitmusChaos MCP Server.",
+      "image": "/static/talks/talk-13-cncg-vadodara.jpeg",
+      "post": "https://www.linkedin.com/posts/pritesh-kiri_first-cncf-meetup-talk-in-gujarat-and-definitely-ugcPost-7507091011492392962-xC1X/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACUf2UIBz0gedK0--YhFwk0JRJUXuvIRH9o",
+      "blog": "",
+      "video": "",
+      "year": 2026
+    },
+    {
+      "title": "Failure Modes in Multi-Agent Orchestration with A2A and Strands Agents",
+      "subtitle": "At AWS Community Day Vadodara 2026 - a talk in my hometown on the A2A protocol and Strands Agents, focusing on a failure mode that can happen in multi-agent orchestration.",
+      "image": "/static/talks/talk-12-acd-vadodara.jpeg",
+      "post": "https://www.linkedin.com/posts/pritesh-kiri_theres-something-special-about-giving-talks-ugcPost-7506572157842477056-O0-k/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACUf2UIBz0gedK0--YhFwk0JRJUXuvIRH9o",
+      "blog": "",
+      "video": "",
+      "year": 2026
+    },
+    {
+      "title": "From CRDs to Conversations: Simplifying Chaos Engineering With MCP",
+      "subtitle": "At MCP Dev Summit 2026, Seoul, South Korea - my first international talk with the Linux Foundation, on how MCP simplifies chaos engineering.",
+      "image": "/static/talks/talk-11-mcp-dev-summit-seoul.png",
+      "post": "https://www.linkedin.com/posts/pritesh-kiri_mcpdevsummit-mcpdevsummit-share-7493144059641909248-Ed_2/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACUf2UIBz0gedK0--YhFwk0JRJUXuvIRH9o",
+      "blog": "",
+      "video": "",
+      "year": 2026,
+      "featured": true
+    },
+    {
       "title": "Lambda Managed Instances at AWS Community Day Bengaluru",
       "subtitle": "At AWS Community Day Bengaluru 2026, Builder’s Mic — my first talk at an AWS Community Day, covering where standard Lambda reaches its limits and how Lambda Managed Instances help.",
       "image": "/static/talks/1st-acd-talk.png",
