@@ -1,12 +1,41 @@
 {
   "2026": [
     {
+      "title": "LitmusChaos 2026: What’s New & What’s Next",
+      "subtitle": "At KubeCon + CloudNativeCon North America 2026 in Salt Lake City - my first talk in the United States and my first time speaking at KubeCon, a project lightning talk on what’s new in LitmusChaos and what’s next.",
+      "image": "/static/talks/talk-18-kubecon-na.jpg",
+      "post": "https://www.linkedin.com/feed/update/urn:li:activity:7525403045862580224/",
+      "blog": "",
+      "video": "https://www.youtube.com/watch?v=rVL1wgGd_AE",
+      "year": 2026,
+      "featured": true
+    },
+    {
+      "title": "Stop Grepping Logs: Conversational GKE Debugging with Gemini CLI and MCP",
+      "subtitle": "At DevFest Gandhinagar 2026, hosted by GDG Cloud Gandhinagar and Google Developers Group Gandhinagar - the biggest audience I’ve spoken to, on making GKE debugging conversational with Gemini CLI and MCP.",
+      "image": "/static/talks/talk-17-devfest-gandhinagar.jpeg",
+      "post": "https://www.linkedin.com/posts/pritesh-kiri_1400-attendees-one-stage-and-an-experience-ugcPost-7523828455466172417-j7CX/",
+      "blog": "",
+      "video": "",
+      "year": 2026,
+      "featured": true
+    },
+    {
+      "title": "From Build to Production: Evaluating AI Agents with Amazon Bedrock AgentCore",
+      "subtitle": "At AWS Community Day Ahmedabad 2026 - my third talk in Gujarat, on evaluating AI agents from build through production with Amazon Bedrock AgentCore.",
+      "image": "/static/talks/talk-16-acd-ahmedabad.jpeg",
+      "post": "https://www.linkedin.com/posts/pritesh-kiri_theres-something-special-about-speaking-ugcPost-7515266700708274176-QKMz/",
+      "blog": "",
+      "video": "",
+      "year": 2026
+    },
+    {
       "title": "Writing Docs for Two Readers: Humans and AI Agents",
       "subtitle": "At IndiaFOSS 2026, organized by FOSS United - my first talk entirely focused on documentation, in the Documentation Dev Room, on writing docs that work for both humans and AI agents.",
       "image": "/static/talks/talk-15-indiafoss-docs.jpeg",
       "post": "https://www.linkedin.com/posts/pritesh-kiri_from-attending-indiafoss-for-the-last-two-ugcPost-7509684859288788993-NMRr/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACUf2UIBz0gedK0--YhFwk0JRJUXuvIRH9o",
       "blog": "",
-      "video": "",
+      "video": "https://www.youtube.com/live/KNKAi9dfZxA?t=6622",
       "year": 2026,
       "featured": true
     },
@@ -34,7 +63,7 @@
       "image": "/static/talks/talk-12-acd-vadodara.jpeg",
       "post": "https://www.linkedin.com/posts/pritesh-kiri_theres-something-special-about-giving-talks-ugcPost-7506572157842477056-O0-k/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACUf2UIBz0gedK0--YhFwk0JRJUXuvIRH9o",
       "blog": "",
-      "video": "",
+      "video": "https://www.youtube.com/watch?v=Z3xyAGs3S48&t=25s",
       "year": 2026
     },
     {
@@ -43,7 +72,7 @@
       "image": "/static/talks/talk-11-mcp-dev-summit-seoul.png",
       "post": "https://www.linkedin.com/posts/pritesh-kiri_mcpdevsummit-mcpdevsummit-share-7493144059641909248-Ed_2/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACUf2UIBz0gedK0--YhFwk0JRJUXuvIRH9o",
       "blog": "",
-      "video": "",
+      "video": "https://www.youtube.com/watch?v=NT62S7RvNFA",
       "year": 2026,
       "featured": true
     },
@@ -62,7 +91,7 @@
       "image": "/static/talks/talk-10-fossasia-litmus-mcp.jpg",
       "post": "https://www.linkedin.com/posts/pritesh-kiri_gave-my-first-international-talk-and-it-activity-7440370745152536577-W0yX?utm_source=share&utm_medium=member_desktop&rcm=ACoAACUf2UIBz0gedK0--YhFwk0JRJUXuvIRH9o",
       "blog": "https://www.linkedin.com/pulse/story-my-first-international-talk-foss-asia-pritesh-kiri-j2oac",
-      "video": "",
+      "video": "https://www.youtube.com/watch?v=eRPpgz3O19s",
       "year": 2026,
       "featured": true
     },

@@ -1,6 +1,78 @@
 {
   "2026": [
     {
+      "title": "AI Agents Fail Silently: Testing Agentic Systems with Chaos Engineering",
+      "subtitle": "Resilience Testing Talks: how AI agents fail silently, and how chaos engineering helps you test agentic systems before production does.",
+      "image": "https://i.ytimg.com/vi/Z8Q0F0NOpzs/hqdefault.jpg",
+      "link": "https://www.youtube.com/watch?v=Z8Q0F0NOpzs",
+      "year": 2026,
+      "org": "LitmusChaos"
+    },
+    {
+      "title": "What Happens at an AI Conference in Seoul? | MCP Dev Summit 2026",
+      "subtitle": "A conference vlog from MCP Dev Summit 2026 in Seoul — the Agentic AI Foundation, the talks, and what an AI conference looks like on the ground.",
+      "image": "https://i.ytimg.com/vi/9tjRiFPH-Sw/hqdefault.jpg",
+      "link": "https://www.youtube.com/watch?v=9tjRiFPH-Sw",
+      "year": 2026,
+      "org": "Conference Vlog"
+    },
+    {
+      "title": "LitmusChaos 2026: What’s New & What’s Next",
+      "subtitle": "Project lightning talk at KubeCon + CloudNativeCon North America 2026 in Salt Lake City — my first talk in the United States.",
+      "image": "https://i.ytimg.com/vi/rVL1wgGd_AE/hqdefault.jpg",
+      "link": "https://www.youtube.com/watch?v=rVL1wgGd_AE",
+      "year": 2026,
+      "org": "Talks"
+    },
+    {
+      "title": "Writing Docs for Two Readers: Humans and AI Agents",
+      "subtitle": "At IndiaFOSS 2026, in the Documentation Dev Room — writing docs that work for both humans and AI agents.",
+      "image": "https://i.ytimg.com/vi/KNKAi9dfZxA/hqdefault.jpg",
+      "link": "https://www.youtube.com/live/KNKAi9dfZxA?t=6622",
+      "year": 2026,
+      "org": "Talks"
+    },
+    {
+      "title": "Failure Modes in Multi-Agent Orchestration with A2A and Strands Agents",
+      "subtitle": "At AWS Community Day Vadodara 2026 — a failure mode that shows up when agents keep calling each other.",
+      "image": "https://i.ytimg.com/vi/Z3xyAGs3S48/hqdefault.jpg",
+      "link": "https://www.youtube.com/watch?v=Z3xyAGs3S48&t=25s",
+      "year": 2026,
+      "org": "Talks"
+    },
+    {
+      "title": "From CRDs to Conversations: Simplifying Chaos Engineering With MCP",
+      "subtitle": "At MCP Dev Summit 2026 in Seoul — my first international talk with the Linux Foundation, on how MCP simplifies chaos engineering.",
+      "image": "https://i.ytimg.com/vi/NT62S7RvNFA/hqdefault.jpg",
+      "link": "https://www.youtube.com/watch?v=NT62S7RvNFA",
+      "year": 2026,
+      "org": "Talks"
+    },
+    {
+      "title": "First International Talk on LitmusChaos MCP Server",
+      "subtitle": "At FOSSASIA Summit 2026 in Bangkok — introducing LitmusChaos and the Litmus MCP Server to a global audience.",
+      "image": "https://i.ytimg.com/vi/eRPpgz3O19s/hqdefault.jpg",
+      "link": "https://www.youtube.com/watch?v=eRPpgz3O19s",
+      "year": 2026,
+      "org": "Talks"
+    },
+    {
+      "title": "Chaos Engineering with LitmusChaos",
+      "subtitle": "At DevConf India 2026 — chaos engineering and how the LitmusChaos MCP Server changes the way we test resilience.",
+      "image": "https://i.ytimg.com/vi/eyvHNyeVRZw/hqdefault.jpg",
+      "link": "https://www.youtube.com/watch?v=eyvHNyeVRZw&t=9s",
+      "year": 2026,
+      "org": "Talks"
+    },
+    {
+      "title": "Why Open Source Communities Matter",
+      "subtitle": "Lightning talk at DevConf India 2026 on what works, what doesn’t, and why when building open source communities.",
+      "image": "https://i.ytimg.com/vi/wAy4mgyX61Q/hqdefault.jpg",
+      "link": "https://www.youtube.com/watch?v=wAy4mgyX61Q",
+      "year": 2026,
+      "org": "Talks"
+    },
+    {
       "title": "Inside KubeCon + CloudNativeCon India 2026 | Conference Vlog",
       "subtitle": "Behind the scenes at KubeCon + CloudNativeCon India 2026 — talks, booths, and the cloud native community.",
       "image": "https://i.ytimg.com/vi/1zseVB-uVtg/hqdefault.jpg",
@@ -271,6 +343,14 @@
     }
   ],
   "2025": [
+    {
+      "title": "Breaking Things before they break you: Chaos Engineering with Litmus",
+      "subtitle": "At the CNCF Hyderabad meetup — chaos engineering with LitmusChaos, and an AI co-pilot for resilience.",
+      "image": "https://i.ytimg.com/vi/9dtg-5Ab-Io/hqdefault.jpg",
+      "link": "https://www.youtube.com/watch?v=9dtg-5Ab-Io",
+      "year": 2025,
+      "org": "Talks"
+    },
     {
       "title": "Observability & Optimisation Meetup | New Relic x Cast AI x Kubesimplify",
       "subtitle": "Vlog from the Observability & Optimisation meetup hosted by New Relic and Cast AI in collaboration with Kubesimplify.",

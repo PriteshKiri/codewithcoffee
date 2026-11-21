@@ -24,7 +24,7 @@ interface Event {
 }
 
 const ALL_CATEGORIES = 'All';
-const CATEGORY_ORDER = ['ReactPlay', 'Harness', 'Humans of Tech', 'AAIF', 'Emcee'];
+const CATEGORY_ORDER = ['ReactPlay', 'AI Dev Circle', 'Harness', 'Humans of Tech', 'AAIF', 'Emcee'];
 
 const getCategories = (event: Event): string[] =>
   event.category === undefined ? [] : ([] as string[]).concat(event.category);

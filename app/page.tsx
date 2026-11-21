@@ -53,7 +53,7 @@ export default function Page() {
         hey,&nbsp;&nbsp;I&apos;m Pritesh 👋
       </h1>
       <p className="prose prose-neutral dark:prose-invert">
-        {`I'm a developer by heart. I love creating videos, building communities, and speaking/hosting events. `}
+        {`I'm a developer at heart. I love building things, creating videos, connecting with people, and bringing communities together. I also enjoy speaking at conferences and hosting events. `}
        <br />
        <br />
         {`I work at `}
@@ -64,7 +64,11 @@ export default function Page() {
         <Link target="_blank" href="https://litmuschaos.io" className="my-link">
           LitmusChaos
         </Link>
-        {` community (a CNCF incubating project) and working closely with Harness Engineering team continuously to improve the product and community. I have 5+ years of experince in tech. I also run `}
+        {` community (a CNCF incubating project) and working closely with Harness Engineering team continuously to improve the product and community. I have 5+ years of experince in tech.`}
+    <br />
+       <br />
+                {`I also run `}
+
         <Link target="_blank" href="https://www.aidevcircle.com" className="my-link">
           AI Dev Circle
         </Link>

@@ -63,6 +63,18 @@ export default function WorkPage() {
           <li>
             Worked closely with the engineering team to give continuous feedback on the <b>Resilience Testing MCP</b>, helping shape the developer experience.
           </li>
+          <li>
+            Work as part of the <b>PLG motion development team</b> at Harness to drive adoption of the new unified platform.
+          </li>
+          <li>
+            Give <Link href="/talks" target="_blank">talks</Link> on <b>MCP</b> and Harness to educate developers on the platform and its capabilities.
+          </li>
+          <li>
+            Host Harness-centric <Link href="/events" target="_blank">events</Link> to drive adoption, helping fill initial sign-ups and the early funnel.
+          </li>
+          <li>
+            Write <Link href="/blog" target="_blank">content on Harness</Link> to build awareness of the platform and help developers understand what it can do.
+          </li>
         </ul>
 
         <hr className="my-6 border-neutral-100 dark:border-neutral-800" />

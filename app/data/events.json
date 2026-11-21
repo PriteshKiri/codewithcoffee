@@ -1,6 +1,42 @@
 {
   "2026": [
     {
+      "title": "Hosted 2nd AAIF Bengaluru Meetup @Paytm",
+      "subtitle": "On 17th October, we hosted the second AAIF Community Bengaluru meetup at the Paytm office, co-hosted with Mrugesh M., with talks on voice agents, agent evaluation, and running agents you can trust in production.",
+      "image": "/static/events/2nd-aaif-meetup.jpg",
+      "post": "https://www.linkedin.com/posts/pritesh-kiri_bengaluru-you-never-disappoint-what-an-ugcPost-7518178218424819712-qywO/",
+      "badge": "Paytm",
+      "category": "AAIF",
+      "year": 2026
+    },
+    {
+      "title": "Hosted Identity & Delivery Meetup with Okta @Harness",
+      "subtitle": "On 17th October, I hosted Identity and Delivery in the Age of Agents at the Harness office with Okta. Vanshika Pandey and Shashank Singh led a hands-on session on building and securing AI agents.",
+      "image": "/static/events/harness-okta-meetup.jpg",
+      "post": "https://www.linkedin.com/posts/pritesh-kiri_i-hosted-a-meetup-at-harness-in-collaboration-ugcPost-7517808287501885441-iFR-/",
+      "badge": "Okta",
+      "category": "Harness",
+      "year": 2026
+    },
+    {
+      "title": "Hosted First AI Dev Circle Meetup @PhonePe",
+      "subtitle": "On 3rd October, 105+ developers joined the first AI Dev Circle meetup at the PhonePe office. It was our 30th community meetup, and the first under the new name, with talks on inference, delegation, and on-device AI.",
+      "image": "/static/events/1st-adc-meetup.jpg",
+      "post": "https://www.linkedin.com/posts/pritesh-kiri_yesterday-was-special-we-hosted-our-first-ever-ugcPost-7512496371422113792-d5LR/",
+      "badge": "PhonePe",
+      "category": "AI Dev Circle",
+      "year": 2026
+    },
+    {
+      "title": "Hosted AWS User Group Bengaluru Meetup @Harness",
+      "subtitle": "On 3rd October, 110+ engineers joined AWS User Group Bengaluru x Harness at the Harness office for a morning on autonomous SDLC and taking AI agents to production.",
+      "image": "/static/events/aws-harness-meetup.jpg",
+      "post": "https://www.linkedin.com/posts/pritesh-kiri_110-techies-joined-at-aws-user-group-bengaluru-ugcPost-7512730542438789121-XgYU/",
+      "badge": "AWS",
+      "category": "Harness",
+      "year": 2026
+    },
+    {
       "title": "Organised the First AAIF Bengaluru Meetup @Amadeus",
       "subtitle": "We kicked off the AAIF Community Bengaluru chapter with our very first meetup at the Amadeus office, bringing AI enthusiasts and builders together for talks and conversations around AI.",
       "image": "/static/events/1st-aaif-meetup.jpg",
