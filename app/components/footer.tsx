@@ -7,6 +7,7 @@ import {
   FaProductHunt,
   FaXTwitter,
 } from "react-icons/fa6";
+import { SiSessionize } from "react-icons/si";
 
 function ArrowIcon() {
   return (
@@ -61,6 +62,11 @@ export default function Footer() {
         <div className="border border-neutral-200 dark:border-neutral-700 bg-neutral-50 dark:bg-neutral-800 rounded flex items-center justify-between px-6 py-3">
           <a href="https://priteshkiri.hashnode.dev/">
             <FaHashnode />
+          </a>
+        </div>
+        <div className="border border-neutral-200 dark:border-neutral-700 bg-neutral-50 dark:bg-neutral-800 rounded flex items-center justify-between px-6 py-3">
+          <a href="https://sessionize.com/pritesh/">
+            <SiSessionize />
           </a>
         </div>
       </div>

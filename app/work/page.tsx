@@ -34,6 +34,9 @@ export default function WorkPage() {
            Travel to conferences and meetups to give talks on Chaos Engineering and how teams can use LitmusChaos to implement chaos experiments and build resilient systems. Checkout my <Link href="/talks" target="_blank">talks</Link>.
           </li>
           <li>
+            Represented Harness and LitmusChaos at <b>KubeCon + CloudNativeCon North America</b>, staffing the <b>Harness booth</b> and the <b>CNCF Project Pavilion</b>: drawing attendees in, walking them through the product, listening to real customer problems, and running booth activities that kept them engaged and made sure they remembered us.
+          </li>
+          <li>
             Plan and produce educational content: <Link href="https://www.youtube.com/@litmuschaos" target="_blank" rel="noopener noreferrer">YouTube</Link> videos, tutorials, and demos on Chaos Engineering and LitmusChaos to advocate resilience practices.
           </li>
           <li>

@@ -25,6 +25,14 @@
       "org": "Talks"
     },
     {
+      "title": "Stop Giving Every Team a Cluster: Building a Self-Service IDP with kcp",
+      "subtitle": "A remote talk at kcpCon 2026 — building a self-service internal developer platform with kcp instead of handing every team its own cluster.",
+      "image": "https://i.ytimg.com/vi/OLDyIzpIIJA/hqdefault.jpg",
+      "link": "https://www.youtube.com/watch?v=OLDyIzpIIJA",
+      "year": 2026,
+      "org": "Talks"
+    },
+    {
       "title": "Writing Docs for Two Readers: Humans and AI Agents",
       "subtitle": "At IndiaFOSS 2026, in the Documentation Dev Room — writing docs that work for both humans and AI agents.",
       "image": "https://i.ytimg.com/vi/KNKAi9dfZxA/hqdefault.jpg",
