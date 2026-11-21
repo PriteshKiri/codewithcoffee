@@ -22,6 +22,9 @@ const navItems = {
   '/events': {
     name: 'events',
   },
+  '/travel': {
+    name: 'travel',
+  },
   'https://priteshkiri.gumroad.com/l/cssflexbox': {
     name: 'ebook',
   },

@@ -1,0 +1,29 @@
+[
+  {
+    "id": "usa-2026",
+    "title": "USA",
+    "year": 2026,
+    "color": "#ec4899",
+    "stops": ["bengaluru", "san-francisco", "salt-lake-city", "las-vegas", "los-angeles", "bengaluru"]
+  },
+  {
+    "id": "korea-2026",
+    "title": "South Korea",
+    "year": 2026,
+    "color": "#0ea5e9",
+    "stops": ["bengaluru", "seoul", "busan", "seoul", "bengaluru"]
+  },
+  {
+    "id": "thailand-2026",
+    "title": "Thailand",
+    "year": 2026,
+    "color": "#8b5cf6",
+    "stops": ["bengaluru", "bangkok", "pattaya", "koh-phangan", "krabi", "phuket", "bengaluru"]
+  },
+  {
+    "id": "nepal-bhutan",
+    "title": "Nepal & Bhutan",
+    "color": "#f59e0b",
+    "stops": ["bengaluru", "kolkata", "kathmandu", "siliguri", "thimphu", "bengaluru"]
+  }
+]
