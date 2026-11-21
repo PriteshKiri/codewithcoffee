@@ -122,6 +122,15 @@
       "video": "https://www.youtube.com/watch?v=wAy4mgyX61Q",
       "year": 2026,
       "featured": true
+    },
+    {
+      "title": "Stop Giving Every Team a Cluster: Building a Self-Service IDP with kcp",
+      "subtitle": "At kcpCon 2026 - a remote talk on building a self-service internal developer platform with kcp, instead of handing every team its own cluster.",
+      "image": "/static/talks/talk-19-kcpcon-remote.jpg",
+      "post": "",
+      "blog": "",
+      "video": "https://www.youtube.com/watch?v=OLDyIzpIIJA",
+      "year": 2026
     }
   ],
   "2025": [
