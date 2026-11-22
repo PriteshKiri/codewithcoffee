@@ -6,13 +6,15 @@ import type { Metadata } from 'next';
 export const metadata: Metadata = {
   metadataBase: new URL('https://codewithcoffee.in'),
   title: {
-    default: 'Pritesh Kiri',
+    default: 'Pritesh Kiri - DevRel Engineer at Harness',
     template: '%s | Pritesh Kiri',
   },
-  description: 'Developer, creator, and community builder.',
+  description:
+    'Pritesh Kiri, DevRel Engineer at Harness and LitmusChaos maintainer. Talks, videos, and blogs on chaos engineering, MCP, AI agents, and developer communities.',
   openGraph: {
-    title: 'Pritesh kiri',
-    description: 'Developer, creator, and community builder.',
+    title: 'Pritesh Kiri - DevRel Engineer at Harness',
+    description:
+      'Talks, videos, and blogs on chaos engineering, MCP, AI agents, and developer communities. Speaker, LitmusChaos maintainer, and AI Dev Circle organizer.',
     url: 'https://codewithcoffee.in',
     siteName: 'Pritesh Kiri',
     locale: 'en_US',
@@ -30,8 +32,11 @@ export const metadata: Metadata = {
     },
   },
   twitter: {
-    title: 'Pritesh Kiri',
+    title: 'Pritesh Kiri - DevRel Engineer at Harness',
+    description:
+      'Talks, videos, and blogs on chaos engineering, MCP, AI agents, and developer communities.',
     card: 'summary_large_image',
+    creator: '@PriteshKiri',
   },
 };
 
